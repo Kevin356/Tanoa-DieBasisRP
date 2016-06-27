@@ -215,35 +215,7 @@ class playerSettings {
 			colorDisabled[] = {0,0,0,0.4};
 		};
 		
-		class ButtonSupportMenu_ICON: life_RscPicture
-		{
-			idc = 20212;
-			text = "images\tablet\admin.paa";
-			x = 0.586406 * safezoneW + safezoneX;
-			y = 0.566 * safezoneH + safezoneY;
-			w = 0.04125 * safezoneW;
-			h = 0.077 * safezoneH;
-		};
-		
-		class ButtonSupportMenu: life_RscButtonMenu
-		{
-			idc = 2025;
-			x = 0.591562 * safezoneW + safezoneX;
-			y = 0.577 * safezoneH + safezoneY;
-			w = 0.0309375 * safezoneW;
-			h = 0.055 * safezoneH;
-			onButtonClick = "createDialog ""life_support_menu""; ";
-			tooltip = $STR_PM_SupportMenu;
-			colorBackground[] = {-1,-1,-1,-1};
-			colorBackgroundFocused[] = {1,1,1,0.12};
-			colorBackground2[] = {0.75,0.75,0.75,0.2};
-			color[] = {1,1,1,1};
-			colorFocused[] = {0,0,0,1};
-			color2[] = {0,0,0,1};
-			colorText[] = {1,1,1,1};
-			colorDisabled[] = {0,0,0,0.4};
-		};
-		
+	
 		class ButtonSettings_ICON: life_RscPicture
 		{
 			idc = -1;
