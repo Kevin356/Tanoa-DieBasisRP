@@ -35,7 +35,7 @@ playSound "welcome";
 showCinemaBorder true;
 camUseNVG false;
 for "_x" from 0 to 20 do {
- _x cutRsc ["RageCoreintro","PLAIN"];
+ _x cutRsc ["Basisintro","PLAIN"];
 };
 _camera = "camera" camCreate [(position player select 0)+5, position player select 1,(position player select 2)+_camDistance];
 _camera cameraEffect ["internal","back"];
