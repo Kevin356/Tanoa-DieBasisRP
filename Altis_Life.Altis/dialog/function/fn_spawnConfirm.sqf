@@ -58,5 +58,16 @@ if(life_firstSpawn) then {
 	life_firstSpawn = false;
 	[] call life_fnc_welcomeNotification;
 };
+
+[] spawn {
+ cutText ["","BLACK IN"];
+ 
+ if(life_firstSpawn) then {
+ private["_handle"];
+ _handle = [] spawn life_fnc_initIntro;
+ waitUntil {scriptDone _handle};
+ life_firstSpawn = false;
+ };
+};
 [] call life_fnc_playerSkins;
 [] call life_fnc_hudSetup;

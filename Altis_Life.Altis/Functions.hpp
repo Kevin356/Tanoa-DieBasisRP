@@ -205,6 +205,12 @@ class Life_Client_Core
 		class playerSkins {};
 		class nearestObjects {};
 	};
+	
+	 class Basis
+	{
+		file = "core\basis";
+		class initIntro {};
+	};
 
 	class Network
 	{
