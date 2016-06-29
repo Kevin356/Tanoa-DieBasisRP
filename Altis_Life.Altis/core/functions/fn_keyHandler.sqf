@@ -65,6 +65,19 @@ switch (_code) do {
 			_handled = true;
 		};
 	};
+	
+		//Ohrstöpsel Shift + P
+	case 25:
+    {
+	if(_shift) then {
+		switch (player getVariable["Earplugs",0]) do {
+			case 0: {hintSilent "Der Sound ist nun 90% leiser! "; 1 fadeSound 0.1; player setVariable ["Earplugs", 10]; };
+			case 10: {hintSilent "Der Sound ist nun 60%leiser!"; 1 fadeSound 0.4; player setVariable ["Earplugs", 40]; };
+			case 40: {hintSilent "Der Sound ist nun 30%leiser!"; 1 fadeSound 0.7; player setVariable ["Earplugs", 70]; };
+			case 70: {hintSilent "Der Sound ist nun wieder normal!"; 1 fadeSound 1; player setVariable ["Earplugs", 0]; };
+		    };
+	   };
+   };
 
 	//Surrender (Shift + B)
 	case 48: {
@@ -176,7 +189,7 @@ switch (_code) do {
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
 	};
 
-	//Y Player Menu
+	//Z Player Menu
 	case 21: {
 		if(!_alt && !_ctrlKey && !dialog && !(player GVAR ["restrained",false]) && {!life_action_inUse}) then {
 			[] call life_fnc_p_openMenu;
@@ -209,19 +222,7 @@ switch (_code) do {
 		};
 	};
 
-	//O Key
-	case 24: {
-		if(_shift) then {
-			if (soundVolume != 1) then {
-				1 fadeSound 1;
-				systemChat localize "STR_MISC_soundnormal";
-			} else {
-				1 fadeSound 0.1;
-				systemChat localize "STR_MISC_soundfade";
-			};
-		};
-	};
-
+	
 	//U Key
 	case 22: {
 		if(!_alt && !_ctrlKey) then {
