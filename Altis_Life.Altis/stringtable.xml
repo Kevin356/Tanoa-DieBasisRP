@@ -5682,7 +5682,19 @@
       <Portuguese>Roubar Jogador</Portuguese>
       <Polish>Obrabuj osobę</Polish>
     </Key>
-  </Package>
+	<Key ID="STR_pAct_DriverSeat">
+	<Original>Auf den Fahrersitz</Original>
+	</Key>
+	<Key ID="STR_pAct_PassengerSeat">
+	<Original>Auf den Passagiersitz</Original>
+	</Key>
+	<Key ID="STR_pAct_GunnerSeat">
+	<Original>Gunner Seat</Original>
+	</Key>
+	<Key ID="STR_pAct_GoOut">
+	<Original>Aus dem Fahrzeug austeigen</Original>
+	</Key>
+</Package>
   <Package name="Markers_names">
     <Key ID="STR_MAR_Fish_Market">
       <Original>Fish Market</Original>
