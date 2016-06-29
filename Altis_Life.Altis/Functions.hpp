@@ -101,6 +101,7 @@ class Life_Client_Core
 		class gather {};
 		class gutAnimal {};
 		class removeContainer {};
+		class craftAction {};
 	};
 
 	class Housing
@@ -132,6 +133,7 @@ class Life_Client_Core
 		class vehicleAnimate {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
+		class craftCfg {};
 	};
 
 	class Player_Menu
@@ -157,6 +159,9 @@ class Life_Client_Core
 		class s_onChar {};
 		class s_onCheckedChange {};
 		class wantedAddP {};
+		class craft {};
+		class craft_update {};
+		class craft_updateFilter {};
 	};
 
 	class Functions
