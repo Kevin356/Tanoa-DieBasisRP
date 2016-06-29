@@ -294,6 +294,8 @@ class Life_Client_Core
 		class containerInvSearch {};
 		class wantedGrab {};
 		class copEnter {};
+		class copShowLicense {};
+		class copLicenseShown {};
 	};
 
 	class Gangs
