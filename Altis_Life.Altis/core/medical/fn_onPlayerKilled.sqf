@@ -65,6 +65,27 @@ _unit spawn {
 	waitUntil {if(speed _unit == 0) exitWith {true}; life_deathCamera camSetTarget _unit; life_deathCamera camSetRelPos [0,3.5,4.5]; life_deathCamera camCommit 0;};
 };
 
+//Looten verhindern Start
+if ((playerSide == west) || ((side _unit) == west) or (playerSide == independent) || ((side _unit) == independent)) then {
+ [_unit] spawn {
+ (_this select 0) setPos [0,0,0];
+ sleep 5;
+ deleteVehicle (_this select 0);
+ 
+ private["_RespawnBtn","_Timer"];
+ disableSerialization;
+ _RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
+ _Timer = ((findDisplay 7300) displayCtrl 7301);
+ _RespawnBtn ctrlEnable true;
+ _Timer ctrlSetText "Du kannst jetzt respawnen";
+ };
+ };
+//Looten verhindern Ende
+
+
+
+
+
 //Make the killer wanted
 if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _killer}) then {
 	if(vehicle _killer isKindOf "LandVehicle") then {
