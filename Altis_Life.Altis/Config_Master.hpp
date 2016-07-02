@@ -8,7 +8,7 @@ class Life_Settings {
     /* Persistent Settings */
     save_civ_weapons = false; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
-    save_playerStats = false; //Save food & water (all sides)?
+    save_playerStats = true; //Save food & water (all sides)?
     save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
     save_veh_gear = false; //Save Gear for vehicles (all sides)?
 
@@ -17,17 +17,17 @@ class Life_Settings {
     clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
 
     /* Cop related settings */
-    cops_online_min = 5; //minimum cops online for robbing a bank
+    cops_online_min = 8; //minimum cops online for robbing a bank
 
     /* Medic related settings*/
-    allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
+    allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
 
     /* Revive system settings */
-    revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
+    revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
     revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
-    house_limit = 5; //Maximum amount of houses a player can own.
+    house_limit = 1; //Maximum amount of houses a player can own.
 
     /* Gang related settings */
     gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
