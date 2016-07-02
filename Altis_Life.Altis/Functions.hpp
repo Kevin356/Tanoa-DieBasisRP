@@ -212,7 +212,7 @@ class Life_Client_Core
 		class loggedOut {};
 	};
 	
-	 class Basis
+	class Basis
 	{
 		file = "core\basis";
 		class initIntro {};
