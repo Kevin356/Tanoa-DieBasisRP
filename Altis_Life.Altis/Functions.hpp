@@ -211,15 +211,6 @@ class Life_Client_Core
 		class nearestObjects {};
 		class loggedOut {};
 	};
-<<<<<<< HEAD
-	
-	 class Basis
-	{
-		file = "core\basis";
-		class initIntro {};
-	};
-=======
->>>>>>> parent of 3890dfe... Neues Intro
 
 	class Network
 	{
