@@ -213,7 +213,7 @@ class Life_Client_Core
 	};
 <<<<<<< HEAD
 	
-	class Basis
+	 class Basis
 	{
 		file = "core\basis";
 		class initIntro {};
