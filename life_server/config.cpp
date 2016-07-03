@@ -5,13 +5,14 @@ class CfgPatches {
 		weapons[] = {};
 		requiredAddons[] = {"A3_Data_F","A3_Soft_F","A3_Soft_F_Offroad_01","A3_Characters_F"};
 		fileName = "life_server.pbo";
-		author[]= {"Tonic"}; 
+		author[]= {"Tonic"};
 	};
 };
 
 class Life_Server_Settings {
 	class EXTDB {
-		DatabaseName = "AltisLife";
+		DatabaseName = "ArmaLife";
+		DebugMode = 0;
 	};
 };
 
@@ -34,7 +35,7 @@ class CfgFunctions {
 			class missionTimeLeft{};
 		};
 	};
-	
+
 	class MySQL_Database {
 		tag = "DB";
 		class MySQL
@@ -53,7 +54,7 @@ class CfgFunctions {
 			class updatePartial {};
 		};
 	};
-	
+
 	class Life_System {
 		tag = "life";
 		class Wanted_Sys {
@@ -61,23 +62,22 @@ class CfgFunctions {
 			class wantedFetch {};
 			class wantedPerson {};
 			class wantedBounty {};
-			class wantedTicket {};
-			class wantedPardon {};
 			class wantedRemove {};
 			class wantedAdd {};
-			class wantedPunish {};
+			class wantedCrimes {};
+			class wantedProfUpdate {};
 		};
-		
+
 		class Jail_Sys {
 			file = "\life_server\Functions\Jail";
 			class jailSys {};
 		};
-		
+
 		class Client_Code {
 			file = "\life_server\Functions\Client";
 		};
 	};
-	
+
 	class TON_System {
 		tag = "TON";
 		class Systems {
@@ -101,18 +101,21 @@ class CfgFunctions {
 			class setObjVar {};
 			class keyManagement {};
 		};
-		
+
 		class Housing {
 			file = "\life_server\Functions\Housing";
 			class addHouse {};
+			class addContainer {};
 			class fetchPlayerHouses {};
 			class initHouses {};
 			class sellHouse {};
+			class sellHouseContainer {};
 			class updateHouseContainers {};
 			class updateHouseTrunk {};
 			class houseCleanup {};
+			class deleteDBContainer {};
 		};
-		
+
 		class Gangs {
 			file = "\life_server\Functions\Gangs";
 			class insertGang {};
@@ -135,7 +138,7 @@ class CfgVehicles {
 	class Civilian_F : Civilian {
 		class EventHandlers;
 	};
-	
+
 	class C_man_1 : Civilian_F {
 		class EventHandlers: EventHandlers {
 			init = "(_this select 0) execVM ""\life_server\fix_headgear.sqf""";
