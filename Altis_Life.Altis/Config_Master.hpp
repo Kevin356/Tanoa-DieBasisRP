@@ -6,7 +6,7 @@
 */
 class Life_Settings {
     /* Persistent Settings */
-    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
     save_playerStats = true; //Save food & water (all sides)?
     save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
@@ -27,7 +27,7 @@ class Life_Settings {
     revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
-    house_limit = 1; //Maximum amount of houses a player can own.
+    house_limit = 2; //Maximum amount of houses a player can own.
 
     /* Gang related settings */
     gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
