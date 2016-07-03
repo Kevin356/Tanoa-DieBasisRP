@@ -102,6 +102,7 @@ class Life_Client_Core
 		class gutAnimal {};
 		class removeContainer {};
 		class craftAction {};
+		class introCam {};
 	};
 
 	class Housing
