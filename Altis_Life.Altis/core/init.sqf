@@ -141,3 +141,6 @@ if(EQUAL(LIFE_SETTINGS(getNumber,"Pump_service"),1)) then{
 };
 
 [getPlayerUID player,player getVariable["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate",RSERV];
+
+DYNAMICMARKET_boughtItems = [];
+[[getPlayerUID player],"TON_fnc_playerLogged",false,false] spawn life_fnc_MP;
