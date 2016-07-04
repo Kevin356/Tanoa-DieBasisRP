@@ -13,7 +13,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "waterBottle", "rabbit", "orange", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "banane", "boltcutter", "storagesmall", "storagebig", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
     class rebel {
@@ -21,7 +21,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "orange", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "banane", "boltcutter", "blastingcharge" };
     };
 
     class gang {
@@ -29,7 +29,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "orange", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "banane", "boltcutter", "blastingcharge" };
     };
 
     class wongs {
@@ -61,7 +61,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
+        items[] = { "cocaine_processed", "ayahuasca_processed", "marijuana" };
     };
 
     class oil {
@@ -133,7 +133,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defusekit" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "orange", "redgull", "fuelFull", "defusekit" };
     };
 };
 
@@ -430,32 +430,32 @@ class VirtualItems {
     };
 
     //Drugs
-    class heroin_unprocessed {
-        variable = "heroinUnprocessed";
-        displayName = "STR_Item_HeroinU";
+    class ayahuasca_unprocessed {
+        variable = "ayahuascaUnprocessed";
+        displayName = "STR_Item_ayahuascaU";
         weight = 6;
         buyPrice = -1;
         sellPrice = -1;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_heroinUnprocessed.paa";
-        processedItem = "heroin_processed";
+        icon = "icons\ico_ayahuascaUnprocessed.paa";
+        processedItem = "ayahuasca_processed";
     };
 
-    class heroin_processed {
-        variable = "heroinProcessed";
-        displayName = "STR_Item_HeroinP";
+    class ayahuasca_processed {
+        variable = "ayahuascaProcessed";
+        displayName = "STR_Item_ayahuascaP";
         weight = 4;
         buyPrice = 3500;
         sellPrice = 2560;
         illegal = true;
         edible = -1;
-        icon = "icons\ico_heroinProcessed.paa";
+        icon = "icons\ico_ayahuascaProcessed.paa";
     };
 
-    class cannabis {
-        variable = "cannabis";
-        displayName = "STR_Item_Cannabis";
+    class zuckerrohr {
+        variable = "zuckerrohr";
+        displayName = "STR_Item_Zuckerrohr";
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
@@ -534,26 +534,26 @@ class VirtualItems {
     };
 
     //Food
-    class apple {
-        variable = "apple";
-        displayName = "STR_Item_Apple";
+    class orange {
+        variable = "orange";
+        displayName = "STR_Item_Orangen";
         weight = 1;
         buyPrice = 65;
         sellPrice = 50;
         illegal = false;
         edible = 10;
-        icon = "icons\ico_apple.paa";
+        icon = "icons\ico_orange.paa";
     };
 
-    class peach {
-        variable = "peach";
-        displayName = "STR_Item_Peach";
+    class banane {
+        variable = "Banane";
+        displayName = "STR_Item_Banane";
         weight = 1;
         buyPrice = 68;
         sellPrice = 55;
         illegal = false;
         edible = 10;
-        icon = "icons\ico_peach.paa";
+        icon = "icons\ico_banane.paa";
     };
 
     class tbacon {

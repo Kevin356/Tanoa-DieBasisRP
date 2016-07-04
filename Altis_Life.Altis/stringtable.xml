@@ -3462,25 +3462,25 @@
     </Key>
   </Package>
   <Package name="Life_Items">
-    <Key ID="STR_Item_Cannabis">
-      <Original>Cannabis</Original>
-      <German>Kannabis</German>
-      <French>Cannabis</French>
-      <Italian>Cannabis</Italian>
+    <Key ID="STR_Item_Zuckerrohr">
+      <Original>Zuckerrohr</Original>
+      <German>Zuckerrohr</German>
+      <French>Zuckerrohr</French>
+      <Italian>Zuckerrohr</Italian>
       <Portuguese>Maconha não Processada</Portuguese>
       <Polish>Konopie</Polish>
     </Key>
-    <Key ID="STR_Item_Apple">
-      <Original>Apple</Original>
-      <German>Apfel</German>
+    <Key ID="STR_Item_Orange">
+      <Original>Orange</Original>
+      <German>Orange</German>
       <French>Pomme</French>
       <Italian>Mela</Italian>
       <Portuguese>Maçã</Portuguese>
       <Polish>Jabłko</Polish>
     </Key>
-    <Key ID="STR_Item_Apples">
-      <Original>Apples</Original>
-      <German>Äpfel</German>
+    <Key ID="STR_Item_Orangen">
+      <Original>Orangen</Original>
+      <German>Orangen</German>
       <French>Pommes</French>
       <Italian>Mele</Italian>
       <Portuguese>Maçãs</Portuguese>
@@ -3494,13 +3494,13 @@
       <Portuguese>Cocaína</Portuguese>
       <Polish>Kokaina</Polish>
     </Key>
-    <Key ID="STR_Item_Heroin">
-      <Original>Heroin</Original>
-      <German>Heroin</German>
+    <Key ID="STR_Item_Ayahuasca">
+      <Original>Ayahuasca</Original>
+      <German>Ayahuasca</German>
       <French>Heroïne</French>
       <Italian>Eroina</Italian>
       <Portuguese>Heroína</Portuguese>
-      <Polish>Heroina</Polish>
+      <Polish>Ayahuascaa</Polish>
     </Key>
     <Key ID="STR_Item_Oil">
       <Original>Oil</Original>
@@ -3510,16 +3510,16 @@
       <Portuguese>Petróleo</Portuguese>
       <Polish>Benzyna</Polish>
     </Key>
-    <Key ID="STR_Item_Peach">
-      <Original>Peach</Original>
+    <Key ID="STR_Item_banane">
+      <Original>banane</Original>
       <German>Pfirsich</German>
       <French>Pêche</French>
       <Italian>Pesca</Italian>
       <Portuguese>Pêssego</Portuguese>
       <Polish>Brzoskwinia</Polish>
     </Key>
-    <Key ID="STR_Item_Peaches">
-      <Original>Peaches</Original>
+    <Key ID="STR_Item_bananees">
+      <Original>bananees</Original>
       <German>Pfirsiche</German>
       <French>Pêches</French>
       <Italian>Pesche</Italian>
@@ -3542,21 +3542,21 @@
       <Portuguese>Petróleo Refinado</Portuguese>
       <Polish>Olej napędowy</Polish>
     </Key>
-    <Key ID="STR_Item_HeroinU">
-      <Original>Unprocessed Heroin</Original>
-      <German>Unverarbeitetes Heroin</German>
+    <Key ID="STR_Item_AyahuascaU">
+      <Original>Unprocessed Ayahuasca</Original>
+      <German>Unverarbeitetes Ayahuasca</German>
       <French>Graine de pavot</French>
       <Italian>Eroina non processata</Italian>
       <Portuguese>Heroína não Processada</Portuguese>
-      <Polish>Heroina nieoczyszczona</Polish>
+      <Polish>Ayahuascaa nieoczyszczona</Polish>
     </Key>
-    <Key ID="STR_Item_HeroinP">
-      <Original>Processed Heroin</Original>
-      <German>Verarbeitetes Heroin</German>
+    <Key ID="STR_Item_AyahuascaP">
+      <Original>Processed Ayahuasca</Original>
+      <German>Verarbeitetes Ayahuasca</German>
       <French>Héroine</French>
       <Italian>Eroina processata</Italian>
       <Portuguese>Heroína Processada</Portuguese>
-      <Polish>Heroina oczyszczona</Polish>
+      <Polish>Ayahuascaa oczyszczona</Polish>
     </Key>
     <Key ID="STR_Item_Marijuana">
       <Original>Marijuana</Original>
@@ -3991,9 +3991,9 @@
       <Polish>Nieoczyszczona kokaina</Polish>
     </Key>
     <Key ID="STR_Item_CocaineP">
-      <Original>Processed Cocaine</Original>
-      <German>Verarbeitetes Kokain</German>
-      <French>Cocaine</French>
+      <Original>Kokainsalz</Original>
+      <German>Kokainsalz</German>
+      <French>Kokainsalz</French>
       <Italian>Cocaina processata</Italian>
       <Portuguese>Cocaína Refinada</Portuguese>
       <Polish>Oczyszczona kokaina</Polish>
@@ -4024,13 +4024,13 @@
       <Portuguese>Licença de Piloto</Portuguese>
       <Polish>Licencja Pilota</Polish>
     </Key>
-    <Key ID="STR_License_Heroin">
-      <Original>Heroin Training</Original>
-      <German>Heroinausbildung</German>
+    <Key ID="STR_License_Ayahuasca">
+      <Original>Ayahuasca Training</Original>
+      <German>Ayahuascaausbildung</German>
       <French>Transformation du Pavot</French>
       <Italian>Processo Eroina</Italian>
-      <Portuguese>Treinamento de Heroina</Portuguese>
-      <Polish>Wytwarzanie Heroiny</Polish>
+      <Portuguese>Treinamento de Ayahuascaa</Portuguese>
+      <Polish>Wytwarzanie Ayahuascay</Polish>
     </Key>
     <Key ID="STR_License_Oil">
       <Original>Oil Processing</Original>
@@ -4147,7 +4147,7 @@
     <Key ID="STR_License_Marijuana">
       <Original>Marijuana Training</Original>
       <German>Marihuanaausbildung</German>
-      <French>Traitement du Cannabis</French>
+      <French>Traitement du Zuckerrohr</French>
       <Italian>Processo Marijuana</Italian>
       <Portuguese>Treinamento de Maconha</Portuguese>
       <Polish>Suszenie konopi</Polish>
@@ -4492,13 +4492,13 @@
       <Portuguese>Lapidando Diamante</Portuguese>
       <Polish>Szlif diamentów</Polish>
     </Key>
-    <Key ID="STR_Process_Heroin">
-      <Original>Processing Heroin</Original>
-      <German>Heroin wird verarbeitet</German>
-      <French>Traitement d'Heroine</French>
+    <Key ID="STR_Process_Ayahuasca">
+      <Original>Processing Ayahuasca</Original>
+      <German>Ayahuasca wird verarbeitet</German>
+      <French>Traitement d'Ayahuascae</French>
       <Italian>Processando Eroina</Italian>
       <Portuguese>Processando Heroína</Portuguese>
-      <Polish>Oczyszczanie heroiny</Polish>
+      <Polish>Oczyszczanie Ayahuascay</Polish>
     </Key>
     <Key ID="STR_Process_Copper">
       <Original>Processing Copper</Original>
@@ -4590,35 +4590,35 @@
     </Key>
   </Package>
   <Package name="Gather_Items">
-    <Key ID="STR_Gather_Apples">
-      <Original>Gather Apples</Original>
-      <German>Äpfel sammeln</German>
+    <Key ID="STR_Gather_Orangen">
+      <Original>Orangen sammeln</Original>
+      <German>Orangen sammeln</German>
       <French>Récolter des pommes</French>
       <Italian>Raccogli Mele</Italian>
       <Portuguese>Colher Maçãs</Portuguese>
       <Polish>Zabieranie jabłek</Polish>
     </Key>
-    <Key ID="STR_Gather_Peaches">
-      <Original>Gather Peaches</Original>
+    <Key ID="STR_Gather_bananees">
+      <Original>Gather bananees</Original>
       <German>Pfirsiche sammeln</German>
       <French>pflücke des pêches</French>
       <Italian>Raccogli Pesche</Italian>
       <Portuguese>Colher Pêssegos</Portuguese>
       <Polish>Zbieranie brzoskwiń</Polish>
     </Key>
-    <Key ID="STR_Gather_Heroin">
-      <Original>Gather Heroin</Original>
-      <German>Heroin sammeln</German>
+    <Key ID="STR_Gather_Ayahuasca">
+      <Original>Gather Ayahuasca</Original>
+      <German>Ayahuasca sammeln</German>
       <French>Récolter des graines de Pavot</French>
       <Italian>Raccogli Eroina</Italian>
       <Portuguese>Colher Heroína</Portuguese>
-      <Polish>Zbieranie heroiny</Polish>
+      <Polish>Zbieranie Ayahuascay</Polish>
     </Key>
-    <Key ID="STR_Gather_Cannabis">
-      <Original>Gather Cannabis</Original>
-      <German>Kannabis sammeln</German>
-      <French>Récolter du Cannabis</French>
-      <Italian>Raccogli Cannabis</Italian>
+    <Key ID="STR_Gather_Zuckerrohr">
+      <Original>Gather Zuckerrohr</Original>
+      <German>Zuckerrohr sammeln</German>
+      <French>Récolter du Zuckerrohr</French>
+      <Italian>Raccogli Zuckerrohr</Italian>
       <Portuguese>Colher Maconha</Portuguese>
       <Polish>Zbieranie konopii</Polish>
     </Key>
@@ -5863,15 +5863,15 @@
       <Portuguese>Loja de Roupas</Portuguese>
       <Polish>Sklep odzieżowy</Polish>
     </Key>
-    <Key ID="STR_MAR_Apple_Field">
-      <Original>Apple Field</Original>
-      <German>Apfel Plantage</German>
+    <Key ID="STR_MAR_Orangen_Field">
+      <Original>Orangen Feld</Original>
+      <German>Orangen Plantage</German>
       <Portuguese>Campo de Maçãs</Portuguese>
       <Polish>Sad jabłkowy</Polish>
     </Key>
-    <Key ID="STR_MAR_Peaches_Field">
-      <Original>Peaches Field</Original>
-      <German>Pfirsich Plantage</German>
+    <Key ID="STR_MAR_banane_Field">
+      <Original>bananeen Field</Original>
+      <German>Bananen Plantage</German>
       <Portuguese>Campo de Pêras</Portuguese>
       <Polish>Sad brzoskwiniowy</Polish>
     </Key>
@@ -5947,9 +5947,9 @@
       <Portuguese>Campo de Petróleo</Portuguese>
       <Polish>Szyb naftowy</Polish>
     </Key>
-    <Key ID="STR_MAR_Weed_Field">
-      <Original>Weed Field</Original>
-      <German>Gras Plantage</German>
+    <Key ID="STR_MAR_Zuckerrohr_Field">
+      <Original>Zuckerrohr Field</Original>
+      <German>Zuckerrohr Plantage</German>
       <Portuguese>Campo de Maconha</Portuguese>
       <Polish>Pole marihuany</Polish>
     </Key>
@@ -5973,7 +5973,7 @@
     </Key>
     <Key ID="STR_MAR_Cocaine_Field">
       <Original>Cocaine Field</Original>
-      <German>Koks Plantage</German>
+      <German>Cocablatt Plantage</German>
       <Portuguese>Campo de Cocaína</Portuguese>
       <Polish>Pole kokainy</Polish>
     </Key>
@@ -6019,17 +6019,17 @@
       <Portuguese>Loja de Armas</Portuguese>
       <Polish>Sklep z bronią</Polish>
     </Key>
-    <Key ID="STR_MAR_Heroin_Field">
-      <Original>Heroin Field</Original>
-      <German>Heroin Plantage</German>
+    <Key ID="STR_MAR_Ayahuasca_Field">
+      <Original>Ayahuasca Field</Original>
+      <German>Ayahuasca Plantage</German>
       <Portuguese>Campo de Heroína</Portuguese>
-      <Polish>Pole heroiny</Polish>
+      <Polish>Pole Ayahuascay</Polish>
     </Key>
-    <Key ID="STR_MAR_Heroin_Processing">
-      <Original>Heroin Processing</Original>
-      <German>Heroin Verarbeitung</German>
+    <Key ID="STR_MAR_Ayahuasca_Processing">
+      <Original>Ayahuasca Processing</Original>
+      <German>Ayahuasca Verarbeitung</German>
       <Portuguese>Processador de Heroína</Portuguese>
-      <Polish>Oczyszczanie heroiny</Polish>
+      <Polish>Oczyszczanie Ayahuascay</Polish>
     </Key>
     <Key ID="STR_MAR_Garage">
       <Original>Garage</Original>
