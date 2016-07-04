@@ -174,6 +174,7 @@ class Life_Client_Core
 		class craft {};
 		class craft_update {};
 		class craft_updateFilter {};
+		class revokeLicense {};
 	};
 
 	class Functions
@@ -302,6 +303,7 @@ class Life_Client_Core
 		class copEnter {};
 		class copShowLicense {};
 		class copLicenseShown {};
+		class breathalyzer {};
 	};
 
 	class Gangs
