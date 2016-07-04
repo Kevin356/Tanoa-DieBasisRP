@@ -6545,5 +6545,9 @@
 			<Original>Alkohol Test</Original>
 			<German>Alkohol Test</German>
 		</Key>
+		<Key ID="STR_vInAct_Expolde">
+			<Original>Zerstören</Original>
+			<German>Zerstören</German>
+		</Key>
 </Package>
 </Project>

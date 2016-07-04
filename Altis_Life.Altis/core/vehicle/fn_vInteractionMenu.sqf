@@ -74,6 +74,9 @@ if(playerSide == west) then {
 		};
 	};
 	
+	_Btn7 ctrlSetText "STR_vInAct_Expolde";
+	_Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_explode;";
+	
 } else {
 	
 	if(_curTarget isKindOf "Ship") then {
