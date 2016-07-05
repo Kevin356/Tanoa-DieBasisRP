@@ -13,7 +13,7 @@ switch (playerSide) do {
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 	};
-	case (west) do {
+	case west: {
 		//CopEnter - Driver Seat
 		life_actions = life_actions + [player addAction[localize "STR_pAct_DriverSeat",life_fnc_copEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']];
 		//CopEnter - Passenger Seat
@@ -25,4 +25,15 @@ switch (playerSide) do {
 		//Polizeimarke
 		life_actions = life_actions + [player addAction["<tcolor='#00FF00'>Polizeimarkezeigen</t>",life_fnc_copShowLicense,"",1,false,true,"",'playerSide == west && !isNull cursorTarget &&cursorTarget isKindOf "Man" ']];
 	};
+	case independent: {
+		//Medic Enter - Driver Seat
+		life_actions = life_actions + [player addAction[localize "STR_pAct_DriverSeat",life_fnc_medicEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']];
+		//MedicEnter - Passenger Seat
+		life_actions = life_actions + [player addAction[localize "STR_pAct_PassengerSeat",life_fnc_medicEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']]; 
+		//MedicEnter - Gunner Seat
+		life_actions = life_actions + [player addAction[localize "STR_pAct_GunnerSeat",life_fnc_medicEnter,"gunner",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 3.5']]; 
+		//MedicEnter - Exit
+		life_actions = life_actions + [player addAction[localize "STR_pAct_GoOut",life_fnc_medicEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
+	};
+
 };
