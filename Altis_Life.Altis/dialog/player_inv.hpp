@@ -351,7 +351,7 @@ class playerSettings {
 			y = 0.7016 * safezoneH + safezoneY;
 			w = 0.028875 * safezoneW;
 			h = 0.0504 * safezoneH;
-			onButtonClick = "[] call life_fnc_economyShowPrices"; //DEBUG ADD NEW MARKED
+			onButtonClick = "[] call life_dynmarket_prices"; //DEBUG ADD NEW MARKED
 			tooltip = "Markt"; //--- ToDo: Localize;
 			colorBackground[] = {-1,-1,-1,-1};
 			colorBackgroundFocused[] = {1,1,1,0.12};
