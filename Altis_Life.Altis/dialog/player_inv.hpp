@@ -292,7 +292,7 @@ class playerSettings {
 			y = 0.7016 * safezoneH + safezoneY;
 			w = 0.028875 * safezoneW;
 			h = 0.0504 * safezoneH;
-			onButtonClick = "[] call life_fnc_callCellPhone";
+			onButtonClick = "[] call life_fnc_cellphone";
 			tooltip = "$STR_PM_CellPhone";
 			
 			colorBackground[] = {-1,-1,-1,-1};
@@ -419,7 +419,7 @@ class playerSettings {
 			colorDisabled[] = {1,0,0,0.1};
 			tooltip = $STR_PM_WantedList;
 		};
-		
+		/*
 		class ButtonWantedadd_ICON : life_RscPicture
 		{
 			idc = 9800;
@@ -448,7 +448,7 @@ class playerSettings {
 			colorText[] = {1,1,1,1};
 			colorDisabled[] = {1,0,0,0.1};
 		};
-			
+		*/	
 		
 		class ButtonCraft_ICON: life_RscPicture
 		{
@@ -478,7 +478,7 @@ class playerSettings {
 			colorText[] = {1,1,1,1};
 			colorDisabled[] = {1,0,0,0.1};
 		};
-		
+		/*
 		class _btn_taxi_ICON: Life_RscPicture
 		{
 			idc = 1008;
@@ -507,5 +507,6 @@ class playerSettings {
 			colorText[] = {1,1,1,1};
 			colorDisabled[] = {1,0,0,0.1};
 		};
+		*/
 	};
 };
