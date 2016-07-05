@@ -5011,7 +5011,7 @@
     </Key>
     <Key ID="STR_vInAct_Unflip">
       <Original>Unflip Vehicle</Original>
-      <German>Fahrzeug umdrehen</German>
+      <German>Flip</German>
       <French>Retourner Véhicule</French>
       <Italian>Raddrizza veicolo</Italian>
       <Portuguese>Desvirar Veículo</Portuguese>
@@ -5057,7 +5057,7 @@
     </Key>
     <Key ID="STR_vInAct_SearchVehicle">
       <Original>Search Vehicle</Original>
-      <German>Fahrzeug durchsuchen</German>
+      <German>Durchsuchen</German>
       <French>Fouiller Véhicule</French>
       <Italian>Cerca Veicolo</Italian>
       <Portuguese>Vasculhar Veículo</Portuguese>
@@ -5077,7 +5077,7 @@
     </Key>
     <Key ID="STR_vInAct_Impound">
       <Original>Impound Vehicle</Original>
-      <German>Fahrzeug beschlagnahmen</German>
+      <German>Beschlagnahmen</German>
       <French>Mise en fourrière</French>
       <Italian>Sequestra Veicolo</Italian>
       <Portuguese>Apreender Veículo</Portuguese>
