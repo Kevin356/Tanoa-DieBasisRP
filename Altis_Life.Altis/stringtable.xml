@@ -4820,7 +4820,7 @@
     </Key>
     <Key ID="STR_pInAct_PutInCar">
       <Original>Put in vehicle</Original>
-      <German>Ins Fahrzeug setzen</German>
+      <German>Ins Fahrzeug</German>
       <French>Embarquer</French>
       <Italian>Metti nel Veicolo</Italian>
       <Portuguese>Colocar no Veículo</Portuguese>
@@ -4836,7 +4836,7 @@
     </Key>
     <Key ID="STR_pInAct_checkLicenses">
       <Original>Check Licenses</Original>
-      <German>Lizenzen überprüfen</German>
+      <German>Lizenzen</German>
       <French>Vérifier Licences</French>
       <Italian>Controlla Licenze</Italian>
       <Portuguese>Verificar Licenças</Portuguese>
@@ -4844,7 +4844,7 @@
     </Key>
     <Key ID="STR_pInAct_SearchPlayer">
       <Original>Search Player</Original>
-      <German>Spieler durchsuchen</German>
+      <German>Durchsuchen</German>
       <French>Fouiller Joueur</French>
       <Italian>Ricerca Giocatore</Italian>
       <Portuguese>Revistar Jogador</Portuguese>
@@ -4852,7 +4852,7 @@
     </Key>
     <Key ID="STR_pInAct_StopEscort">
       <Original>Stop Escorting</Original>
-      <German>Eskortieren stoppen</German>
+      <German>Eskortieren</German>
       <French>Arrêter Escorte</French>
       <Italian>Ferma Scorta</Italian>
       <Portuguese>Parar de Escoltar</Portuguese>
@@ -4860,7 +4860,7 @@
     </Key>
     <Key ID="STR_pInAct_Escort">
       <Original>Escort Player</Original>
-      <German>Spieler eskortieren</German>
+      <German>Eskortieren</German>
       <French>Escorter Joueur</French>
       <Italian>Scorta Giocatore</Italian>
       <Portuguese>Escoltar Jogador</Portuguese>
@@ -4868,7 +4868,7 @@
     </Key>
     <Key ID="STR_pInAct_TicketBtn">
       <Original>Ticket Player</Original>
-      <German>Strafzettel ausstellen</German>
+      <German>Strafzettel</German>
       <French>Amende Joueur</French>
       <Italian>Multa Giocatore</Italian>
       <Portuguese>Multar Jogador</Portuguese>
@@ -4876,7 +4876,7 @@
     </Key>
     <Key ID="STR_pInAct_Arrest">
       <Original>Send to jail</Original>
-      <German>Ins Gefängnis stecken</German>
+      <German>Gefängnis</German>
       <French>Envoyer en prison</French>
       <Italian>Arresta</Italian>
       <Portuguese>Enviar p/ Prisão</Portuguese>
@@ -4884,7 +4884,7 @@
     </Key>
     <Key ID="STR_pInAct_Repair">
       <Original>Repair Door</Original>
-      <German>Tür reparieren</German>
+      <German>reparieren</German>
       <French>Réparer la porte</French>
       <Italian>Ripara porta</Italian>
       <Portuguese>Consertar Porta</Portuguese>
@@ -4900,7 +4900,7 @@
     </Key>
     <Key ID="STR_pInAct_BreakDown">
       <Original>Break down door</Original>
-      <German>Tür aufbrechen</German>
+      <German>Aufbrechen</German>
       <French>Forcer la porte</French>
       <Italian>Sfonda Porta</Italian>
       <Portuguese>Quebrar Porta</Portuguese>
@@ -4908,7 +4908,7 @@
     </Key>
     <Key ID="STR_pInAct_SearchHouse">
       <Original>Search house</Original>
-      <German>Haus durchsuchen</German>
+      <German>Durchsuchen</German>
       <French>Fouiller la maison</French>
       <Italian>Cerca Casa</Italian>
       <Portuguese>Vasculhar a Casa</Portuguese>
@@ -4916,7 +4916,7 @@
     </Key>
     <Key ID="STR_pInAct_LockHouse">
       <Original>Lock up house</Original>
-      <German>Haus abschließen</German>
+      <German>Abschließen</German>
       <French>Fermer la maison</French>
       <Italian>Chiudi Casa</Italian>
       <Portuguese>Trancar a Casa</Portuguese>
@@ -4924,7 +4924,7 @@
     </Key>
     <Key ID="STR_pInAct_BuyHouse">
       <Original>Buy House</Original>
-      <German>Haus kaufen</German>
+      <German>Kaufen</German>
       <French>Acheter la maison</French>
       <Italian>Compra Casa</Italian>
       <Portuguese>Comprar a Casa</Portuguese>
@@ -4932,7 +4932,7 @@
     </Key>
     <Key ID="STR_pInAct_SellGarage">
       <Original>Sell Garage</Original>
-      <German>Garage verkaufen</German>
+      <German>Verkaufen</German>
       <French>Vendre le garage</French>
       <Italian>Vendi Garage</Italian>
       <Portuguese>Vender Garagem</Portuguese>
@@ -4942,6 +4942,7 @@
       <Original>Remove Container</Original>
       <French>Supprimer le container</French>
       <Portuguese>Remover Caixa</Portuguese>
+	  <German>Löschen</German>
     </Key>
     <Key ID="STR_pInAct_AccessGarage">
       <Original>Garage</Original>
@@ -4953,7 +4954,7 @@
     </Key>
     <Key ID="STR_pInAct_StoreVeh">
       <Original>Store Vehicle</Original>
-      <German>Fahrzeug parken</German>
+      <German>Einparken</German>
       <French>Ranger le vehicule</French>
       <Italian>Parcheggia Veicolo</Italian>
       <Portuguese>Guardar Veículo</Portuguese>
@@ -4961,7 +4962,7 @@
     </Key>
     <Key ID="STR_pInAct_SellHouse">
       <Original>Sell House</Original>
-      <German>Haus verkaufen</German>
+      <German>Verkaufen</German>
       <French>Vendre la maison</French>
       <Italian>Vendi Casa</Italian>
       <Portuguese>Vender Casa</Portuguese>
@@ -4969,7 +4970,7 @@
     </Key>
     <Key ID="STR_pInAct_UnlockStorage">
       <Original>Unlock Storage</Original>
-      <German>Lagerplatz aufsperren</German>
+      <German>Aufsperren</German>
       <French>Déverrouiller l'inventaire</French>
       <Italian>Sblocca contenitori</Italian>
       <Portuguese>Destrancar Caixa</Portuguese>
@@ -4977,7 +4978,7 @@
     </Key>
     <Key ID="STR_pInAct_LockStorage">
       <Original>Lock Storage</Original>
-      <German>Lagerplatz absperren</German>
+      <German>Absperren</German>
       <French>Verrouiller l'inventaire</French>
       <Italian>Blocca contenitori</Italian>
       <Portuguese>Trancar Caixa</Portuguese>
@@ -4985,7 +4986,7 @@
     </Key>
     <Key ID="STR_pInAct_LightsOff">
       <Original>Turn Lights Off</Original>
-      <German>Licht ausschalten</German>
+      <German>Licht aus</German>
       <French>Lumières éteintes</French>
       <Italian>Spegni luci</Italian>
       <Portuguese>Ligar as Luzes</Portuguese>
@@ -4993,7 +4994,7 @@
     </Key>
     <Key ID="STR_pInAct_LightsOn">
       <Original>Turn Lights On</Original>
-      <German>Licht anschalten</German>
+      <German>Licht an</German>
       <French>Lumières allumées</French>
       <Italian>Accendi luci</Italian>
       <Portuguese>Apagar as Luzes</Portuguese>
@@ -5019,7 +5020,7 @@
     </Key>
     <Key ID="STR_vInAct_GetInKart">
       <Original>Get In Kart</Original>
-      <German>Ins Kart setzen</German>
+      <German>Einsteigen</German>
       <French>Monter dans le kart</French>
       <Italian>Entra nel Kart</Italian>
       <Portuguese>Entrar no Kart</Portuguese>
@@ -5027,13 +5028,13 @@
     </Key>
     <Key ID="STR_vInAct_GetInHeli">
       <Original>Get In Helicopter</Original>
-      <German>In den Helikopter einsteigen</German>
+      <German>Einsteigen</German>
       <French>Monter dans l'hélicoptere</French>
       <Portuguese>Entrar no Helicóptero</Portuguese>
     </Key>
     <Key ID="STR_vInAct_PushBoat">
       <Original>Push Boat</Original>
-      <German>Boot schieben</German>
+      <German>Schieben</German>
       <French>Pousser bateau</French>
       <Italian>Spingi Barca</Italian>
       <Portuguese>Empurrar Barco</Portuguese>
@@ -5041,7 +5042,7 @@
     </Key>
     <Key ID="STR_vInAct_Repair">
       <Original>Repair Vehicle</Original>
-      <German>Fahrzeug reparieren</German>
+      <German>Reparieren</German>
       <French>Réparer Véhicule</French>
       <Italian>Ripara Veicolo</Italian>
       <Portuguese>Consertar Veículo</Portuguese>
@@ -5066,10 +5067,11 @@
     <Key ID="STR_vInAct_SearchContainer">
       <Original>Search Container</Original>
       <French>Fouiller Container</French>
+	  <German>Durchsuchen</German>
     </Key>
     <Key ID="STR_vInAct_PullOut">
       <Original>Pullout Players</Original>
-      <German>Aus Fahrzeug ziehen</German>
+      <German>Rausziehen</German>
       <French>Sortir Personnes</French>
       <Italian>Estrai Giocatore</Italian>
       <Portuguese>Retirar Jogadores</Portuguese>
@@ -5085,7 +5087,7 @@
     </Key>
     <Key ID="STR_vInAct_DeviceMine">
       <Original>Mine from device</Original>
-      <German>Vom Gerät abbauen</German>
+      <German>Abbauen</German>
       <French>Dispositif de minage</French>
       <Italian>Piazza mine dal veicolo</Italian>
       <Portuguese>Minerar</Portuguese>
