@@ -26,13 +26,17 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
             { "hgun_ACPC2_F", "", 11500, -1 },
             { "hgun_PDW2000_F", "", 20000, -1 },
-            { "optic_ACO_grn_smg", "", 2500, 250 }
+			{ "SMG_01_F", "", 20000, -1 },
+            { "optic_ACO_grn_smg", "", 2500, 250 },
+			{ "optic_Yorris", "", 2500, 250 },
+			{ "V_Rangemaster_belt", "", 2500, 250 }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "30Rnd_9x21_Mag", "", 75 },
+			{ "30Rnd_45ACP_Mag_SMG_01", "", 75 }
         };
     };
 
@@ -42,46 +46,101 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_TRG20_F", "", 25000, 2500 },
-            { "arifle_Katiba_F", "", 30000, 5000 },
-            { "srifle_DMR_01_F", "", 50000, -1 },
-            { "arifle_SDAR_F", "", 20000, 7500 },
-            { "optic_ACO_grn", "", 3500, 350 },
-            { "optic_Holosight", "", 3600, 275 },
-            { "optic_Hamr", "", 7500, -1 },
-            { "acc_flashlight", "", 1000, 100 }
+			{ "arifle_Katiba_F", "", 7500, 1500 },
+			{ "SMG_01_F", "", 20000, -1 },
+			{ "arifle_SDAR_F", "", 20000, -1 },
+			{ "arifle_TRG20_F", "", 20000, -1 },
+			{ "arifle_MXC_F", "", 7500, 1500 },
+			{ "arifle_MX_F", "", 7500, 1500 },
+			{ "arifle_MXM_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_khaki_F", "", 7500, 1500 },
+			{ "srifle_DMR_06_camo_F", "", 7500, 1500 },
+			{ "srifle_DMR_01_F", "", 7500, 1500 },
+			{ "srifle_DMR_02_camo_F", "", 7500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "optic_LRPS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 1500, 1500 },
+			{ "bipod_01_F_snd", "", 1500, 1500 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "30Rnd_65x39_caseless_green", "", 275 },
-            { "10Rnd_762x54_Mag", "", 500 },
-            { "20Rnd_556x45_UW_mag", "", 125 }
+            { "30Rnd_65x39_caseless_green", "", 500 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 125 },
+			{ "20Rnd_556x45_UW_mag", "", 130 },
+            { "30Rnd_556x45_Stanag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 },
+			{ "10Rnd_762x54_Mag", "", 250 },
+			{ "10Rnd_338_Mag", "", 250 }	
         };
     };
 
     class gang {
-        name = "Hideout Armament";
+        name = "Tanoa Gang Store";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 1500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 2500, -1 },
-            { "hgun_ACPC2_F", "", 4500, -1 },
-            { "hgun_PDW2000_F", "", 9500, -1 },
-            { "optic_ACO_grn_smg", "", 950, 250 }
+			{ "arifle_Katiba_F", "", 7500, 1500 },
+			{ "SMG_01_F", "", 20000, -1 },
+			{ "arifle_SDAR_F", "", 20000, -1 },
+			{ "arifle_TRG20_F", "", 20000, -1 },
+			{ "arifle_MXC_F", "", 7500, 1500 },
+			{ "arifle_MX_F", "", 7500, 1500 },
+			{ "arifle_MXM_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_khaki_F", "", 7500, 1500 },
+			{ "srifle_DMR_06_camo_F", "", 7500, 1500 },
+			{ "srifle_DMR_01_F", "", 7500, 1500 },
+			{ "srifle_DMR_02_camo_F", "", 7500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "optic_LRPS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 1500, 1500 },
+			{ "bipod_01_F_snd", "", 1500, 1500 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 25 },
-            { "6Rnd_45ACP_Cylinder", "", 50 },
-            { "9Rnd_45ACP_Mag", "", 45 },
-            { "30Rnd_9x21_Mag", "", 75 }
+            { "30Rnd_65x39_caseless_green", "", 500 },
+            { "30Rnd_45ACP_Mag_SMG_01", "", 125 },
+			{ "20Rnd_556x45_UW_mag", "", 130 },
+            { "30Rnd_556x45_Stanag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 },
+			{ "10Rnd_762x54_Mag", "", 250 },
+			{ "10Rnd_338_Mag", "", 250 }	
         };
     };
 
     //Basic Shops
     class genstore {
-        name = "Altis General Store";
+        name = "Tanoa Elektro Store";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -103,7 +162,7 @@ class WeaponShops {
     };
 
     class f_station_store {
-        name = "Altis Fuel Station Store";
+        name = "Tanoa Tankstellen Store";
         side = "";
         license = "";
         level[] = { "", "", -1, "" };
@@ -125,17 +184,19 @@ class WeaponShops {
     };
 
     //Cop Shops
-    class cop_basic {
-        name = "Altis Cop Shop";
+    class cop_pvt {
+        name = "Tanoa Marine Corps";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Rifle", 20000, 7500 },
-            { "hgun_P07_snds_F", "Stun Pistol", 2000, 650 },
-            { "hgun_P07_F", "", 7500, 1500 },
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -145,64 +206,544 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 45 }
+            { "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+			{ "30Rnd_9x21_Mag", "", 45 }
         };
     };
 
-    class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+    class cop_pfc {
+        name = "Marine Corps Private First Class Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Du musst Private First Class sein!" };
         items[] = {
-            { "arifle_MX_F", "", 35000, 7500 },
-            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "muzzle_snds_L", "", 650, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "MineDetector", "", 1000, 500 },
-            { "acc_flashlight", "", 750, 100 },
-            { "optic_Holosight", "", 1200, 275 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
-            { "30Rnd_65x39_caseless_mag", "", 130 },
-            { "30Rnd_9x21_Mag", "", 250 }
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
     };
 
-    class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+    class cop_lcpl {
+        name = "Marine Corps Lance Corporal Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Du musst Lance Corporal sein!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 17500, -1 },
-            { "SMG_02_ACO_F", "", 15000, -1 },
-            { "arifle_MXC_F", "", 30000, 5000 },
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 200 },
-            { "30Rnd_9x21_Mag", "", 60 },
-            { "30Rnd_65x39_caseless_mag", "", 100, -1 }
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 }
+        };
+    };
+	
+	class cop_cpl {
+        name = "Marine Corps Corporal Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 4, "Du musst Corporal sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 }
+        };
+    };
+	
+	class cop_sgt {
+        name = "Marine Corps Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 5, "Du musst Sergeant sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 }
+        };
+    };
+	
+	class cop_ssgt {
+        name = "Marine Corps Staff Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 6, "Du musst Staff Sergeant sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 }			
+        };
+    };
+	
+	class cop_gsgt {
+        name = "Marine Corps Gunnery Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 7, "Du musst Gunnery Sergeant sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 }			
+        };
+    };
+	
+	class cop_msgt {
+        name = "Marine Corps Master Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 8, "Du musst Master Sergeant sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_AMS_snd", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_KHS_tan", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+			{ "bipod_01_F_snd", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 }			
+        };
+    };
+	
+	class cop_fsgt {
+        name = "Marine Corps First Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 9, "Du musst First Sergeant sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_AMS_snd", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_KHS_tan", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+			{ "bipod_01_F_snd", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 }			
+        };
+    };
+	
+	class cop_mgsgt {
+        name = "Marine Corps Master Gunnery Sergeant Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 10, "Du musst Master Gunnery Sergeant sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_AMS_snd", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_KHS_tan", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+			{ "bipod_01_F_snd", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 }			
+        };
+    };
+	
+	class cop_sgtmaj {
+        name = "Marine Corps Sergeant Major Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 11, "Du musst Master Sergeant Major sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_AMS_snd", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_KHS_tan", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+			{ "bipod_01_F_snd", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 }			
+        };
+    };
+	
+	class cop_sgtmajmc {
+        name = "Marine Corps Sergeant Major of the Marine Corps Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 12, "Du musst Master Sergeant Major of the Marine Corps sein!" };
+        items[] = {
+            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
+            { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "SMG_02_ACO_F", "", 7500, 1500 },
+			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_MXM_Black_F", "", 7500, 1500 },
+			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "srifle_EBR_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_F", "", 7500, 1500 },
+			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
+			{ "srifle_DMR_02_F", "", 7500, 1500 },
+			{ "optic_MRD", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_ACO_smg", "", 1500, 1500 },
+			{ "optic_Arco", "", 1500, 1500 },
+			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_MRCO", "", 1500, 1500 },
+			{ "optic_DMS", "", 1500, 1500 },
+			{ "optic_NVS", "", 1500, 1500 },
+			{ "optic_AMS", "", 1500, 1500 },
+			{ "optic_AMS_snd", "", 1500, 1500 },
+			{ "optic_KHS_blk", "", 1500, 1500 },
+			{ "optic_KHS_tan", "", 1500, 1500 },
+			{ "optic_SOS", "", 1500, 1500 },
+			{ "optic_LRPS", "", 1500, 1500 },
+			{ "bipod_01_F_blk", "", 250, 75 },
+			{ "bipod_01_F_snd", "", 250, 75 },
+            { "muzzle_snds_L", "", 650, -1 },
+			{ "muzzle_snds_H", "", 650, -1 },
+			{ "muzzle_snds_B", "", 650, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "Binocular", "", 150, -1 },
+			{ "Rangefinder", "", 150, -1 },
+            { "ItemGPS", "", 100, 45 },
+            { "ToolKit", "", 250, 75 },
+            { "FirstAidKit", "", 150, 65 },
+            { "Medikit", "", 1000, 450 },
+            { "NVGoggles", "", 2000, 980 }
+        };
+        mags[] = {
+            { "16Rnd_9x21_Mag", "", 130 },
+			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
+            { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_65x39_caseless_mag", "", 250 },
+			{ "100Rnd_65x39_caseless_mag", "", 250 },
+			{ "20Rnd_762x51_Mag", "", 250 },
+			{ "10Rnd_338_Mag", "", 250 }				
         };
     };
 
     //Medic Shops
     class med_basic {
-        name = "store";
+        name = "Rescue Service";
         side = "med";
         license = "";
-        level[] = { "", "", -1, "" };
+        level[] = { "", "", -1, "Du bist nicht im Rescue Service" };
         items[] = {
             { "ItemGPS", "", 100, 45 },
             { "Binocular", "", 150, -1 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
             { "Medikit", "", 500, 450 },
-            { "NVGoggles", "", 1200, 980 }
+            { "NVGoggles", "", 1200, 980 },
+			{ "Chemlight_red", "", 200, 980 }
         };
         mags[] = {};
     };
