@@ -3497,10 +3497,10 @@
     <Key ID="STR_Item_Ayahuasca">
       <Original>Ayahuasca</Original>
       <German>Ayahuasca</German>
-      <French>Heroïne</French>
-      <Italian>Eroina</Italian>
-      <Portuguese>Heroína</Portuguese>
-      <Polish>Ayahuascaa</Polish>
+      <French>Ayahuasca</French>
+      <Italian>Ayahuasca</Italian>
+      <Portuguese>Ayahuasca</Portuguese>
+      <Polish>Ayahuasca</Polish>
     </Key>
     <Key ID="STR_Item_Oil">
       <Original>Oil</Original>
@@ -3512,11 +3512,11 @@
     </Key>
     <Key ID="STR_Item_banane">
       <Original>banane</Original>
-      <German>Pfirsich</German>
-      <French>Pêche</French>
-      <Italian>Pesca</Italian>
-      <Portuguese>Pêssego</Portuguese>
-      <Polish>Brzoskwinia</Polish>
+      <German>Banane</German>
+      <French>Banane</French>
+      <Italian>Banane</Italian>
+      <Portuguese>Banane</Portuguese>
+      <Polish>Banane</Polish>
     </Key>
     <Key ID="STR_Item_bananees">
       <Original>bananes</Original>
