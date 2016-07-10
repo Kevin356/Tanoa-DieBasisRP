@@ -1623,7 +1623,7 @@
     </Key>
     <Key ID="STR_Ticket_PayTicket">
       <Original>Pay Ticket</Original>
-      <German>Ticket bezahlen</German>
+      <German>Bezahlen</German>
       <French>Payer l'amende</French>
       <Italian>Paga Multa</Italian>
       <Portuguese>Pagar Multa</Portuguese>
@@ -1631,7 +1631,7 @@
     </Key>
     <Key ID="STR_Ticket_RefuseTicket">
       <Original>Refuse Ticket</Original>
-      <German>Ticket ablehnen</German>
+      <German>Verweigern</German>
       <French>Contester l'amende</French>
       <Italian>Rifiuta Multa</Italian>
       <Portuguese>Recusar Multa</Portuguese>
