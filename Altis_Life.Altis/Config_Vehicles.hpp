@@ -18,32 +18,42 @@ class CarShops {
     class civ_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },
-            { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },
-            { "C_SUV_01_F", 30000, { "driver" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 40000, { "driver" }, { "", "", -1 } },
-            { "C_Van_01_transport_F", 45000, { "driver" }, { "", "", -1 } }
+            { "B_Quadbike_01_F", 6666, { "" }, { "", "", -1 } },
+            { "C_Hatchback_01_F", 40000, { "driver" }, { "", "", -1 } },
+            { "C_Offroad_01_F", 33333, { "driver" }, { "", "", -1 } },
+            { "C_SUV_01_F", 46666, { "driver" }, { "", "", -1 } },
+            { "C_Hatchback_01_sport_F", 133333, { "driver" }, { "", "", -1 } },
+            { "C_Van_01_transport_F", 66666, { "driver" }, { "", "", -1 } },
+			{ "C_Van_01_fuel_F",103333, { "driver" }, { "", "" , -1 }}
         };
     };
 
     class kart_shop {
         side = "civ";
         vehicles[] = {
-            { "C_Kart_01_Blu_F", 15000 , { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Fuel_F", 15000, { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Red_F", 15000, { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Vrana_F", 15000, { "driver" }, { "", "", -1 } }
+            { "C_Kart_01_Blu_F", 20000 , { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_Fuel_F", 20000, { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_Red_F", 20000, { "driver" }, { "", "", -1 } },
+            { "C_Kart_01_Vrana_F", 20000, { "driver" }, { "", "", -1 } }
         };
     };
 
     class med_shop {
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", 10000, { "" }, { "", "", -1 } },
-            { "I_Truck_02_medical_F", 25000, { "" }, { "", "", -1 } },
+            { "C_Offroad_01_F", 3375, { "" }, { "", "", -1 } },
+			{ "B_Quadbike_01_F", 2000, { "" }, { "", "", -1 } },
+			{ "C_Hatchback_01_F", 3500, { "" }, { "life_medicLevel", "SCALAR", 1} },
+			{ "C_Offroad_01_repair_F", 3500, { ""}, { "life_medicLevel", "SCALAR", 1} },
+			{ "C_SUV_01_F", 3666, { ""}, { "life_medicLevel", "SCALAR", 2} },
+			{ "C_Hatchback_01_sport_F", 5000, { ""}, { "life_medicLevel", "SCALAR", 5} },
+			{ "B_Truck_01_transport_F", 5333, { ""}, { "life_medicLevel", "SCALAR", 5} },
+			{ "B_MRAP_01_F", 6000, { ""}, { "life_medicLevel", "SCALAR", 5} }
+/*				
+			{ "I_Truck_02_medical_F", 25000, { "" }, { "", "", -1 } },
             { "O_Truck_03_medical_F", 45000, { "" }, { "", "", -1 } },
             { "B_Truck_01_medical_F", 60000, { "" }, { "", "", -1 } }
+*/
         };
     };
 
