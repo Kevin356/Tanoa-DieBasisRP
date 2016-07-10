@@ -12,12 +12,12 @@
 // █████████████████ DYNAMIC MARKET BASIC CONFIGURATION ██████████████████
 // ███████████████████████████████████████████████████████████████████████
 
-DYNMARKET_Serveruptime         = 05;   // Serveruptime after restart in hours
+DYNMARKET_Serveruptime         = 06;   // Serveruptime after restart in hours
 DYNMARKET_UseExternalDatabase  = true; // Should the script use the External Database?
-DYNMARKET_PriceUpdateInterval  = 01;   // After how many minutes should the price be updated?
+DYNMARKET_PriceUpdateInterval  = 05;   // After how many minutes should the price be updated?
 DYNMARKET_CreateBackups        = true; // Should the server save write the prices regulary into the Database? If false, it will save the prices before Server-restart?
-DYNMARKET_CreateBackupInterval = 03;   // After how many updates (PriceUpdateIntervals) should the prices be saved into the Database?
-DYNMARKET_UserNotification     = true; // Should the user be informed with a hint whenever the prices got updated?
+DYNMARKET_CreateBackupInterval = 15;   // After how many updates (PriceUpdateIntervals) should the prices be saved into the Database?
+DYNMARKET_UserNotification     = false; // Should the user be informed with a hint whenever the prices got updated?
 
 // █████████████████ USER NOTIFICATION TEXTS  █████████████████
 
@@ -33,8 +33,8 @@ DYNMARKET_Items_Groups =
 [
 	["Legal",
 		[
-			["apple",-1,10,50],
-			["peach",-1,30,100]
+			["orange",-1,10,50],
+			["bannen",-1,30,100]
 		],
 		0.5
 	],
@@ -51,8 +51,8 @@ DYNMARKET_Items_Groups =
 DYNMARKET_Items_ToTrack        = 
 [
 
-	["apple",25],
-	["peach",50],
+	["orange",25],
+	["bananen",50],
 	["tbacon",125],
 	["donut",130],
 	["rabbit_raw",150],
