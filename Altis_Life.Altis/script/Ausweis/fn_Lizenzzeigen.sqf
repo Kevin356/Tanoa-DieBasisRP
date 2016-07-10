@@ -13,18 +13,18 @@ if(!(alive _ziel)) then {_ziel = player;};
 switch(playerSide)do{
  case west:{
   switch (call life_coplevel) do{
-   case 1: { _rang = "Polizeimeisteranwaerter"; };
-   case 2: { _rang = "Polizeimeister"; };
-   case 3: { _rang = "Polizeiobermeister"; };
-   case 4: { _rang = "Polizeikommissar"; };
-   case 5: { _rang = "Polizeioberkommissar"; };
-   case 6: { _rang = "Polizeihauptkommissar"; };
-   case 7: { _rang = "Erster Polizeihauptkommissar"; };
-   case 8: { _rang = "Polizeirat"; };
-   case 9: { _rang = "Polizeioberrrat"; };
-   case 10: { _rang = "Polizeidirektor"; };
-   case 11: { _rang = "Leitender Polizeidirektor"; };
-   case 12: { _rang = "Direktor der Bundespolizei"; };
+   case 1: { _rang = "Private"; };
+   case 2: { _rang = "Private First Class"; };
+   case 3: { _rang = "Lance Corporal"; };
+   case 4: { _rang = "Corporal"; };
+   case 5: { _rang = "Sergeant"; };
+   case 6: { _rang = "Staff Sergeant"; };
+   case 7: { _rang = "Gunnery Sergeant"; };
+   case 8: { _rang = "Master Sergeant"; };
+   case 9: { _rang = "First Sergeant"; };
+   case 10: { _rang = "Master Gunnery Sergeant"; };
+   case 11: { _rang = "Sergeant Major"; };
+   case 12: { _rang = "Sergeant Major of the Marine Corps"; };
    default { _rank =  "Error";};
   };
   _marke = "marke_cop";
