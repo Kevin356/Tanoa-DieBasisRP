@@ -303,10 +303,14 @@ class Life_Client_Core
 		class containerInvSearch {};
 		class wantedGrab {};
 		class copEnter {};
-		class copShowLicense {};
-		class copLicenseShown {};
 		class breathalyzer {};
 	};
+	
+	 class Ausweis {
+        file = "script\Ausweis";
+        class Lizenzsehen {};
+        class Lizenzzeigen {};
+    };
 
 	class Gangs
 	{
