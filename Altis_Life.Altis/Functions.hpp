@@ -271,7 +271,7 @@ class Life_Client_Core
 		class deviceMine {};
 		class addVehicle2Chain {};
 		class FuelRefuelcar {};
-		class expolde {};
+		class explode {};
 	};
 
 	class Cop
