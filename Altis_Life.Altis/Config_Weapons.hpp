@@ -22,11 +22,11 @@ class WeaponShops {
         license = "gun";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "hgun_Rook40_F", "", 6500, 500 },
-            { "hgun_Pistol_heavy_02_F", "", 9850, -1 },
-            { "hgun_ACPC2_F", "", 11500, -1 },
-            { "hgun_PDW2000_F", "", 20000, -1 },
-			{ "SMG_01_F", "", 20000, -1 },
+            { "hgun_Rook40_F", "", 9999, 500 },
+            { "hgun_Pistol_heavy_02_F", "", 11676, -1 },
+            { "hgun_ACPC2_F", "", 13496, -1 },
+            { "hgun_PDW2000_F", "", 21369, -1 },
+			{ "SMG_01_F", "", 22487, -1 },
             { "optic_ACO_grn_smg", "", 2500, 250 },
 			{ "optic_Yorris", "", 2500, 250 },
 			{ "V_Rangemaster_belt", "", 2500, 250 }
@@ -46,17 +46,16 @@ class WeaponShops {
         license = "rebel";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "arifle_Katiba_F", "", 7500, 1500 },
-			{ "SMG_01_F", "", 20000, -1 },
-			{ "arifle_SDAR_F", "", 20000, -1 },
-			{ "arifle_TRG20_F", "", 20000, -1 },
-			{ "arifle_MXC_F", "", 7500, 1500 },
-			{ "arifle_MX_F", "", 7500, 1500 },
-			{ "arifle_MXM_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_khaki_F", "", 7500, 1500 },
-			{ "srifle_DMR_06_camo_F", "", 7500, 1500 },
-			{ "srifle_DMR_01_F", "", 7500, 1500 },
-			{ "srifle_DMR_02_camo_F", "", 7500, 1500 },
+			{ "arifle_Katiba_F", "", 49869, 1500 },
+			{ "SMG_01_F", "", 22487, -1 },
+			{ "arifle_SDAR_F", "", 58632, -1 },
+			{ "arifle_TRG20_F", "", 54632, -1 },
+			{ "arifle_MXC_F", "", 120562, 1500 },
+			{ "arifle_MX_F", "", 150489, 1500 },
+			{ "arifle_MXM_F", "", 252685, 1500 },
+			{ "srifle_DMR_03_khaki_F", "", 869521, 1500 },
+			{ "srifle_DMR_06_camo_F", "", 685421, 1500 },				//mk14
+			{ "srifle_DMR_01_F", "", 249654, 1500 },					//Rahim
 			{ "optic_ACO_smg", "", 1500, 1500 },
 			{ "optic_Holosight_smg", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
@@ -84,8 +83,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 },
-			{ "10Rnd_762x54_Mag", "", 250 },
-			{ "10Rnd_338_Mag", "", 250 }	
+			{ "10Rnd_762x54_Mag", "", 250 }	
         };
     };
 
@@ -95,17 +93,16 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-			{ "arifle_Katiba_F", "", 7500, 1500 },
-			{ "SMG_01_F", "", 20000, -1 },
-			{ "arifle_SDAR_F", "", 20000, -1 },
-			{ "arifle_TRG20_F", "", 20000, -1 },
-			{ "arifle_MXC_F", "", 7500, 1500 },
-			{ "arifle_MX_F", "", 7500, 1500 },
-			{ "arifle_MXM_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_khaki_F", "", 7500, 1500 },
-			{ "srifle_DMR_06_camo_F", "", 7500, 1500 },
-			{ "srifle_DMR_01_F", "", 7500, 1500 },
-			{ "srifle_DMR_02_camo_F", "", 7500, 1500 },
+			{ "arifle_Katiba_F", "", 49869, 1500 },
+			{ "SMG_01_F", "", 22487, -1 },
+			{ "arifle_SDAR_F", "", 58632, -1 },
+			{ "arifle_TRG20_F", "", 54632, -1 },
+			{ "arifle_MXC_F", "", 120562, 1500 },
+			{ "arifle_MX_F", "", 150489, 1500 },
+			{ "arifle_MXM_F", "", 252685, 1500 },
+			{ "srifle_DMR_03_khaki_F", "", 869521, 1500 },
+			{ "srifle_DMR_06_camo_F", "", 685421, 1500 },
+			{ "srifle_DMR_01_F", "", 249654, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
 			{ "optic_Holosight_smg", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
@@ -133,8 +130,7 @@ class WeaponShops {
             { "30Rnd_556x45_Stanag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 },
-			{ "10Rnd_762x54_Mag", "", 250 },
-			{ "10Rnd_338_Mag", "", 250 }	
+			{ "10Rnd_762x54_Mag", "", 250 }	
         };
     };
 
@@ -152,11 +148,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, -1 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
-            { "NVGoggles", "", 2000, 980 },
-            { "Chemlight_red", "", 300, -1 },
-            { "Chemlight_yellow", "", 300, 50 },
-            { "Chemlight_green", "", 300, 50 },
-            { "Chemlight_blue", "", 300, 50 }
+            { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {};
     };
@@ -174,11 +166,7 @@ class WeaponShops {
             { "ItemWatch", "", 250, -1 },
             { "ToolKit", "", 1250, 75 },
             { "FirstAidKit", "", 750, 65 },
-            { "NVGoggles", "", 10000, 980 },
-            { "Chemlight_red", "", 1500, -1 },
-            { "Chemlight_yellow", "", 1500, 50 },
-            { "Chemlight_green", "", 1500, 50 },
-            { "Chemlight_blue", "", 1500, 50 }
+            { "NVGoggles", "", 10000, 980 }
         };
         mags[] = {};
     };
