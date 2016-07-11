@@ -6196,18 +6196,63 @@
       <Polish>Umundurowanie</Polish>
     </Key>
     <Key ID="STR_MAR_Cop_Weapon_Shop">
-      <Original>Cop Weapon Shop</Original>
-      <German>Polizei Waffenhändler</German>
+      <Original>Private Shop</Original>
+      <German>Private Shop</German>
       <Portuguese>Loja de Armas da Polícia</Portuguese>
       <Polish>Broń policji</Polish>
     </Key>
     <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
-      <Original>Patrol Officer Weapon Shop</Original>
-      <Portuguese>Loja de Armas de Patrulha</Portuguese>
-      <Polish>Broń patrolowa</Polish>
+      <Original>Private First Class</Original>
+      <Portuguese>Private First Class</Portuguese>
+      <Polish>Private First Class</Polish>
     </Key>
-    <Key ID="STR_MAR_Sergeant_Weapon_Shop">
-      <Original>Sergeant Weapon Shop</Original>
+    <Key ID="STR_MAR_LC_Weapon_Shop">
+      <Original>Lance Corporal</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+	    <Key ID="STR_MAR_Corporal_Weapon_Shop">
+      <Original>Corporal</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+   </Key>
+	    <Key ID="STR_MAR_Sergeant_Weapon_Shop">
+      <Original>Sergeant</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+	<Key ID="STR_MAR_SSGT_Weapon_Shop">
+      <Original>Staff Sergeant</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>	
+	<Key ID="STR_GSGT_Weapon_Shop">
+      <Original>Gunnery Sergeant</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+	<Key ID="STR_MAR_MSGT_Weapon_Shop">
+      <Original>Master Sergeant</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+	<Key ID="STR_MAR_FSGT_Weapon_Shop">
+      <Original>First Sergeant</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+		<Key ID="STR_MAR_MGSGT_Weapon_Shop">
+      <Original>Master Gunnery Sergeant</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+		<Key ID="STR_SGTMAJ_Weapon_Shop">
+      <Original>Sergeant Major</Original>
+      <Portuguese>Lojas de Armas de Sargento</Portuguese>
+      <Polish>Broń sierżanta</Polish>
+    </Key>
+			<Key ID="STR_SGTMAJMC_Weapon_Shop">
+      <Original>Sergeant Major of the Marine Corps</Original>
       <Portuguese>Lojas de Armas de Sargento</Portuguese>
       <Polish>Broń sierżanta</Polish>
     </Key>
