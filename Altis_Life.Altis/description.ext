@@ -1,3 +1,4 @@
+#include "infiSTAR_AdminMenu.hpp"
 author = "Tonic";
 loadScreen = "textures\armalife.jpg";
 joinUnassigned = 1;
