@@ -99,23 +99,27 @@ class CarShops {
             { "C_Offroad_01_F", 2333, { "" }, { "", "", -1 } },
             { "C_Hatchback_01_F", 3000, { "" }, { "life_coplevel", "SCALAR", 2 } },
             { "C_SUV_01_F", 3666, { "" }, { "life_coplevel", "SCALAR", 3 } },
-            { "B_MRAP_01_hmg_F", 750000, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_MRAP_01_F", 750000, { "" }, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } }
+            { "B_Heli_Light_01_F", 466666, { "pilot" }, { "", "", -1 } },
+            { "O_Heli_Light_02_unarmed_F", 833333, { "pilot" }, { "", "", -1 } },
+			{ "I_Heli_Transport_02_F", 3000000, { "pilot" }, { "", "", -1 } }
         };
     };
 
     class cop_air {
         side = "cop";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 75000, { "cAir" }, { "", "", -1 } },
-            { "B_Heli_Transport_01_F", 200000, { "cAir" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_Heli_Light_01_F", 13333, { "cAir" }, { "life_coplevel", "SCALAR", 2 } },
+            { "O_Heli_light_02_unarmed_F", 23333, { "cAir" }, { "life_coplevel", "SCALAR", 3 } },
+			{ "B_Heli_Transport_03_unarmed_F", 50000, { "cAir" }, { "life_coplevel", "SCALAR", 4 } },
+			{ "I_Heli_light_03_unarmed_F", 33333, { "cAir" }, { "life_coplevel", "SCALAR", 5 } },
+			{ "B_Heli_Transport_01_F", 43333, { "cAir" }, { "life_coplevel", "SCALAR", 6 } },
         };
     };
 
@@ -171,7 +175,7 @@ class LifeCfgVehicles {
         chopShop = 1200;
         textures[] = {};
     };
-
+/*
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         storageFee[] = { 0, 0, 1500, 0 };
@@ -198,7 +202,7 @@ class LifeCfgVehicles {
         chopShop = 30000;
         textures[] = {};
     };
-
+*/
     class C_Rubberboat {
         vItemSpace = 45;
         storageFee[] = { 400, 300, 0, 0 };
@@ -209,29 +213,49 @@ class LifeCfgVehicles {
     };
 
     class B_Heli_Transport_01_F {
-        vItemSpace = 200;
+        vItemSpace = 1000;
         storageFee[] = { 0, 50000, 0, 0 };
         garageSell[] = { 0, 85000, 0, 0 };
         insurance = 16000;
         chopShop = 45000;
-        textures[] = {};
+        textures[] = {
+			{ "Polizei", "cop", {
+				"textures\polizei\air\polizei_ghosthawk_ext1.paa",
+				"textures\polizei\air\polizei_ghosthawk_ext2.paa"
+			} },
+			{ "Navy Seals", "cop", {
+				"textures\polizei\air\sek_ghosthawk_ext1.paa",
+				"textures\polizei\air\sek_ghosthawk_ext2.paa"
+			} }
+		};
     };
 
-    class B_MRAP_01_hmg_F {
+    class B_MRAP_01_F {
         vItemSpace = 100;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
         chopShop = 100000;
         textures[] = {
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
+            { "Polizei", "cop", {
+				"textures\polizei\car\polizei_hunter_base.paa",
+				"textures\polizei\car\polizei_hunter_adds.paa"
+            } },
+			{ "Navy Seals", "cop", {
+				"textures\polizei\car\sek_hunter_base.paa",
+				"textures\polizei\car\sek_hunter_adds.paa"
+			}},
+			{ "Resque", "med" {
+				"textures\resque\car\ehs_hunter_base.paa",
+				"textures\resque\car\ehs_hunter_adds.paa"
+			} },
+			{ "Camo", "civ", {
+				"textures\civ\car\civ_hunter_camo_base.paa",
+				"textures\civ\car\civ_hunter_camo_adds.paa"
+			} }
         };
     };
-
+/*
     class O_Boat_Armed_01_hmg_F {
         vItemSpace = 175;
         storageFee[] = { 1000, 0, 0, 0 };
@@ -240,7 +264,7 @@ class LifeCfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
-
+*/
     class B_Boat_Armed_01_minigun_F {
         vItemSpace = 175;
         storageFee[] = { 0, 16500, 0, 0 };
@@ -249,7 +273,7 @@ class LifeCfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
-
+/*
     class I_Boat_Armed_01_minigun_F {
         vItemSpace = 175;
         storageFee[] = { 1000, 0, 0, 0 };
@@ -267,7 +291,7 @@ class LifeCfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
-
+*/
     class B_Boat_Transport_01_F {
         vItemSpace = 45;
         storageFee[] = { 0, 450, 0, 0 };
@@ -277,26 +301,37 @@ class LifeCfgVehicles {
         textures[] = { };
     };
 
-    class O_Truck_03_transport_F {
-        vItemSpace = 285;
+    class O_Truck_03_transport_F {									// Tempest Transport
+        vItemSpace = 1000;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 100000;
-        textures[] = { };
+        chopShop = 600000;
+        textures[] = { 
+			{"Camo", "civ", {
+				"\a3\soft_f_epc\truck_03\Data\truck_03_ext01_co.paa",
+				"\a3\soft_f_epc\truck_03\Data\truck_03_ext02_co.paa",
+				"\a3\soft_f_epc\truck_03\Data\truck_03_cargo_co.paa"
+			} }
+		};
     };
 
-    class O_Truck_03_device_F {
-        vItemSpace = 350;
+    class O_Truck_03_device_F {										// Tempest Gerät
+        vItemSpace = 1100;
         storageFee[] = { 95000, 0, 0, 0 };
         garageSell[] = { 185000, 0, 0, 0 };
         insurance = 25000;
-        chopShop = 225000;
-        textures[] = { };
+        chopShop = 1500000;
+        textures[] = { 
+			{"Camo", "civ", {
+				"\a3\soft_f_epc\truck_03\Data\truck_03_ext01_co.paa",
+				"\a3\soft_f_epc\truck_03\Data\truck_03_ext02_co.paa"
+			} }
+		};
     };
 
     class Land_CargoBox_V1_F {
-        vItemSpace = 5000;
+        vItemSpace = 400;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
@@ -305,7 +340,7 @@ class LifeCfgVehicles {
     };
 
     class Box_IND_Grenades_F {
-        vItemSpace = 350;
+        vItemSpace = 250;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
@@ -314,7 +349,7 @@ class LifeCfgVehicles {
     };
 
     class B_supplyCrate_F {
-        vItemSpace = 700;
+        vItemSpace = 500;
         storageFee[] = { 1000, 1000, 1000, 1000 };
         garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
@@ -322,21 +357,21 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
-    class B_G_Offroad_01_F {
-        vItemSpace = 65;
+    class B_G_Offroad_01_F {										// Rebellen Offorader
+        vItemSpace = 100;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
         chopShop = 6250;
         textures[] = { };
     };
-
-    class B_G_Offroad_01_armed_F {
+/*
+    class B_G_Offroad_01_armed_F {									//Rebellen Offorader Bewaffnet
         vItemSpace = 65;
         storageFee[] = { 1500, 0, 0, 0 };
         garageSell[] = { 4000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 100000;
+        chopShop = 10;
         textures[] = { };
     };
 
@@ -348,7 +383,7 @@ class LifeCfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
-
+*/
     class C_Boat_Civil_01_F {
         vItemSpace = 85;
         storageFee[] = { 4500, 2500, 0, 0 };
@@ -366,7 +401,7 @@ class LifeCfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
-
+/*
     class C_Boat_Civil_01_rescue_F {
         vItemSpace = 85;
         storageFee[] = { 1000, 0, 0, 0 };
@@ -375,43 +410,84 @@ class LifeCfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
-
-    class B_Truck_01_box_F {
-        vItemSpace = 450;
+*/
+    class B_Truck_01_box_F {									//Hemmet Box
+        vItemSpace = 750;
         storageFee[] = { 35000, 0, 0, 0 };
         garageSell[] = { 150000, 0, 0, 0 };
         insurance = 2500;
-        chopShop = 175000;
-        textures[] = { };
+        chopShop = 216666;
+        textures[] = {
+			{"Grün", "civ", {
+				"\a3\soft_f_beta\truck_01\Data\truck_01_ext_01_co.paa",
+				"\a3\soft_f_beta\truck_01\Data\truck_01_ext_02_co.paa"
+			} },
+			{"Devil", "civ", {
+				"textures\civ\car\civ_hemtt_devil_ext1.paa",
+				"textures\civ\car\civ_hemtt_devil_ext2.paa"
+			} },
+			{"Hello Kitty", "civ", {
+				"textures\civ\car\civ_hemtt_kitty_ext1.paa",
+				"textures\civ\car\civ_hemtt_kitty_ext2.paa"
+			} }
+		};
     };
 
-    class B_Truck_01_transport_F {
-        vItemSpace = 325;
+    class B_Truck_01_transport_F {								//Hemet Transport
+        vItemSpace = 350;
         storageFee[] = { 25650, 0, 0, 0 };
         garageSell[] = { 135000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 127500;
-        textures[] = { };
+        textures[] = {
+			{"Grün", "civ", {
+				"\a3\soft_f_beta\truck_01\Data\truck_01_ext_01_co.paa",
+				"\a3\soft_f_beta\truck_01\Data\truck_01_ext_02_co.paa"
+			} },
+			{"Devil", "civ", {
+				"textures\civ\car\civ_hemtt_devil_ext1.paa",
+				"textures\civ\car\civ_hemtt_devil_ext2.paa"
+			} },
+			{"Hello Kitty", "civ", {
+				"textures\civ\car\civ_hemtt_kitty_ext1.paa",
+				"textures\civ\car\civ_hemtt_kitty_ext2.paa"
+			} }
+		};
     };
 
-    class O_MRAP_02_F {
-        vItemSpace = 60;
+    class O_MRAP_02_F {											// Ifrit
+        vItemSpace = 75;
         storageFee[] = { 45000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 75000;
-        textures[] = { };
+        textures[] = {
+			{"Camo", "civ", {
+				"textures\civ\car\civ_ifrit_ext1_rot.paa",
+				"textures\civ\car\civ_ifrit_ext2_rot.paa"
+			} }
+		};
     };
 
-    class I_MRAP_03_F {
-        vItemSpace = 58;
+    class I_MRAP_03_F {											//Srtyder
+        vItemSpace = 125;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 3500, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
-        textures[] = { };
+        textures[] = {
+			{"Camo", "civ", {
+				"textures\civ\car\civ_stider_camo.paa"
+			} },
+			{"Polizei", "cop", {
+				"textures\polizei\car\polizei_strider.paa"
+			} },
+			{"Navy Seals", "cop", {
+				"textures\polizei\car\sek_strider.paa"
+			} }
+		};
     };
-
+//Weitermachen --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     class C_Offroad_01_F {
         vItemSpace = 65;
         storageFee[] = { 1000, 500, 650, 1000 };
@@ -687,7 +763,7 @@ class LifeCfgVehicles {
         };
     };
 
-    class B_MRAP_01_F {
+/*    class B_MRAP_01_hmg_F {
         vItemSpace = 65;
         storageFee[] = { 0, 7500, 0, 0 };
         garageSell[] = { 0, 10000, 0, 0 };
@@ -700,7 +776,7 @@ class LifeCfgVehicles {
             } }
         };
     };
-
+*/
     class B_Heli_Light_01_F {
         vItemSpace = 90;
         storageFee[] = { 45000, 19500, 0, 0 };
