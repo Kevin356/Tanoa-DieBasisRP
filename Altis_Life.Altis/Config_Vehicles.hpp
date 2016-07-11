@@ -487,44 +487,62 @@ class LifeCfgVehicles {
 			} }
 		};
     };
-//Weitermachen --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
     class C_Offroad_01_F {
-        vItemSpace = 65;
+        vItemSpace = 100;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
         insurance = 2500;
         chopShop = 6250;
         textures[] = {
-            { "Red", "civ", {
+            { "Rot", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_co.paa"
             } },
-            { "Yellow", "civ", {
+            { "Gelb", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE01_CO.paa"
             } },
-            { "White", "civ", {
+            { "Weiss", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE02_CO.paa"
             } },
-            { "Blue", "civ", {
+            { "Blau", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa"
             } },
-            { "Dark Red", "civ", {
+            { "Dunkel Rot", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa"
             } },
-            { "Blue / White", "civ", {
+            { "Blau Weiss", "civ", {
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa",
                 "\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"
             } },
-            { "Taxi", "civ", {
-                "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
+            { "Dodge", "civ", {
+                "textures\civ\car\civ_offroad_dodge.paa"
             } },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
-            } }
+            { "Dragonball", "civ", {
+                "textures\civ\car\civ_offroad_dragonball.paa"
+            } },
+			{ "Raptor", "civ", {
+				"textures\civ\car\civ_offroader_raptor_beast.paa"
+			} },
+			{ "Moondye7", "civ", {
+				"textures\civ\car\civ_offroad_moondye7.paa"
+			} },
+			{ "Fox Racing", "civ", {
+				"textures\civ\car\civ_offroad_fox.paa"
+			} },
+			{ "Schwarz", "civ", {
+				"textures\civ\car\civ_offroad_schwarz.paa"
+			} },
+			{ "Polizei", "cop", {
+				"textures\polizei\car\polizei_offroad.paa"
+			} },
+			{ "Resque", "med", {
+				"textures\resque\car\ehs_offroad.paa"
+			}}
         };
     };
 
@@ -565,59 +583,71 @@ class LifeCfgVehicles {
     };
 
     class C_Hatchback_01_sport_F {
-        vItemSpace = 45;
+        vItemSpace = 60;
         storageFee[] = { 2500, 1000, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 5500;
         chopShop = 15000;
         textures[] = {
-            { "Red", "civ", {
+            { "Rot", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
             } },
-            { "Dark Blue", "civ", {
+            { "Dunkel Blau", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
             } },
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport03_co.paa"
             } },
-            { "Black / White", "civ", {
+            { "Schwarz Weiss", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport04_co.paa"
             } },
             { "Beige", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
             } },
-            { "Green", "civ", {
+            { "Grün", "civ", {
                 "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
-            { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
-            } }
+			{ "Schwarz", "civ", {
+				"\a3\soft_f_gamma\hatchback_01\Data\Hatchback_01_ext_base09_co.paa"
+			} },
+			{ "Monster", "civ", {
+				"textures\civ\car\civ_hatchback_sport_ken_block.paa"
+			} },
+			{ "Get Right", "civ", {
+				"textures\civ\car\civ_hatchback_get_right.paa"
+			} },
+			{ "Polizei", "cop", {
+                "textures\polizei\car\autobahnpolizei_hatchback.paa"
+            } },
+			{ "Resque", "med", {
+				"textures\resque\car\ehs_hatchback.paa"
+			} }
         };
     };
 
     class B_Quadbike_01_F {
-        vItemSpace = 25;
+        vItemSpace = 40;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 950, 0, 0, 0 };
         insurance = 2500;
         chopShop = 1250;
         textures[] = {
-            { "Brown", "cop", {
+            { "Braun", "civ", {
                 "\A3\Soft_F\Quadbike_01\Data\Quadbike_01_co.paa"
             } },
             { "Digi Desert", "reb", {
                 "\A3\Soft_F\Quadbike_01\Data\quadbike_01_opfor_co.paa"
             } },
-            { "Black", "civ", {
+            { "Schwarz", "civ", {
                 "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_black_co.paa"
             } },
-            { "Blue", "civ", {
+            { "Blau", "civ", {
                 "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_blue_co.paa"
             } },
-            { "Red", "civ", {
+            { "Rot", "civ", {
                 "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_red_co.paa"
             } },
-            { "White", "civ", {
+            { "Weiss", "civ", {
                 "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_white_co.paa"
             } },
             { "Digi Green", "civ", {
@@ -628,7 +658,13 @@ class LifeCfgVehicles {
             } },
             { "Rebel Camo", "reb", {
                 "\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa"
-            } }
+            } },
+			{ "Polizei", "cop", {
+				"textures\polizei\car\polizei_quadbike.paa"
+			} },
+			{ "Resque", "med", {
+				"textures\resque\car\ehs_quadbike.paa"
+			} }			
         };
     };
 
@@ -643,14 +679,15 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Red Bull", "civ", {
+                "textures\civ\car\civ_zamak_redbull_ext1.paa",
+				"textures\civ\car\civ_zamak_redbull_ext2.paa"
             } }
         };
     };
 
     class I_Truck_02_transport_F {
-        vItemSpace = 200;
+        vItemSpace = 225;
         storageFee[] = { 12000, 0, 0, 0 };
         garageSell[] = { 49800, 3500, 0, 0 };
         insurance = 6500;
@@ -660,77 +697,118 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Red Bull", "civ", {
+                "textures\civ\car\civ_zamak_redbull_ext1.paa",
+				"textures\civ\car\civ_zamak_redbull_ext2.paa"
             } }
         };
     };
 
     class O_Truck_03_covered_F {
-        vItemSpace = 300;
+        vItemSpace = 1500;
         storageFee[] = { 25000, 0, 0, 0 };
         garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 125000;
-        textures[] = {};
+        textures[] = {
+			{"Camo", "civ", {
+				"\a3\soft_f_epc\truck_03\Data\truck_03_ext01_co.paa",
+				"\a3\soft_f_epc\truck_03\Data\truck_03_ext02_co.paa",
+				"\a3\soft_f_epc\truck_03\Data\truck_03_cargo_co.paa",
+				"\a3\soft_f_epc\truck_03\Data\truck_03_cover_co.paa"
+			} }
+		};
     };
 
     class C_Hatchback_01_F {
-        vItemSpace = 40;
+        vItemSpace = 60;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 4500, 3500, 0, 0 };
         insurance = 2500;
         chopShop = 4750;
         textures[] = {
+			{ "Rot", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport01_co.paa"
+            } },
+            { "Dunkel Blau", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport02_co.paa"
+            } },
+            { "Orange", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport03_co.paa"
+            } },
+            { "Schwarz Weiss", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport04_co.paa"
+            } },
             { "Beige", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport05_co.paa"
             } },
-            { "Green", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"
+            { "Grün", "civ", {
+                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_sport06_co.paa"
             } },
-            { "Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"
+			{ "Schwarz", "civ", {
+				"\a3\soft_f_gamma\hatchback_01\Data\Hatchback_01_ext_base09_co.paa"
+			} },
+			{ "Monster", "civ", {
+				"textures\civ\car\civ_hatchback_sport_ken_block.paa"
+			} },
+			{ "Get Right", "civ", {
+				"textures\civ\car\civ_hatchback_get_right.paa"
+			} },
+			{ "Polizei", "cop", {
+                "textures\polizei\car\autobahnpolizei_hatchback.paa"
             } },
-            { "Dark Blue", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"
-            } },
-            { "Yellow", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"
-            } },
-            { "White", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"
-            } },
-            { "Grey", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"
-            } },
-            { "Black", "civ", {
-                "\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa"
-            } }
+			{ "Resque", "med", {
+				"textures\resque\car\ehs_hatchback.paa"
+			} }
         };
     };
 
     class C_SUV_01_F {
-        vItemSpace = 50;
+        vItemSpace = 75;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 2500;
         chopShop = 15000;
         textures[] = {
-            { "Dark Red", "civ", {
+            { "Dunkel Rot", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_co.paa"
             } },
-            { "Silver", "civ", {
+            { "Silber", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa"
             } },
             { "Orange", "civ", {
                 "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"
             } },
-            { "Police", "cop", {
-                "\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa"
-            } },
+			{ "Bifi", "civ", {
+				"textures\civ\car\civ_suv_bifi.paa"
+			} },
+			{ "Camo", "civ", {
+				"textures\civ\car\civ_suv_camo.paa"
+			} },
+			{ "Pokemon", "civ", {
+				"textures\civ\car\civ_suv_pokemon.paa"
+			} },
+			{ "Hello Kitty", "civ", {
+				"textures\civ\car\civ_suv_kitty.paa"
+			} },
+			{ "Monster Energy", "civ", {
+				"textures\civ\car\civ_suv_monster.paa"
+			} },
+			{ "Star Wars", "civ", {
+				"textures\civ\car\civ_suv_starwars.paa"
+			} },
+			{ "E-Sports", "civ", {
+				"textures\civ\car\civ_suv_esports.paa"
+			} },
+			{ "Resque", "med", {
+				"textures\resque\car\ehs_suv.paa"
+			} },
+			{ "Polizei", "cop", {
+               "textures\polizei\car\polizei_suv.paa"
+            } }
         };
     };
-
+//Weitermachen --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     class C_Van_01_transport_F {
         vItemSpace = 100;
         storageFee[] = { 1000, 0, 0, 0 };
