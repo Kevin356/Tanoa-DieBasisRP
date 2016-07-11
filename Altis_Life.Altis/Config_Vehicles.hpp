@@ -810,34 +810,40 @@ class LifeCfgVehicles {
     };
 //Weitermachen --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     class C_Van_01_transport_F {
-        vItemSpace = 100;
+        vItemSpace = 150;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 25000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 22500;
         textures[] = {
-            { "White", "civ", {
+            { "Weiss", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
             } },
-            { "Red", "civ", {
+            { "Rot", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
-            } }
+            } },
+			{ "Schwarz", "civ", {
+				"\a3\soft_f_gamma\van_01\Data\van_01_ext_black_co.paa"
+			} }
         };
     };
 
     class C_Van_01_box_F {
-        vItemSpace = 150;
+        vItemSpace = 200;
         storageFee[] = { 1000, 0, 0, 0 };
         garageSell[] = { 35000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 30000;
         textures[] = {
-            { "White", "civ", {
+			{ "Weiss", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"
             } },
-            { "Red", "civ", {
+            { "Rot", "civ", {
                 "\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"
-            } }
+            } },
+			{ "Schwarz", "civ", {
+				"\a3\soft_f_gamma\van_01\Data\van_01_ext_black_co.paa"
+			} }
         };
     };
 
@@ -856,19 +862,19 @@ class LifeCfgVehicles {
     };
 */
     class B_Heli_Light_01_F {
-        vItemSpace = 90;
+        vItemSpace = 100;
         storageFee[] = { 45000, 19500, 0, 0 };
         garageSell[] = { 57000, 35000, 0, 0 };
         insurance = 2500;
         chopShop = 125000;
         textures[] = {
-            { "Police", "cop", {
+            { "ION", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa"
             } },
             { "Sheriff", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa"
             } },
-            { "Civ Blue", "civ", {
+            { "Blau", "civ", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa"
             } },
             { "Civ Red", "civ", {
@@ -904,39 +910,51 @@ class LifeCfgVehicles {
             { "Digi Green", "reb", {
                 "\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+			{ "Redbull", "civ", {
+				"textures\civ\air\civ_hummingbird_redbull.paa"
+			} },
+			{ "Asimov", "civ", {
+				"textures\civ\air\civ_hummingbird_asimov.paa"
+			} },
+			{ "Hyperbeast", "civ", {
+				"textures\civ\air\civ_hummingbird_hyperbeast.paa"
+			} },
+			{ "Polizei", "cop", {
+				"textures\polizei\air\polizei_hummingbird.paa"
+			} },
+            { "Resque", "med", {
+                "textures\resque\air\ehs_hummingbird.paa"
             } }
         };
     };
 
     class O_Heli_Light_02_unarmed_F {
-        vItemSpace = 210;
+        vItemSpace = 350;
         storageFee[] = { 55000, 0, 22000, 0 };
         garageSell[] = { 72500, 0, 35000, 0 };
         insurance = 2500;
         chopShop = 375000;
         textures[] = {
-            { "Black", "cop", {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"
+            { "Polizei", "cop", {
+                "textures\polizei\air\polizei_orca.paa"
             } },
-            { "White / Blue", "civ", {
+            { "Blau Weiss", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"
             } },
-            { "Digi Green", "civ", {
+            { "Digi Grün", "civ", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa"
             } },
             { "Desert Digi", "reb", {
                 "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa"
             } },
-            { "EMS White", "med", {
-                "#(argb,8,8,3)color(1,1,1,0.8)"
+            { "Resque", "med", {
+                "textures\resque\air\ehs_orca.paa"
             } }
         };
     };
 
     class I_Heli_Transport_02_F {
-        vItemSpace = 375;
+        vItemSpace = 1000;
         storageFee[] = { 75000, 0, 0, 0 };
         garageSell[] = { 125000, 0, 0, 0 };
         insurance = 2500;
