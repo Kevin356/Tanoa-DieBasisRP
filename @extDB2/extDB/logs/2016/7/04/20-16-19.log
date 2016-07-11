@@ -1,0 +1,25 @@
+extDB2: Version: 70
+extDB2: https://github.com/Torndeco/extDB2
+extDB2: Windows Version
+Message: All development for extDB2 is done on a Linux Dedicated Server
+Message: If you would like to Donate to extDB2 Development
+Message: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SUEFTGABTAM2
+Message: Also leave a message if there is any particular feature you would like to see added.
+Message: Thanks for all the people that have donated.
+Message: Torndeco: 20/02/15
+
+
+extDB2: Found extdb-conf.ini
+extDB2: Detected 32 Cores, Setting up 6 Worker Threads
+
+
+[22:16:19:289750 +02:00] [Thread 19352] extDB2: Database Type: MySQL
+[22:16:19:331658 +02:00] [Thread 19352] extDB2: Database Session Pool Started
+[22:16:19:339540 +02:00] [Thread 19352] extDB2: SQL_RAW_V2: Initialized: ADD_QUOTES True
+[22:17:17:028868 +02:00] [Thread 27972] extDB2: SQL_RAW_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DYNMARKET_Price_Get' at line 1	[mysql_stmt_errno]: 1064	[mysql_stmt_sqlstate]: 42000	[statemnt]: DYNMARKET_Price_Get
+[22:17:17:029321 +02:00] [Thread 27972] extDB2: SQL_RAW_V2: Error StatementException: SQL: DYNMARKET_Price_Get
+[22:19:17:207805 +02:00] [Thread 9500] extDB2: SQL_RAW_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DYNMARKET_Price_Get' at line 1	[mysql_stmt_errno]: 1064	[mysql_stmt_sqlstate]: 42000	[statemnt]: DYNMARKET_Price_Get
+[22:19:17:208217 +02:00] [Thread 9500] extDB2: SQL_RAW_V2: Error StatementException: SQL: DYNMARKET_Price_Get
+[22:33:44:284227 +02:00] [Thread 16920] extDB2: SQL_RAW_V2: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_prepare error	[mysql_stmt_error]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DYNMARKET_Price_Get' at line 1	[mysql_stmt_errno]: 1064	[mysql_stmt_sqlstate]: 42000	[statemnt]: DYNMARKET_Price_Get
+[22:33:44:284624 +02:00] [Thread 16920] extDB2: SQL_RAW_V2: Error StatementException: SQL: DYNMARKET_Price_Get
+[05:21:01:394385 +02:00] [Thread 19352] extDB2: Stopping ...
