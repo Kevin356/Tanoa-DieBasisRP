@@ -492,7 +492,6 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
-		assurPrice[] = { 1000, 1000, 1000, 1000};
         insurance = 2500;
         chopShop = 6250;
         textures[] = {

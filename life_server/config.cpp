@@ -100,7 +100,6 @@ class CfgFunctions {
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
-			class insureCar {};
 		};
 
 		class Housing {
