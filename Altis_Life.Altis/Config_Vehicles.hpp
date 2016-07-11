@@ -245,7 +245,7 @@ class LifeCfgVehicles {
 				"textures\polizei\car\sek_hunter_base.paa",
 				"textures\polizei\car\sek_hunter_adds.paa"
 			}},
-			{ "Resque", "med" {
+			{ "Resque", "med", {
 				"textures\resque\car\ehs_hunter_base.paa",
 				"textures\resque\car\ehs_hunter_adds.paa"
 			} },
