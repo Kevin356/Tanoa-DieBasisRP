@@ -267,9 +267,9 @@ class Clothing {
             { "U_O_SpecopsUniform_ocamo", "", 3500, { "", "", -1 } },
             { "U_O_PilotCoveralls", "", 3500, { "", "", -1 } },
             { "U_IG_leader", "Guerilla Leader", 3500, { "", "", -1 } },
-            { "U_O_GhillieSuit", "", 15000, { "", "", -1 } }
-		    { "U_B_GhillieSuit", "", 15000, { "", "", -1 } }
-			{ "U_I_GhillieSuit", "", 15000, { "", "", -1 } }
+            { "U_O_GhillieSuit", "", 15000, { "", "", -1 } },
+		    { "U_B_GhillieSuit", "", 15000, { "", "", -1 } },
+			{ "U_I_GhillieSuit", "", 15000, { "", "", -1 } },
 			{ "U_B_CTRG_1", "", 3500, { "", "", -1 } }
         };
         headgear[] = {
@@ -279,12 +279,12 @@ class Clothing {
             { "H_ShemagOpen_khk", "", 1000, { "", "", -1 } },
             { "H_HelmetO_ocamo", "", 1000, { "", "", -1 } },
             { "H_MilCap_oucamo", "", 1000, { "", "", -1 } },
-            { "H_Bandanna_camo", "", 1000, { "", "", -1 } }
-			{ "H_Watchcap_blk", "", 1000, { "", "", -1 } }
-			{ "H_HelmetB", "", 15000, { "", "", -1 } }
-			{ "H_HelmetB_plain_mcamo", "", 15000, { "", "", -1 } }
-			{ "H_HelmetIA", "", 15000, { "", "", -1 } }
-			{ "C_Kart_01_Blu_F", "", 25000, { "", "", -1 } }
+            { "H_Bandanna_camo", "", 1000, { "", "", -1 } },
+			{ "H_Watchcap_blk", "", 1000, { "", "", -1 } },
+			{ "H_HelmetB", "", 15000, { "", "", -1 } },
+			{ "H_HelmetB_plain_mcamo", "", 15000, { "", "", -1 } },
+			{ "H_HelmetIA", "", 15000, { "", "", -1 } },
+			{ "C_Kart_01_Blu_F", "", 25000, { "", "", -1 } },
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
@@ -315,15 +315,15 @@ class Clothing {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_TacVest_khk", "", 17500, { "", "", -1 } },
             { "V_BandollierB_cbr", "", 15000, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 10000, { "", "", -1 } }
-			{ "V_PlateCarrier_Kerry", "", 17500, { "", "", -1 } }
-			{ "V_TacVest_brn", "", 20000, { "", "", -1 } }
-			{ "V_Chestrig_khk", "", 22500, { "", "", -1 } }
-			{ "V_PlateCarrierH_CTRG", "", 30000, { "", "", -1 } }
-			{ "V_PlateCarrierIA2_dgtl", "", 45000, { "", "", -1 } }
-			{ "V_PlateCarrierIAGL_oli", "", 60000, { "", "", -1 } }
-			{ "V_PlateCarrierSpec_mtp", "", 80000, { "", "", -1 } }
-			{ "V_PlateCarrierGL_mtp", "", 100000, { "", "", -1 } }
+            { "V_HarnessO_brn", "", 10000, { "", "", -1 } },
+			{ "V_PlateCarrier_Kerry", "", 17500, { "", "", -1 } },
+			{ "V_TacVest_brn", "", 20000, { "", "", -1 } },
+			{ "V_Chestrig_khk", "", 22500, { "", "", -1 } },
+			{ "V_PlateCarrierH_CTRG", "", 30000, { "", "", -1 } },
+			{ "V_PlateCarrierIA2_dgtl", "", 45000, { "", "", -1 } },
+			{ "V_PlateCarrierIAGL_oli", "", 60000, { "", "", -1 } },
+			{ "V_PlateCarrierSpec_mtp", "", 80000, { "", "", -1 } },
+			{ "V_PlateCarrierGL_mtp", "", 100000, { "", "", -1 } },
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
