@@ -21,6 +21,7 @@ class CarShops {
             { "B_Quadbike_01_F", 3333, { "" }, { "", "", -1 } },
             { "C_Hatchback_01_F", 33333, { "driver" }, { "", "", -1 } },
             { "C_Offroad_01_F", 19666, { "driver" }, { "", "", -1 } },
+			{ "C_Offroad_02_unarmed_F ", 40000, { "driver" }, { "", "", -1 } },
             { "C_SUV_01_F", 40000, { "driver" }, { "", "", -1 } },
             { "C_Hatchback_01_sport_F", 266666, { "driver" }, { "", "", -1 } },
             { "C_Van_01_transport_F", 60000, { "driver" }, { "", "", -1 } },
