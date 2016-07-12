@@ -299,7 +299,7 @@ class VirtualItems {
 
     class lehm_unrefined {
         variable = "lehmUnrefined";
-        displayName = "STR_Item_lehmOre";
+        displayName = "STR_Item_lehm";
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
@@ -310,7 +310,7 @@ class VirtualItems {
 
     class lehm_refined {
         variable = "lehmRefined";
-        displayName = "STR_Item_lehmIngot";
+        displayName = "STR_Item_Lehmgef";
         weight = 3;
         buyPrice = -1;
         sellPrice = 1500;
