@@ -8,7 +8,7 @@
 */
 if(isNil "life_action_gathering") then {life_action_gathering = false;};
 private["_gather","_itemWeight","_diff","_itemName","_resourceZones","_zone"];
-_resourceZones = ["orange_1","orange_2","orange_3","orange_4","banane_1","banane_2","banane_3","banane_4","ayahuasca_1","cocaine_1","zuckerrohr_1"];
+_resourceZones = ["orange_1","orange_2","orange_3","orange_4","banane_1","banane_2","banane_3","banane_4","ayahuasca_1","cocaine_1","zuckerrohr_1","kokos_1"];
 _zone = "";
 
 if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
