@@ -273,17 +273,6 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_storageBig.paa";
     };
-	
-	class schwimmkörper {
-        variable = "schwimmkörper";
-        displayName = "STR_Item_schwimmkörper";
-        weight = 6;
-        buyPrice = -1;
-        sellPrice = 505;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_schwimmkörper.paa";
-    };
 
     //Mined Items<
     class oil_unprocessed {
@@ -438,6 +427,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "";
+    };
+	
+	class schwimmkörper {
+        variable = "schwimmkörper";
+        displayName = "STR_Item_schwimmkörper";
+        weight = 6;
+        buyPrice = -1;
+        sellPrice = 505;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_schwimmkörper.paa";
     };
 
     //Drugs
