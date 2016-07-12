@@ -3534,6 +3534,14 @@
       <Portuguese>Petróleo não Refinado</Portuguese>
       <Polish>Ropa naftowa</Polish>
     </Key>
+	<Key ID="STR_Item_schwimmkörper">
+      <Original>Unprocessed Oil</Original>
+      <German>Schwimmkörper</German>
+      <French>Pétrole non raffiné</French>
+      <Italian>Olio non processato</Italian>
+      <Portuguese>Petróleo não Refinado</Portuguese>
+      <Polish>Ropa naftowa</Polish>
+	</Key>
     <Key ID="STR_Item_OilP">
       <Original>Processed Oil</Original>
       <German>Verarbeitetes Öl</German>
