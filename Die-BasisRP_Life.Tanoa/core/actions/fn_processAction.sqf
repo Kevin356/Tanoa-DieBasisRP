@@ -15,15 +15,15 @@ if(isNull _vendor OR EQUAL(_type,"") OR (player distance _vendor > 10)) exitWith
 //unprocessed item,processed item, cost if no license,Text to display (I.e Processing  (percent) ..."
 _itemInfo = switch (_type) do {
 	case "oil": {["oil_unprocessed","oil_processed",1200,(localize "STR_Process_Oil")];};
-	case "kokos": {["Kokosnuss","Kokosnussraspeln",1350,(localize "STR_Process_Kokus")];};
-	case "heroin": {["heroin_unprocessed","heroin_processed",1750,(localize "STR_Process_Heroin")];};
-	case "copper": {["copper_unrefined","copper_refined",750,(localize "STR_Process_Copper")];};
+	case "kokos": {["kokosnuss","kokosnussraspeln",1350,(localize "STR_Process_Kokus")];};
+	case "ayahuasca": {["ayahuasca_unprocessed","ayahuasca_processed",2000,(localize "STR_Process_Ayahuasca")];};
+	case "lehm": {["lehm_unrefined","lehm_refined",500,(localize "STR_Process_lehm")];};
 	case "iron": {["iron_unrefined","iron_refined",1120,(localize "STR_Process_Iron")];};
 	case "sand": {["sand","glass",650,(localize "STR_Process_Sand")];};
 	case "salt": {["salt_unrefined","salt_refined",450,(localize "STR_Process_Salt")];};
 	case "cocaine": {["cocaine_unprocessed","cocaine_processed",1500,(localize "STR_Process_Cocaine")];};
-	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
-	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
+	case "rum": {["zuckerrohr","rum",1500,(localize "STR_Process_Rum")];};
+	case "bims": {["vulkangestein","bims",1000,(localize "STR_Process_Bims")];};
 	default {[];};
 };
 

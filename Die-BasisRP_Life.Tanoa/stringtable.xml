@@ -2355,12 +2355,12 @@
       <Polish>Długo nic nie piłeś, napij się czegoś bo możesz zginąć z pragnienia.</Polish>
     </Key>
     <Key ID="STR_NOTF_DrinkMSG_3">
-      <Original>You are now suffering from severe dehydration find something to drink quickly!</Original>
+      <Original>Du bist am Verdursten. Du wirst sterben, wenn du nichts zum Trinken findest</Original>
       <German>Du bist am Verdursten. Du wirst sterben, wenn du nichts zum Trinken findest</German>
-      <French>Vous êtes en train de mourir de soif, vous allez mourir très bientôt si vous ne buvez pas quelque chose</French>
-      <Italian>Stai soffrendo per una grave deidratazione, trova velocemente qualcosa da bere o morirai!</Italian>
-      <Portuguese>Você está sofrendo de desidratação. Beba algo ou irá morrer!</Portuguese>
-      <Polish>Zaczynasz słabnąć z pragnienia, wypij coś inaczej zginiesz!!!</Polish>
+      <French>Du bist am Verdursten. Du wirst sterben, wenn du nichts zum Trinken findest</French>
+      <Italian>Du bist am Verdursten. Du wirst sterben, wenn du nichts zum Trinken findest</Italian>
+      <Portuguese>Du bist am Verdursten. Du wirst sterben, wenn du nichts zum Trinken findest</Portuguese>
+      <Polish>Du bist am Verdursten. Du wirst sterben, wenn du nichts zum Trinken findest</Polish>
     </Key>
     <Key ID="STR_NOTF_DrinkMSG_Death">
       <Original>You have died from dehydration.</Original>
@@ -2916,20 +2916,20 @@
       <Polish>Brak licencji&lt;br/&gt;</Polish>
     </Key>
     <Key ID="STR_Cop_DealerQuestion">
-      <Original>No one has sold to this dealer recently.</Original>
+      <Original>Niemand hat hier kürzlich etwas verkauft.</Original>
       <German>Niemand hat hier kürzlich etwas verkauft.</German>
-      <French>Personne n'est venu vendre à ce dealer récement</French>
-      <Italian>Non è stato visto nessuno vendere a questo spacciatore di recente.</Italian>
-      <Portuguese>Ninguém vendeu para esse negociante recentemente</Portuguese>
-      <Polish>Nikt nie sprzedawał ostatnio u dilera.</Polish>
+      <French>Niemand hat hier kürzlich etwas verkauft.</French>
+      <Italian>Niemand hat hier kürzlich etwas verkauft.</Italian>
+      <Portuguese>Niemand hat hier kürzlich etwas verkauft.</Portuguese>
+      <Polish>Niemand hat hier kürzlich etwas verkauft.</Polish>
     </Key>
     <Key ID="STR_Cop_DealerMSG">
-      <Original>The following people have been selling to this dealer recently.</Original>
+      <Original>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</Original>
       <German>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</German>
-      <French>Les personnes suivantes sont venues vendre à ce dealer récement.</French>
-      <Italian>Le seguenti persone sono state viste vendere a questo spacciatore.</Italian>
-      <Portuguese>Os seguintes jogadores venderam para esse negociante recentemente.</Portuguese>
-      <Polish>Ostatnio u dilera sprzedawali następujący ludzie.</Polish>
+      <French>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</French>
+      <Italian>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</Italian>
+      <Portuguese>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</Portuguese>
+      <Polish>Die folgenden Leute haben kürzlich an diesen Dealer verkauft.</Polish>
     </Key>
     <Key ID="STR_Cop_Radar">
       <Original>Radar</Original>
@@ -3814,13 +3814,13 @@
       <Portuguese>Picareta</Portuguese>
       <Polish>Kilof</Polish>
     </Key>
-    <Key ID="STR_Item_CopperOre">
-      <Original>Copper Ore</Original>
-      <German>Kupfererz</German>
-      <French>Minerai de Cuivre</French>
-      <Italian>Minerale di Rame</Italian>
-      <Portuguese>Pepita de Cobre</Portuguese>
-      <Polish>Ruda miedzi</Polish>
+    <Key ID="STR_Item_lehm">
+      <Original>Lehm</Original>
+      <German>Lehm</German>
+      <French>Lehm</French>
+      <Italian>Lehm</Italian>
+      <Portuguese>Lehm</Portuguese>
+      <Polish>Lehm</Polish>
     </Key>
     <Key ID="STR_Item_IronOre">
       <Original>Iron Ore</Original>
@@ -3838,13 +3838,13 @@
       <Portuguese>Barra de Ferro</Portuguese>
       <Polish>Sztabka żelaza</Polish>
     </Key>
-    <Key ID="STR_Item_CopperIngot">
-      <Original>Copper Ingot</Original>
-      <German>Kupferbarren</German>
-      <French>Lingot de cuivre</French>
-      <Italian>Lingotto di Rame</Italian>
-      <Portuguese>Barra de Cobre</Portuguese>
-      <Polish>Sztabka miedzi</Polish>
+    <Key ID="STR_Item_Lehmgef">
+      <Original>Tongefäß</Original>
+      <German>Tongefäß</German>
+      <French>Tongefäß</French>
+      <Italian>Tongefäß</Italian>
+      <Portuguese>Tongefäß</Portuguese>
+      <Polish>Tongefäß</Polish>
     </Key>
     <Key ID="STR_Item_Sand">
       <Original>Sand</Original>
@@ -3918,21 +3918,21 @@
       <Portuguese>Chave Mestra</Portuguese>
       <Polish>Wytrych</Polish>
     </Key>
-    <Key ID="STR_Item_Rock">
-      <Original>Rock</Original>
-      <German>Stein</German>
-      <French>Pierre</French>
-      <Italian>Roccia</Italian>
-      <Portuguese>Pedra</Portuguese>
-      <Polish>Skała</Polish>
+    <Key ID="STR_Item_vulkangestein">
+      <Original>Vulkangestein</Original>
+      <German>Vulkangestein</German>
+      <French>Vulkangestein</French>
+      <Italian>Vulkangestein</Italian>
+      <Portuguese>Vulkangestein</Portuguese>
+      <Polish>Vulkangestein</Polish>
     </Key>
-    <Key ID="STR_Item_CementBag">
-      <Original>Cement Bag</Original>
-      <German>Zement Sack</German>
-      <French>Sac de ciment</French>
-      <Italian>Sacco di Cemento</Italian>
-      <Portuguese>Saco de Cimento</Portuguese>
-      <Polish>Worek cementu</Polish>
+    <Key ID="STR_Item_Bims">
+      <Original>Bims</Original>
+      <German>Bims</German>
+      <French>Bims</French>
+      <Italian>Bims</Italian>
+      <Portuguese>Bims</Portuguese>
+      <Polish>Bims</Polish>
     </Key>
     <Key ID="STR_Item_GoldBar">
       <Original>Gold Bar</Original>
@@ -4026,7 +4026,7 @@
     </Key>
     <Key ID="STR_License_Ayahuasca">
       <Original>Ayahuasca Training</Original>
-      <German>Ayahuascaausbildung</German>
+      <German>Ayahuasca ausbildung</German>
       <French>Transformation du Pavot</French>
       <Italian>Processo Eroina</Italian>
       <Portuguese>Treinamento de Ayahuascaa</Portuguese>
@@ -4104,13 +4104,13 @@
       <Portuguese>Lapidação de Diamante</Portuguese>
       <Polish>Szlifierz diamentów</Polish>
     </Key>
-    <Key ID="STR_License_Copper">
-      <Original>Copper Processing</Original>
-      <German>Kupferverarbeitung</German>
-      <French>Fonte du Cuivre</French>
-      <Italian>Processo Rame</Italian>
-      <Portuguese>Processamento de Cobre</Portuguese>
-      <Polish>Wytapianie miedzi</Polish>
+    <Key ID="STR_License_lehm">
+      <Original>Töpfer/in</Original>
+      <German>Töpfer/in</German>
+      <French>Töpfer/in</French>
+      <Italian>Töpfer/in</Italian>
+      <Portuguese>Töpfer/in</Portuguese>
+      <Polish>Töpfer/in</Polish>
     </Key>
     <Key ID="STR_License_Iron">
       <Original>Iron Processing</Original>
@@ -4152,13 +4152,13 @@
       <Portuguese>Treinamento de Maconha</Portuguese>
       <Polish>Suszenie konopi</Polish>
     </Key>
-    <Key ID="STR_License_Cement">
-      <Original>Cement Mixing License</Original>
-      <German>Zementmisch-Lizenz</German>
-      <French>Fabrication du Ciment</French>
-      <Italian>Processo Cemento</Italian>
-      <Portuguese>Licença de Cimento</Portuguese>
-      <Polish>Wytwórca cementu</Polish>
+    <Key ID="STR_License_Bims">
+      <Original>Bims Hersteller</Original>
+      <German>Bims Hersteller</German>
+      <French>Bims Hersteller</French>
+      <Italian>Bims Hersteller</Italian>
+      <Portuguese>Bims Hersteller</Portuguese>
+      <Polish>Bims Hersteller</Polish>
     </Key>
     <Key ID="STR_License_Home">
       <Original>Home Owners License</Original>
@@ -4500,13 +4500,13 @@
       <Portuguese>Processando Heroína</Portuguese>
       <Polish>Oczyszczanie Ayahuascay</Polish>
     </Key>
-    <Key ID="STR_Process_Copper">
-      <Original>Processing Copper</Original>
-      <German>Kupfer wird verarbeitet</German>
-      <French>Fonte de Cuivre</French>
-      <Italian>Processando Rame</Italian>
-      <Portuguese>Processando Cobre</Portuguese>
-      <Polish>Wytop miedzi</Polish>
+    <Key ID="STR_Process_lehm">
+      <Original>Tongefäß wird hergestellt</Original>
+      <German>Tongefäß wird hergestellt</German>
+      <French>Tongefäß wird hergestellt</French>
+      <Italian>Tongefäß wird hergestellt</Italian>
+      <Portuguese>Tongefäß wird hergestellt</Portuguese>
+      <Polish>Tongefäß wird hergestellt</Polish>
     </Key>
     <Key ID="STR_Process_Iron">
       <Original>Processing Iron</Original>
@@ -4548,13 +4548,13 @@
       <Portuguese>Processando Maconha</Portuguese>
       <Polish>Suszenie marihuany</Polish>
     </Key>
-    <Key ID="STR_Process_Cement">
-      <Original>Mixing Cement</Original>
-      <German>Zement wird gemischt</German>
-      <French>Mélange de ciment</French>
-      <Italian>Processando Cemento</Italian>
-      <Portuguese>Misturando Cimento</Portuguese>
-      <Polish>Mielenie cementu</Polish>
+    <Key ID="STR_Process_Bims">
+      <Original>Dein Vulkangestein wird zu Bims verarbeitet</Original>
+      <German>Dein Vulkangestein wird zu Bims verarbeitet</German>
+      <French>Dein Vulkangestein wird zu Bims verarbeitet</French>
+      <Italian>Dein Vulkangestein wird zu Bims verarbeitet</Italian>
+      <Portuguese>Dein Vulkangestein wird zu Bims verarbeitet</Portuguese>
+      <Polish>Dein Vulkangestein wird zu Bims verarbeitet</Polish>
     </Key>
     <Key ID="STR_Process_Stay">
       <Original>You need to stay within 10m to process.</Original>
@@ -5806,11 +5806,11 @@
       <Portuguese>Processador de Cocaína</Portuguese>
       <Polish>Oczyszczanie kokainy</Polish>
     </Key>
-    <Key ID="STR_MAR_Copper_Mine">
-      <Original>Copper Mine</Original>
-      <German>Kupfermine</German>
-      <Portuguese>Mina de Cobre</Portuguese>
-      <Polish>Kopalnia miedzi</Polish>
+    <Key ID="STR_MAR_Lehm_Mine">
+      <Original>lehmgrube</Original>
+      <German>lehmgrube</German>
+      <Portuguese>lehmgrube</Portuguese>
+      <Polish>lehmgrube</Polish>
     </Key>
     <Key ID="STR_MAR_ATM">
       <Original>ATM</Original>
@@ -5967,11 +5967,11 @@
       <Portuguese>Spawn de Barcos</Portuguese>
       <Polish>Przystań</Polish>
     </Key>
-    <Key ID="STR_MAR_Copper_Processing">
-      <Original>Copper Processing</Original>
-      <German>Kupferschmelze</German>
-      <Portuguese>Processador de Cobre</Portuguese>
-      <Polish>Huta miedzi</Polish>
+    <Key ID="STR_MAR_Ton_Processing">
+      <Original>Lehm Fabrik</Original>
+      <German>Lehm Fabrik</German>
+      <Portuguese>Lehm Fabrik</Portuguese>
+      <Polish>Lehm Fabrik</Polish>
     </Key>
     <Key ID="STR_MAR_Cocaine_Field">
       <Original>Cocaine Field</Original>
@@ -6003,11 +6003,11 @@
       <Portuguese>Comprador de Vidro</Portuguese>
       <Polish>Skup szkła</Polish>
     </Key>
-    <Key ID="STR_MAR_Iron_Copper_Trader">
-      <Original>Iron / Copper Trader</Original>
-      <German>Händler für Eisen / Kupfer</German>
-      <Portuguese>Comprador de Ferro e Cobre</Portuguese>
-      <Polish>Skup metali</Polish>
+    <Key ID="STR_MAR_Iron_Trader">
+      <Original>Iron Trader</Original>
+      <German>Eisen Händler</German>
+      <Portuguese>Eisen Händler</Portuguese>
+      <Polish>Eisen Händler</Polish>
     </Key>
     <Key ID="STR_MAR_Sand_Processing">
       <Original>Sand Processing</Original>
@@ -6040,28 +6040,28 @@
       <Polish>Garaż</Polish>
     </Key>
     <Key ID="STR_MAR_Federal_Reserve">
-      <Original>Federal Reserve</Original>
-      <German>Federal Reserve Bank</German>
-      <Portuguese>Reserva Federal</Portuguese>
-      <Polish>Bank Rezerw Federalnych</Polish>
+      <Original>Staatsbank</Original>
+      <German>Staatsbank</German>
+      <Portuguese>Staatsbank</Portuguese>
+      <Polish>Staatsbank</Polish>
     </Key>
     <Key ID="STR_MAR_Highway_Patrol">
-      <Original>Highway Patrol Outpost</Original>
-      <German>Mautstation</German>
-      <Portuguese>Base da Polícia Rodoviária</Portuguese>
-      <Polish>Posterunek policji drogowej</Polish>
+      <Original>Autobahn Polizei</Original>
+      <German>Autobahn Polizei</German>
+      <Portuguese>Autobahn Polizei</Portuguese>
+      <Polish>Autobahn Polizei</Polish>
     </Key>
     <Key ID="STR_MAR_Rock_Quarry">
-      <Original>Rock Quarry</Original>
-      <German>Steinbruch</German>
-      <Portuguese>Pedreira</Portuguese>
-      <Polish>Kamieniołom</Polish>
+      <Original>Vulkangestein Gewinnung</Original>
+      <German>Vulkangestein Gewinnung</German>
+      <Portuguese>Vulkangestein Gewinnung</Portuguese>
+      <Polish>Vulkangestein Gewinnung</Polish>
     </Key>
     <Key ID="STR_MAR_Rock_Processing">
-      <Original>Rock Processing</Original>
-      <German>Stein Verarbeitung</German>
-      <Portuguese>Processador de Pedra</Portuguese>
-      <Polish>Wytwórnia cementu z kamienia</Polish>
+      <Original>Gestein Verarbeitung</Original>
+      <German>Gestein Verarbeitung</German>
+      <Portuguese>Gestein Verarbeitung</Portuguese>
+      <Polish>Gestein Verarbeitung</Polish>
     </Key>
     <Key ID="STR_MAR_Cement_Trader">
       <Original>Cement Trader</Original>
@@ -6269,10 +6269,10 @@
       <Polish>Przetop piasek na szkło</Polish>
     </Key>
     <Key ID="STR_MAR_Process_Rock">
-      <Original>Process Rock</Original>
-      <German>Verarbeite Stein</German>
-      <Portuguese>Processar Pedra</Portuguese>
-      <Polish>Zmiel skały na cement</Polish>
+      <Original>Verarbeite Vulkangestein</Original>
+      <German>Verarbeite Vulkangestein</German>
+      <Portuguese>Verarbeite Vulkangestein</Portuguese>
+      <Polish>Verarbeite Vulkangestein</Polish>
     </Key>
     <Key ID="STR_MAR_Wong_Food_Cart">
       <Original>Wongs Food Cart</Original>
@@ -6596,7 +6596,7 @@
 			<Original>Zerstören</Original>
 			<German>Zerstören</German>
 		</Key>
-		<Key ID="STR_Ttem_Kokosnuss">
+		<Key ID="STR_Item_Kokosnuss">
 			<Original>Kokosnuss</Original>
 			<German>Kokosnuss</German>
 		</Key>
@@ -6615,10 +6615,31 @@
 		<Key ID="STR_License_Kokos">
 			<Original>Kososnusslizenz</Original>
 			<German>Kokosnusslizenz</German>
-		</Key>		
-		
-		
-
-		 
+		</Key>
+		<Key ID="STR_MAR_kokuspro">
+			<Original>Kokosnuss Verarbeiter</Original>
+			<German>Kokosnuss Verarbeiter</German>
+		</Key>
+		<Key ID="STR_MAR_Rum">
+			<Original>Brennerei</Original>
+			<German>Brennerei</German>
+		</Key>
+		<Key ID="STR_Item_Rum">
+			<Original>Rum</Original>
+			<German>Rum</German>
+		</Key>
+		<Key ID="STR_Process_Rum">
+			<Original>Rum wird Gebrannt</Original>
+			<German>Rum wird Gebrannt</German>
+		</Key>
+		<Key ID="STR_License_Rum">
+			<Original>Rumbrenner</Original>
+			<German>Rumbrenner</German>
+		</Key>
+		<Key ID="STR_Mar_Ayahuascap">
+			<Original>Ayahuasca Presse</Original>
+			<German>Ayahuasca Presse</German>
+		</Key>
+			 
 </Package>
 </Project>

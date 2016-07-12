@@ -24,9 +24,9 @@ if(EQUAL(_zone,"")) exitWith {life_action_inUse = false;};
 switch(true) do {
 	case (_zone in ["orange_1","orange_2","orange_3","orange_4"]): {_gather = ["orange",3];};
 	case (_zone in ["banane_1","banane_2","banane_3","banane_4"]): {_gather = ["banane",3];};
-	case (_zone in ["ayahuasca_1"]): {_gather = ["ayahuasca_unprocessed",1];};
+	case (_zone in ["ayahuasca_1"]): {_gather = ["ayahuasca_unprocessed",2];};
 	case (_zone in ["cocaine_1"]): {_gather = ["cocaine_unprocessed",1];};
-	case (_zone in ["weed_1"]): {_gather = ["cannabis",1];};
+	case (_zone in ["zuckerrohr_1"]): {_gather = ["zuckerrohr",2];};
 	case (_zone in ["kokos_1"]) : {_gather = ["kokosnuss",2];};
 	default {""};
 };

@@ -93,7 +93,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "iron_refined", "copper_refined" };
+        items[] = { "iron_refined", "lehm_refined" };
     };
 
     class diamond {
@@ -297,9 +297,9 @@ class VirtualItems {
         icon = "icons\ico_oilProcessed.paa";
     };
 
-    class copper_unrefined {
-        variable = "copperUnrefined";
-        displayName = "STR_Item_CopperOre";
+    class lehm_unrefined {
+        variable = "lehmUnrefined";
+        displayName = "STR_Item_lehmOre";
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
@@ -308,9 +308,9 @@ class VirtualItems {
         icon = "";
     };
 
-    class copper_refined {
-        variable = "copperRefined";
-        displayName = "STR_Item_CopperIngot";
+    class lehm_refined {
+        variable = "lehmRefined";
+        displayName = "STR_Item_lehmIngot";
         weight = 3;
         buyPrice = -1;
         sellPrice = 1500;
@@ -407,9 +407,9 @@ class VirtualItems {
         icon = "icons\ico_diamondCut.paa";
     };
 
-    class rock {
-        variable = "rock";
-        displayName = "STR_Item_Rock";
+    class vulkangestein {
+        variable = "vulkangestein";
+        displayName = "STR_Item_Vulkangestein";
         weight = 6;
         buyPrice = -1;
         sellPrice = -1;
@@ -418,9 +418,9 @@ class VirtualItems {
         icon = "";
     };
 
-    class cement {
-        variable = "cement";
-        displayName = "STR_Item_CementBag";
+    class bims {
+        variable = "bims";
+        displayName = "STR_Item_Bims";
         weight = 5;
         buyPrice = -1;
         sellPrice = 1950;
@@ -459,21 +459,21 @@ class VirtualItems {
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
-        illegal = true;
+        illegal = false;
         edible = -1;
-        icon = "icons\ico_cannabis.paa";
-        processedItem = "marijuana";
+        icon = "icons\ico_zuckerrohr.paa";
+        processedItem = "rum";
     };
 
-    class marijuana {
-        variable = "marijuana";
-        displayName = "STR_Item_Marijuana";
-        weight = 3;
-        buyPrice = 2800;
-        sellPrice = 2350;
-        illegal = true;
+    class rum {
+        variable = "rum";
+        displayName = "STR_Item_Rum";
+        weight = 6;
+        buyPrice = -1;
+        sellPrice = 300;
+        illegal = false;
         edible = -1;
-        icon = "icons\ico_marijuana.paa";
+        icon = "icons\ico_rum.paa";
     };
 
     class cocaine_unprocessed {
