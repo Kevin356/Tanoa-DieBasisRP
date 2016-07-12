@@ -24,6 +24,8 @@ _itemInfo = switch (_type) do {
 	case "cocaine": {["cocaine_unprocessed","cocaine_processed",1500,(localize "STR_Process_Cocaine")];};
 	case "rum": {["zuckerrohr","rum",1500,(localize "STR_Process_Rum")];};
 	case "bims": {["vulkangestein","bims",1000,(localize "STR_Process_Bims")];};
+	case "schwimm": {["bims","schwimmkörper",1200,(localize "STR_Process_Schwimmkörper")];};
+	case "rumil": {["zuckerrohr","rumil",2500,(localize "STR_Process_Rumil")];};
 	default {[];};
 };
 

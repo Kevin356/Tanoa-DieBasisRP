@@ -3983,12 +3983,12 @@
       <Polish>Duży pojemnik</Polish>
     </Key>
     <Key ID="STR_Item_CocaineU">
-      <Original>Unprocessed Cocaine</Original>
-      <German>Unverarbeitetes Kokain</German>
-      <French>Feuille de Coca</French>
-      <Italian>Cocaina non processata</Italian>
-      <Portuguese>Cocaína não Refinada</Portuguese>
-      <Polish>Nieoczyszczona kokaina</Polish>
+      <Original>Cocablatt</Original>
+      <German>Cocablatt</German>
+      <French>Cocablatt</French>
+      <Italian>Cocablatt</Italian>
+      <Portuguese>Cocablatt</Portuguese>
+      <Polish>Cocablatt</Polish>
     </Key>
     <Key ID="STR_Item_CocaineP">
       <Original>Kokainsalz</Original>
@@ -4623,12 +4623,12 @@
       <Polish>Zbieranie konopii</Polish>
     </Key>
     <Key ID="STR_Gather_Cocaine">
-      <Original>Gather Cocaine</Original>
-      <German>Kokain sammeln</German>
-      <French>Récolte de la Cocaine</French>
-      <Italian>Raccogli Cocaina</Italian>
-      <Portuguese>Colher Cocaína</Portuguese>
-      <Polish>Zbieranie kokainy</Polish>
+      <Original>Cocablätter sammeln</Original>
+      <German>Cocablätter sammeln</German>
+      <French>Cocablätter sammeln</French>
+      <Italian>Cocablätter sammeln</Italian>
+      <Portuguese>Cocablätter sammeln</Portuguese>
+      <Polish>Cocablätter sammeln</Polish>
     </Key>
   </Package>
   <Package name="Medical_Strings">
@@ -5801,10 +5801,10 @@
       <Polish>Dziupla</Polish>
     </Key>
     <Key ID="STR_MAR_Cocaine_Processing">
-      <Original>Cocaine Processing</Original>
-      <German>Kokain Verarbeiter</German>
-      <Portuguese>Processador de Cocaína</Portuguese>
-      <Polish>Oczyszczanie kokainy</Polish>
+      <Original>Cocablätter werden zu Kokainsalz Verarbeiter</Original>
+      <German>Cocablätter werden zu Kokainsalz Verarbeiter</German>
+      <Portuguese>Cocablätter werden zu Kokainsalz Verarbeiter</Portuguese>
+      <Polish>Cocablätter werden zu Kokainsalz Verarbeiter</Polish>
     </Key>
     <Key ID="STR_MAR_Lehm_Mine">
       <Original>lehmgrube</Original>
@@ -5955,11 +5955,11 @@
       <Portuguese>Campo de Maconha</Portuguese>
       <Polish>Pole marihuany</Polish>
     </Key>
-    <Key ID="STR_MAR_Weed_Processing">
-      <Original>Weed Processing</Original>
-      <German>Gras Verarbeitung</German>
-      <Portuguese>Processador de Maconha</Portuguese>
-      <Polish>Suszarnia marihuany</Polish>
+    <Key ID="STR_MAR_Schwarzbrenner">
+      <Original>Schwarzbrenner</Original>
+      <German>Schwarzbrenner</German>
+      <Portuguese>Schwarzbrenner</Portuguese>
+      <Polish>Schwarzbrenner</Polish>
     </Key>
     <Key ID="STR_MAR_Boat_Spawn">
       <Original>Boat Spawn</Original>
@@ -6003,11 +6003,11 @@
       <Portuguese>Comprador de Vidro</Portuguese>
       <Polish>Skup szkła</Polish>
     </Key>
-    <Key ID="STR_MAR_Iron_Trader">
-      <Original>Iron Trader</Original>
-      <German>Eisen Händler</German>
-      <Portuguese>Eisen Händler</Portuguese>
-      <Polish>Eisen Händler</Polish>
+    <Key ID="STR_MAR_Lehm_Trader">
+      <Original>Tongefäss Händler</Original>
+      <German>Tongefäss Händler</German>
+      <Portuguese>Tongefäss Händler</Portuguese>
+      <Polish>Tongefäss Händler</Polish>
     </Key>
     <Key ID="STR_MAR_Sand_Processing">
       <Original>Sand Processing</Original>
@@ -6063,11 +6063,11 @@
       <Portuguese>Gestein Verarbeitung</Portuguese>
       <Polish>Gestein Verarbeitung</Polish>
     </Key>
-    <Key ID="STR_MAR_Cement_Trader">
-      <Original>Cement Trader</Original>
-      <German>Zement Händler</German>
-      <Portuguese>Comprador de Cimento</Portuguese>
-      <Polish>Skup cementu</Polish>
+    <Key ID="STR_MAR_Exporthafen">
+      <Original>Exporthafen</Original>
+      <German>Exporthafen</German>
+      <Portuguese>Exporthafen</Portuguese>
+      <Polish>Exporthafen</Polish>
     </Key>
     <Key ID="STR_MAR_Turtle_Poaching">
       <Original>Turtle Poaching</Original>
@@ -6639,6 +6639,26 @@
 		<Key ID="STR_Mar_Ayahuascap">
 			<Original>Ayahuasca Presse</Original>
 			<German>Ayahuasca Presse</German>
+		</Key>
+		<Key ID="STR_Process_Schwimmkörper">
+			<Original>Schwimmkörper werden Hergestellt</Original>
+			<German>Schwimmkörper werden Hergestellt</German>
+		</Key>
+		<Key ID="STR_License_Schwimm">
+			<Original>Schwimmkörper Hersteller</Original>
+			<German>Schwimmkörper Hersteller</German>
+		</Key>
+		<Key ID="STR_MAR_Schwimm">
+			<Original>Schwimmkörper Herstellung</Original>
+			<German>Schwimmkörper Herstellung</German>
+		</Key>
+		<Key ID="STR_Item_Rumil">
+			<Original>Schwarzgebrannter Rum</Original>
+			<German>Schwarzgebrannter Rum</German>
+		</Key>
+		<Key ID="STR_Process_Rumil">
+			<Original>Schwarzgebrannter Rum wird hergestellt</Original>
+			<German>Schwarzgebrannter Rum wird hergestellt</German>
 		</Key>
 			 
 </Package>

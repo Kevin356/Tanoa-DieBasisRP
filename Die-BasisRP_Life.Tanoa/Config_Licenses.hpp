@@ -116,7 +116,15 @@ class Licenses {
     class bims {
         variable = "bims";
         displayName = "STR_License_Bims";
-        price = 25000;
+        price = 9000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class schwimm {
+        variable = "schwimm";
+        displayName = "STR_License_Schwimm";
+        price = 15000;
         illegal = false;
         side = "civ";
     };
@@ -158,6 +166,14 @@ class Licenses {
         variable = "marijuana";
         displayName = "STR_License_Marijuana";
         price = 19500;
+        illegal = true;
+        side = "civ";
+    };
+	
+	class rumil {
+        variable = "rumil";
+        displayName = "STR_License_Rumil";
+        price = 25000;
         illegal = true;
         side = "civ";
     };

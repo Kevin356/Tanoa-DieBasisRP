@@ -61,7 +61,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "cocaine_processed", "ayahuasca_processed", "marijuana" };
+        items[] = { "cocaine_processed", "ayahuasca_processed", "rumil" };
     };
 
     class oil {
@@ -93,7 +93,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "iron_refined", "lehm_refined" };
+        items[] = { "lehm_refined" };
     };
 
     class diamond {
@@ -112,12 +112,12 @@ class VirtualShops {
         items[] = { "salt_refined" };
     };
 
-    class cement {
-        name = "STR_Shops_Cement";
+    class exporthafen {
+        name = "STR_Shops_Exporthafen";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "cement" };
+        items[] = { "bims","schwimmkörper","","" };
     };
 
     class gold {
@@ -273,6 +273,17 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_storageBig.paa";
     };
+	
+	class schwimmkörper {
+        variable = "schwimmkörper";
+        displayName = "STR_Item_schwimmkörper";
+        weight = 6;
+        buyPrice = -1;
+        sellPrice = 505;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_schwimmkörper.paa";
+    };
 
     //Mined Items<
     class oil_unprocessed {
@@ -313,7 +324,7 @@ class VirtualItems {
         displayName = "STR_Item_Lehmgef";
         weight = 3;
         buyPrice = -1;
-        sellPrice = 1500;
+        sellPrice = 120;
         illegal = false;
         edible = -1;
         icon = "";
@@ -379,7 +390,7 @@ class VirtualItems {
         displayName = "STR_Item_Glass";
         weight = 1;
         buyPrice = -1;
-        sellPrice = 1450;
+        sellPrice = 70;
         illegal = false;
         edible = -1;
         icon = "";
@@ -421,9 +432,9 @@ class VirtualItems {
     class bims {
         variable = "bims";
         displayName = "STR_Item_Bims";
-        weight = 5;
+        weight = 4;
         buyPrice = -1;
-        sellPrice = 1950;
+        sellPrice = 225;
         illegal = false;
         edible = -1;
         icon = "";
@@ -446,8 +457,8 @@ class VirtualItems {
         variable = "ayahuascaProcessed";
         displayName = "STR_Item_ayahuascaP";
         weight = 4;
-        buyPrice = 3500;
-        sellPrice = 2560;
+        buyPrice = -1;
+        sellPrice = 260;
         illegal = true;
         edible = -1;
         icon = "icons\ico_ayahuascaProcessed.paa";
@@ -475,6 +486,17 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_rum.paa";
     };
+	
+	class rumil {
+        variable = "rumil";
+        displayName = "STR_Item_Rumil";
+        weight = 6;
+        buyPrice = -1;
+        sellPrice = 550;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_rum.paa";
+    };
 
     class cocaine_unprocessed {
         variable = "cocaineUnprocessed";
@@ -491,9 +513,9 @@ class VirtualItems {
     class cocaine_processed {
         variable = "cocaineProcessed";
         displayName = "STR_Item_CocaineP";
-        weight = 4;
+        weight = 8;
         buyPrice = -1;
-        sellPrice = 5000;
+        sellPrice = 400;
         illegal = true;
         edible = -1;
         icon = "icons\ico_cocaineProcessed.paa";
