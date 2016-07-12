@@ -73,10 +73,10 @@ class Licenses {
         side = "civ";
     };
 
-    class diamond {
-        variable = "diamond";
-        displayName = "STR_License_Diamond";
-        price = 35000;
+    class Kokos {
+        variable = "Kokos";
+        displayName = "STR_License_Kokos";
+        price = 4000;
         illegal = false;
         side = "civ";
     };

@@ -274,7 +274,7 @@ class VirtualItems {
         icon = "icons\ico_storageBig.paa";
     };
 
-    //Mined Items
+    //Mined Items<
     class oil_unprocessed {
         variable = "oilUnprocessed";
         displayName = "STR_Item_OilU";
@@ -555,6 +555,28 @@ class VirtualItems {
         edible = 10;
         icon = "icons\ico_banane.paa";
     };
+	
+	class kokosnuss {
+		variable = "Kokosnuss";
+		displayName = "STR_Item_Kokosnuss";
+		weight = 2;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		edible = -1;
+		icon = "icons\kokosnuss.paa";
+	};
+	
+		class kokosnussraspeln {
+		variable = "Kokosnussraspeln";
+		displayName = "STR_Item_Kokosnussraspeln";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = 100;
+		illegal = false;
+		edible = -1;
+		icon = "icons\kokosnussraspeln.paa";
+	};
 
     class tbacon {
         variable = "tbacon";

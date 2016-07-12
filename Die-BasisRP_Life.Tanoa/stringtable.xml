@@ -5741,8 +5741,8 @@
       <Polish>Warzelnia soli</Polish>
     </Key>
     <Key ID="STR_MAR_Altis_Corrections">
-      <Original>Altis Corrections</Original>
-      <German>Altis Bundesgefängnis</German>
+      <Original>Tanoa Corrections</Original>
+      <German>Tanoa Strafgefängniss</German>
       <Portuguese>Prisão de Altis</Portuguese>
       <Polish>Więzienie Altis</Polish>
     </Key>
@@ -6596,5 +6596,29 @@
 			<Original>Zerstören</Original>
 			<German>Zerstören</German>
 		</Key>
+		<Key ID="STR_Ttem_Kokosnuss">
+			<Original>Kokosnuss</Original>
+			<German>Kokosnuss</German>
+		</Key>
+		<Key ID="STR_MAR_Kokus_Field">
+			<Original>Kokosnussfeld</Original>
+			<German>Kokosnussfeld</German>
+		</Key>
+		<Key ID="STR_Process_Kokus">
+			<Original>Kokosnussraspler</Original>
+			<German>Kokosnussraspler</German>
+		</Key>
+		<Key ID="STR_Item_Kokosnussraspeln">
+			<Original>Kokosnussraspeln</Original>
+			<German>Kokosnussraspeln</German>
+		</Key>
+		<Key ID="STR_License_Kokos">
+			<Original>Kososnusslizenz</Original>
+			<German>Kokosnusslizenz</German>
+		</Key>		
+		
+		
+
+		 
 </Package>
 </Project>
