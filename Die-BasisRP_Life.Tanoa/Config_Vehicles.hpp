@@ -43,12 +43,13 @@ class CarShops {
         vehicles[] = {
             { "C_Offroad_01_F", 3375, { "" }, { "", "", -1 } },
 			{ "B_Quadbike_01_F", 2000, { "" }, { "", "", -1 } },
-			{ "C_Hatchback_01_F", 3500, { "" }, { "life_medicLevel", "SCALAR", 2} },
+			{ "C_Offroad_02_unarmed_F", 2356, {""}, { "life_medicLevel", "SCALAR", 2} },
+			{ "B_T_LSV_01_unarmed_F", 4500, { ""}, {"life_medicLevel", "SCALAR", 4} },
+			{ "C_Hatchback_01_F", 3500, { "" }, { "life_medicLevel", "SCALAR", 3} },
 			{ "C_Offroad_01_repair_F", 3500, { ""}, { "life_medicLevel", "SCALAR", 2} },
-			{ "C_SUV_01_F", 3666, { ""}, { "life_medicLevel", "SCALAR", 3} },
+			{ "C_SUV_01_F", 3666, { ""}, { "life_medicLevel", "SCALAR", 4} },
 			{ "C_Hatchback_01_sport_F", 5000, { ""}, { "life_medicLevel", "SCALAR", 5} },
-			{ "B_Truck_01_transport_F", 5333, { ""}, { "life_medicLevel", "SCALAR", 5} },
-			{ "B_MRAP_01_F", 6000, { ""}, { "life_medicLevel", "SCALAR", 5} }
+			{ "B_MRAP_01_F", 6000, { ""}, { "life_medicLevel", "SCALAR", 6} }
 /*				
 			{ "I_Truck_02_medical_F", 25000, { "" }, { "", "", -1 } },
             { "O_Truck_03_medical_F", 45000, { "" }, { "", "", -1 } },
@@ -56,13 +57,23 @@ class CarShops {
 */
         };
     };
+	
+	class med_boat {
+		side = "med";
+		vehicles [] = {
+			{ "C_Scooter_Transport_01_F", 3375, {""}, {"", "", -1} },
+			{ "I_C_Boat_Transport_02_F", 5470, {""}, {"life_medicLevel", "SCALAR", 3}	
+		};
+	};
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 16666, { "mAir" }, { "life_medicLevel", "SCALAR", 2 } },
+            { "B_Heli_Light_01_F", 16666, { "mAir" }, { "life_medicLevel", "SCALAR", 1 } },
             { "O_Heli_Light_02_unarmed_F", 27777, { "mAir" }, { "life_medicLevel", "SCALAR", 4 } },
-			{ "B_Heli_Transport_03_unarmed_F", 50000, { "mAir" }, { "life_medicLevel", "SCALAR", 4 } }
+			{ "B_Heli_Transport_03_unarmed_F", 50000, { "mAir" }, { "life_medicLevel", "SCALAR", 5 } },
+			{ "C_Plane_Civil_01_F", 28555, { "mAir" }, { "life_medicLevel","SCALAR", 3} }
+
         };
     };
 

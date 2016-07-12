@@ -232,6 +232,7 @@ class Clothing {
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
             { "U_I_CombatUniform", "Arbeitsuniform", 500, { "", "", -1 } },
+			{ "U_B_Wetsuit", "Taucheranzug", 200, { "", "", -1 } },
 			{ "U_Rangemaster", "Chef Kleidung", 500, { "", "", -1 } }
         };
         headgear[] = {
@@ -241,10 +242,12 @@ class Clothing {
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, { "", "", -1 } },
-            { "G_Shades_Blue", "", 10, { "", "", -1 } }
+            { "G_Shades_Blue", "", 10, { "", "", -1 } },
+			{ "G_Diving", "", 500, { "", "", -1 } }
         };
         vests[] = {
-            { "NONE", "Remove Vest", 0, { "", "", -1 } }
+            { "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_RebreatherB", "", 500, { "", "", -1 } }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, { "", "", -1 } },
