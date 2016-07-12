@@ -3534,7 +3534,7 @@
       <Portuguese>Petróleo não Refinado</Portuguese>
       <Polish>Ropa naftowa</Polish>
     </Key>
-	<Key ID="STR_Item_schwimmkörper">
+	<Key ID="STR_Item_schwimmkoerper">
       <Original>Unprocessed Oil</Original>
       <German>Schwimmkörper</German>
       <French>Pétrole non raffiné</French>
@@ -5815,10 +5815,10 @@
       <Polish>Cocablätter werden zu Kokainsalz Verarbeiter</Polish>
     </Key>
     <Key ID="STR_MAR_Lehm_Mine">
-      <Original>lehmgrube</Original>
-      <German>lehmgrube</German>
-      <Portuguese>lehmgrube</Portuguese>
-      <Polish>lehmgrube</Polish>
+      <Original>Lehmgrube</Original>
+      <German>Lehmgrube</German>
+      <Portuguese>Lehmgrube</Portuguese>
+      <Polish>Lehmgrube</Polish>
     </Key>
     <Key ID="STR_MAR_ATM">
       <Original>ATM</Original>
@@ -5904,8 +5904,8 @@
       <Polish>Maszt nadawczy</Polish>
     </Key>
     <Key ID="STR_MAR_DMV">
-      <Original>DMV</Original>
-      <German>Zulassungstelle für Lizenzen</German>
+      <Original>Lizenzbehörde</Original>
+      <German>Lizenzbehörde</German>
       <Portuguese>Loja de Licenças</Portuguese>
       <Polish>Urząd licencyjny</Polish>
     </Key>
@@ -6076,6 +6076,12 @@
       <German>Exporthafen</German>
       <Portuguese>Exporthafen</Portuguese>
       <Polish>Exporthafen</Polish>
+    </Key>
+	<Key ID="STR_MAR_Strandbar">
+      <Original>Strandbar</Original>
+      <German>Strandbar</German>
+      <Portuguese>Strandbar</Portuguese>
+      <Polish>Strandbar</Polish>
     </Key>
     <Key ID="STR_MAR_Turtle_Poaching">
       <Original>Turtle Poaching</Original>
@@ -6648,9 +6654,9 @@
 			<Original>Ayahuasca Presse</Original>
 			<German>Ayahuasca Presse</German>
 		</Key>
-		<Key ID="STR_Process_Schwimmkörper">
-			<Original>Schwimmkörper werden Hergestellt</Original>
-			<German>Schwimmkörper werden Hergestellt</German>
+		<Key ID="STR_Process_Schwimmkoerper">
+			<Original>Schwimmkörper Herstellen</Original>
+			<German>Schwimmkörper Hergtellen</German>
 		</Key>
 		<Key ID="STR_License_Schwimm">
 			<Original>Schwimmkörper Hersteller</Original>
@@ -6665,8 +6671,12 @@
 			<German>Schwarzgebrannter Rum</German>
 		</Key>
 		<Key ID="STR_Process_Rumil">
-			<Original>Schwarzgebrannter Rum wird hergestellt</Original>
-			<German>Schwarzgebrannter Rum wird hergestellt</German>
+			<Original>Schwarzgebrannten Rum herstellen</Original>
+			<German>Schwarzgebrannten Rum herstellen</German>
+		</Key>
+		<Key ID="STR_License_Rumil">
+			<Original>Schwarzbrenner Ausbildung</Original>
+			<German>Schwarzbrenner Ausbildung</German>
 		</Key>
 			 
 </Package>

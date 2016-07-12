@@ -117,7 +117,15 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "bims","schwimmkörper","","" };
+        items[] = { "bims","schwimmkoerper" };
+    };
+	
+	class strandbar {
+        name = "STR_Shops_Strandbar";
+        side = "civ";
+        license = "";
+        level[] = { "", "", -1, "" };
+        items[] = { "rum" };
     };
 
     class gold {
@@ -429,15 +437,15 @@ class VirtualItems {
         icon = "";
     };
 	
-	class schwimmkörper {
-        variable = "schwimmkörper";
-        displayName = "STR_Item_schwimmkörper";
+	class schwimmkoerper {
+        variable = "schwimmkoerper";
+        displayName = "STR_Item_schwimmkoerper";
         weight = 6;
         buyPrice = -1;
         sellPrice = 505;
         illegal = false;
         edible = -1;
-        icon = "icons\ico_schwimmkörper.paa";
+        icon = "icons\ico_schwimmkoerper.paa";
     };
 
     //Drugs
