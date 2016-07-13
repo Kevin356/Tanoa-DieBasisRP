@@ -61,7 +61,7 @@ class CarShops {
 	
 	class med_boat {
 		side = "med";
-		vehicles [] = {
+		vehicles[] = {
 			{ "C_Scooter_Transport_01_F", 3375, {""}, {"", "", -1} },
 			{ "I_C_Boat_Transport_02_F", 5470, {""}, {"life_medicLevel", "SCALAR", 3}	}
 		};
