@@ -165,8 +165,8 @@ class VirtualItems {
         variable = "pickaxe";
         displayName = "STR_Item_Pickaxe";
         weight = 2;
-        buyPrice = 750;
-        sellPrice = 350;
+        buyPrice = 50;
+        sellPrice = 50;
         illegal = false;
         edible = -1;
         icon = "icons\ico_pickaxe.paa";
@@ -299,7 +299,7 @@ class VirtualItems {
         displayName = "STR_Item_OilP";
         weight = 6;
         buyPrice = -1;
-        sellPrice = 3200;
+        sellPrice = 175;
         illegal = false;
         edible = -1;
         icon = "icons\ico_oilProcessed.paa";
@@ -590,8 +590,8 @@ class VirtualItems {
 		variable = "Kokosnuss";
 		displayName = "STR_Item_Kokosnuss";
 		weight = 2;
-		buyPrice = -1;
-		sellPrice = -1;
+		buyPrice = 65;
+		sellPrice = 50;
 		illegal = false;
 		edible = -1;
 		icon = "icons\kokosnuss.paa";
