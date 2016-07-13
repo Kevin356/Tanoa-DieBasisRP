@@ -3494,14 +3494,6 @@
       <Portuguese>Cocaína</Portuguese>
       <Polish>Kokaina</Polish>
     </Key>
-    <Key ID="STR_Item_Ayahuasca">
-      <Original>Ayahuasca</Original>
-      <German>Ayahuasca</German>
-      <French>Ayahuasca</French>
-      <Italian>Ayahuasca</Italian>
-      <Portuguese>Ayahuasca</Portuguese>
-      <Polish>Ayahuasca</Polish>
-    </Key>
     <Key ID="STR_Item_Oil">
       <Original>Oil</Original>
       <German>Öl</German>
@@ -3550,7 +3542,7 @@
       <Portuguese>Petróleo Refinado</Portuguese>
       <Polish>Olej napędowy</Polish>
     </Key>
-    <Key ID="STR_Item_AyahuascaU">
+    <Key ID="STR_Item_ayahuascaU">
       <Original>Unprocessed Ayahuasca</Original>
       <German>Unverarbeitetes Ayahuasca</German>
       <French>Graine de pavot</French>
@@ -3558,7 +3550,7 @@
       <Portuguese>Heroína não Processada</Portuguese>
       <Polish>Ayahuascaa nieoczyszczona</Polish>
     </Key>
-    <Key ID="STR_Item_AyahuascaP">
+    <Key ID="STR_Item_ayahuascaP">
       <Original>Processed Ayahuasca</Original>
       <German>Verarbeitetes Ayahuasca</German>
       <French>Héroine</French>
@@ -3822,7 +3814,7 @@
       <Portuguese>Picareta</Portuguese>
       <Polish>Kilof</Polish>
     </Key>
-    <Key ID="STR_Item_lehm">
+    <Key ID="STR_Item_lehmU">
       <Original>Lehm</Original>
       <German>Lehm</German>
       <French>Lehm</French>
@@ -3846,13 +3838,13 @@
       <Portuguese>Barra de Ferro</Portuguese>
       <Polish>Sztabka żelaza</Polish>
     </Key>
-    <Key ID="STR_Item_Lehmgef">
-      <Original>Tongefäß</Original>
-      <German>Tongefäß</German>
-      <French>Tongefäß</French>
-      <Italian>Tongefäß</Italian>
-      <Portuguese>Tongefäß</Portuguese>
-      <Polish>Tongefäß</Polish>
+    <Key ID="STR_Item_lehmP">
+      <Original>Tongefaess</Original>
+      <German>Tongefaess</German>
+      <French>Tongefaess</French>
+      <Italian>Tongefaess</Italian>
+      <Portuguese>Tongefaess</Portuguese>
+      <Polish>Tongefaess</Polish>
     </Key>
     <Key ID="STR_Item_Sand">
       <Original>Sand</Original>
@@ -4113,12 +4105,12 @@
       <Polish>Szlifierz diamentów</Polish>
     </Key>
     <Key ID="STR_License_lehm">
-      <Original>Töpfer/in</Original>
-      <German>Töpfer/in</German>
-      <French>Töpfer/in</French>
-      <Italian>Töpfer/in</Italian>
-      <Portuguese>Töpfer/in</Portuguese>
-      <Polish>Töpfer/in</Polish>
+      <Original>Toepfer/in</Original>
+      <German>Toepfer/in</German>
+      <French>Toepfer/in</French>
+      <Italian>Toepfer/in</Italian>
+      <Portuguese>Toepfer/in</Portuguese>
+      <Polish>Toepfer/in</Polish>
     </Key>
     <Key ID="STR_License_Iron">
       <Original>Iron Processing</Original>
@@ -4509,12 +4501,12 @@
       <Polish>Oczyszczanie Ayahuascay</Polish>
     </Key>
     <Key ID="STR_Process_lehm">
-      <Original>Tongefäß herstellen</Original>
-      <German>Tongefäß herstellen</German>
-      <French>Tongefäß herstellen</French>
-      <Italian>Tongefäß herstellen</Italian>
-      <Portuguese>Tongefäß herstellen</Portuguese>
-      <Polish>Tongefäß herstellen</Polish>
+      <Original>Tongefeass herstellen</Original>
+      <German>Tongefeass herstellen</German>
+      <French>Tongefeass herstellen</French>
+      <Italian>Tongefeass herstellen</Italian>
+      <Portuguese>Tongefeass herstellen</Portuguese>
+      <Polish>Tongefeass herstellen</Polish>
     </Key>
     <Key ID="STR_Process_Iron">
       <Original>Processing Iron</Original>

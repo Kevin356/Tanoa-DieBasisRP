@@ -93,7 +93,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "lehm_refined" };
+        items[] = { "lehmP" };
     };
 
     class diamond {
@@ -305,9 +305,9 @@ class VirtualItems {
         icon = "icons\ico_oilProcessed.paa";
     };
 
-    class lehm_unrefined {
-        variable = "lehmUnrefined";
-        displayName = "STR_Item_lehm";
+    class lehmU {
+        variable = "lehmU";
+        displayName = "STR_Item_lehmu";
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
@@ -316,9 +316,9 @@ class VirtualItems {
         icon = "";
     };
 
-    class lehm_refined {
-        variable = "lehmRefined";
-        displayName = "STR_Item_Lehmgef";
+    class lehmP {
+        variable = "lehmP";
+        displayName = "STR_Item_lehmP";
         weight = 3;
         buyPrice = -1;
         sellPrice = 120;
@@ -326,51 +326,7 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-/*
-    class iron_unrefined {
-        variable = "ironUnrefined";
-        displayName = "STR_Item_IronOre";
-        weight = 5;
-        buyPrice = -1;
-        sellPrice = -1;
-        illegal = false;
-        edible = -1;
-        icon = "";
-    };
 
-    class iron_refined {
-        variable = "ironRefined";
-        displayName = "STR_Item_IronIngot";
-        weight = 3;
-        buyPrice = -1;
-        sellPrice = 3200;
-        illegal = false;
-        edible = -1;
-        icon = "";
-    };
-
-    class salt_unrefined {
-        variable = "saltUnrefined";
-        displayName = "STR_Item_Salt";
-        weight = 3;
-        buyPrice = -1;
-        sellPrice = -1;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_saltUnprocessed.paa";
-    };
-
-    class salt_refined {
-        variable = "saltRefined";
-        displayName = "STR_Item_SaltR";
-        weight = 1;
-        buyPrice = -1;
-        sellPrice = 1450;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_saltProcessed.paa";
-    };
-*/
     class sand {
         variable = "sand";
         displayName = "STR_Item_Sand";
@@ -392,29 +348,6 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-/*
-    class diamond_uncut {
-        variable = "diamondUncut";
-        displayName = "STR_Item_DiamondU";
-        weight = 4;
-        buyPrice = -1;
-        sellPrice = 750;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_diamondUncut.paa";
-    };
-
-    class diamond_cut {
-        variable = "diamondCut";
-        displayName = "STR_Item_DiamondC";
-        weight = 2;
-        buyPrice = -1;
-        sellPrice = 2000;
-        illegal = false;
-        edible = -1;
-        icon = "icons\ico_diamondCut.paa";
-    };
-*/
     class vulkangestein {
         variable = "vulkangestein";
         displayName = "STR_Item_Vulkangestein";
@@ -449,8 +382,8 @@ class VirtualItems {
     };
 
     //Drugs
-    class ayahuasca_unprocessed {
-        variable = "ayahuascaUnprocessed";
+    class ayahuascaU {
+        variable = "ayahuascaU";
         displayName = "STR_Item_ayahuascaU";
         weight = 6;
         buyPrice = -1;
@@ -460,8 +393,8 @@ class VirtualItems {
         icon = "icons\ico_ayahuascaUnprocessed.paa";
     };
 
-    class ayahuasca_processed {
-        variable = "ayahuascaProcessed";
+    class ayahuascaP {
+        variable = "ayahuascaP";
         displayName = "STR_Item_ayahuascaP";
         weight = 4;
         buyPrice = -1;
