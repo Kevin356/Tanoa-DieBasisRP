@@ -4509,12 +4509,12 @@
       <Polish>Oczyszczanie Ayahuascay</Polish>
     </Key>
     <Key ID="STR_Process_lehm">
-      <Original>Tongefäß wird hergestellt</Original>
-      <German>Tongefäß wird hergestellt</German>
-      <French>Tongefäß wird hergestellt</French>
-      <Italian>Tongefäß wird hergestellt</Italian>
-      <Portuguese>Tongefäß wird hergestellt</Portuguese>
-      <Polish>Tongefäß wird hergestellt</Polish>
+      <Original>Tongefäß herstellen</Original>
+      <German>Tongefäß herstellen</German>
+      <French>Tongefäß herstellen</French>
+      <Italian>Tongefäß herstellen</Italian>
+      <Portuguese>Tongefäß herstellen</Portuguese>
+      <Polish>Tongefäß herstellen</Polish>
     </Key>
     <Key ID="STR_Process_Iron">
       <Original>Processing Iron</Original>
