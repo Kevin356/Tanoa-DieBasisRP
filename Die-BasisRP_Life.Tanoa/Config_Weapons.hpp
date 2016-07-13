@@ -47,6 +47,10 @@ class WeaponShops {
         level[] = { "", "", -1, "" };
         items[] = {
 			{ "arifle_Katiba_F", "", 49869, 1500 },
+			{ "arifle_AK12_F", "", 49869, 1500 },
+			{ "arifle_AK12_GL_F", "", 49869, 1500 },
+			{ "arifle_AKM_F", "", 49869, 1500 },
+			{ "arifle_AKS_F", "", 49869, 1500 },
 			{ "SMG_01_F", "", 22487, -1 },
 			{ "arifle_SDAR_F", "", 58632, -1 },
 			{ "arifle_TRG20_F", "", 54632, -1 },
