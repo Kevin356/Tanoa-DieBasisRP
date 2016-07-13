@@ -36,8 +36,8 @@ class Life_Settings {
 
     /* Player-related systems */
     enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
-    total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
-    paycheck_period = 5; //Scaled in minutes
+    total_maxWeight = 26; //Static variable for the maximum weight allowed without having a backpack
+    paycheck_period = 10; //Scaled in minutes
 
     /* Impound Variables */
     impound_car = 350; //Price for impounding cars
@@ -50,9 +50,9 @@ class Life_Settings {
     bank_med = 30000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 7500; //Payment for cops
-    paycheck_civ = 3500; //Payment for civillians
-    paycheck_med = 5000; //Payment for medics
+    paycheck_cop = 1000; //Payment for cops
+    paycheck_civ = 750; //Payment for civillians
+    paycheck_med = 1500; //Payment for medics
 
     /* Federal Reserve settings */
     noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
