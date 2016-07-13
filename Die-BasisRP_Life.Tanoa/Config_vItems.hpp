@@ -458,7 +458,6 @@ class VirtualItems {
         illegal = true;
         edible = -1;
         icon = "icons\ico_ayahuascaUnprocessed.paa";
-        processedItem = "ayahuasca_processed";
     };
 
     class ayahuasca_processed {
