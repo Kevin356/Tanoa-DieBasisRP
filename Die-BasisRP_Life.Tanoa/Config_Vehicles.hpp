@@ -127,7 +127,7 @@ class CarShops {
             { "B_Heli_Light_01_F", 657621, { "pilot" }, { "", "", -1 } },
             { "O_Heli_Light_02_unarmed_F", 1177315, { "pilot" }, { "", "", -1 } },
 			{ "I_Heli_Transport_02_F", 3317594, { "pilot" }, { "", "", -1 } },
-			{ "C_Plane_Civil_01_F", }, 166666, { "pilot" }, { "", "", -1} }
+			{ "C_Plane_Civil_01_F", 166666, { "pilot" }, { "", "", -1} }
         };
     };
 
