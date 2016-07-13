@@ -326,7 +326,7 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-
+/*
     class iron_unrefined {
         variable = "ironUnrefined";
         displayName = "STR_Item_IronOre";
@@ -370,7 +370,7 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_saltProcessed.paa";
     };
-
+*/
     class sand {
         variable = "sand";
         displayName = "STR_Item_Sand";
@@ -392,7 +392,7 @@ class VirtualItems {
         edible = -1;
         icon = "";
     };
-
+/*
     class diamond_uncut {
         variable = "diamondUncut";
         displayName = "STR_Item_DiamondU";
@@ -414,7 +414,7 @@ class VirtualItems {
         edible = -1;
         icon = "icons\ico_diamondCut.paa";
     };
-
+*/
     class vulkangestein {
         variable = "vulkangestein";
         displayName = "STR_Item_Vulkangestein";
