@@ -125,7 +125,7 @@ class VirtualShops {
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "rum" };
+        items[] = { "rum","kokosnuss","kokosnussraspeln" };
     };
 
     class gold {

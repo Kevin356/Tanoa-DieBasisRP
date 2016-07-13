@@ -25,7 +25,7 @@ class CarShops {
             { "C_Hatchback_01_sport_F", 266666, { "driver" }, { "", "", -1 } },
             { "C_Van_01_transport_F", 60000, { "driver" }, { "", "", -1 } },
 			{ "C_Van_01_fuel_F",80000, { "driver" }, { "", "" , -1 }},
-			{ "C_Offroad_02_unarmed_F", 21333, { "driver" }. { "", "", -1} }
+			{ "C_Offroad_02_unarmed_F", 21333, { "driver" }, { "", "", -1} }
         };
     };
 

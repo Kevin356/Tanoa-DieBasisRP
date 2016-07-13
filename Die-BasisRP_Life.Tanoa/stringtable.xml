@@ -6678,6 +6678,10 @@
 			<Original>Schwarzbrenner Ausbildung</Original>
 			<German>Schwarzbrenner Ausbildung</German>
 		</Key>
+		<Key ID="STR_Shops_Strandbar">
+			<Original>Strandbar</Original>
+			<German>Strandbar</German>
+		</Key>
 			 
 </Package>
 </Project>
