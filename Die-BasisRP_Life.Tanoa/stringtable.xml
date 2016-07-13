@@ -6682,6 +6682,54 @@
 			<Original>Strandbar</Original>
 			<German>Strandbar</German>
 		</Key>
+		<Key ID="STR_Shops_cop_pvt">
+			<Original>Tanoa Marine Corps</Original>
+			<German>Tanoa Marine Corps</German>
+		</Key>
+		<Key ID="STR_Shops_cop_pfc">
+			<Original>Marine Corps Private First Class Shop</Original>
+			<German>Marine Corps Private First Class Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_lcpl">
+			<Original>Marine Corps Lance Corporal Shop</Original>
+			<German>Marine Corps Lance Corporal Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_cpl">
+			<Original>Marine Corps Corporal Shop</Original>
+			<German>Marine Corps Corporal Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_sgt">
+			<Original>Marine Corps Sergeant Shop</Original>
+			<German>Marine Corps Sergeant Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_ssgt">
+			<Original>Marine Corps Staff Sergeant Shop</Original>
+			<German>Marine Corps Staff Sergeant Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_gsgt">
+			<Original>Marine Corps Gunnery Sergeant Shop</Original>
+			<German>Marine Corps Gunnery Sergeant Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_msgt">
+			<Original>Marine Corps Master Sergeant Shop</Original>
+			<German>Marine Corps Master Sergeant Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_fsgt">
+			<Original>Marine Corps First Sergeant Shop</Original>
+			<German>Marine Corps First Sergeant Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_mgsgt">
+			<Original>Marine Corps Master Gunnery Sergeant Shop</Original>
+			<German>Marine Corps Master Gunnery Sergeant Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_sgtmaj">
+			<Original>Marine Corps Sergeant Major Shop</Original>
+			<German>Marine Corps Sergeant Major Shop</German>
+		</Key>
+		<Key ID="STR_Shops_cop_sgtmajmc">
+			<Original>Marine Corps Sergeant Major of the Marine Corps Shop</Original>
+			<German>Marine Corps Sergeant Major of the Marine Corps Shop</German>
+		</Key>
 			 
 </Package>
 </Project>

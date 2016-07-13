@@ -51,7 +51,7 @@ switch(playerSide) do {
 	};
 };
 
-if(FETCH_CONST(life_adminlevel) < 1) then {
+if(FETCH_CONST(life_adminlevel) > 1) then {
 	ctrlShow[20210,true]; //Admin Menü Icon
 	ctrlShow[2021,true]; //Admin Menü	Knopf
 	
