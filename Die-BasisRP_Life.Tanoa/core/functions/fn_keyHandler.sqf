@@ -100,25 +100,29 @@ switch (_code) do {
 		};
 	};
 
-	//Pickaxe - Q
-	case 16:
-	{
-		if((!life_action_inUse) && (vehicle player == player) ) then
-		{
+//Q Key
+
+case 16:
+{    
+	if((!life_action_inUse) && (!life_action_gathering) && (vehicle player == player)) then {
+			if (((player distance (getMarkerPos "lead_1") < 30) || (player distance (getMarkerPos "iron_1") < 30) || (player distance (getMarkerPos "salt_1") < 120) || (player distance (getMarkerPos "sand_1") < 75) 			|| (player distance (getMarkerPos "diamond_1") < 50) || (player distance (getMarkerPos "oil_1") < 40) || (player distance (getMarkerPos "oil_2") < 40) || (player distance (getMarkerPos "rock_1") < 50) 			|| (player distance (getMarkerPos "gold1") < 50) 			|| (player distance (getMarkerPos "silber1") < 50) 			|| (player distance (getMarkerPos "nickel1") < 50) 			|| (player distance (getMarkerPos "coal_1") < 50)) && (life_inv_pickaxe >= 1)) then
 			{
-			_str = [_x] call life_fnc_varToStr;
-			_val = missionNameSpace getVariable _x;
-			if(_val > 0 ) then
-				{
-				if( _str == "Spitzhacke" || _str == "pickaxe" ) then
-					{
-					[] spawn life_fnc_pickAxeUse;
-					};
+				[] spawn {
+						private "_handle";
+						_handle = [] spawn life_fnc_pickAxeUse;
+						waitUntil {scriptDone _handle};
+						};
+			} else
+					  {
+						[] spawn {
+						private "_handle";
+						_handle = [] spawn life_fnc_gather;
+						waitUntil {scriptDone _handle};
+						};
+					  };
 				};
-			} foreach life_inv_items;
-		}
 	};
-	
+};
 	// Liegestütze Num + 2
 	case 80:
     {
