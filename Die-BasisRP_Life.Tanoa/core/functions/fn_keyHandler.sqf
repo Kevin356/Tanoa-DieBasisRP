@@ -100,6 +100,46 @@ switch (_code) do {
 		};
 	};
 
+	//Pickaxe - Q
+	case 16:
+	{
+		if((!life_action_inUse) && (vehicle player == player) ) then
+		{
+			{
+			_str = [_x] call life_fnc_varToStr;
+			_val = missionNameSpace getVariable _x;
+			if(_val > 0 ) then
+				{
+				if( _str == "Spitzhacke" || _str == "pickaxe" ) then
+					{
+					[] spawn life_fnc_pickAxeUse;
+					};
+				};
+			} foreach life_inv_items;
+		}
+	};
+	
+	// Liegestütze Num + 2
+	case 80:
+    {
+         if (vehicle player == player && !(player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+        {
+         player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
+         sleep 2;
+        };
+    };
+	
+	//Kniebeugen Num + 3
+	case 81:
+	{
+		if (vehicle player == player && ! (player getVariable ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
+		{
+		player playMove "AmovPercMstpSnonWnonDnon_exercisekneeBendB";
+		sleep 2;
+		};
+	};
+	
+	
 	//Holster / recall weapon. (Shift + H)
 	case 35: {
 		if(_shift && !_ctrlKey && !(EQUAL(currentWeapon player,""))) then {
@@ -174,7 +214,7 @@ switch (_code) do {
 	case 38: {
 		//If cop run checks for turning lights on.
 		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F"]) then {
+	//		if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_Heli_Light_01_F","B_Heli_Transport_01_F"]) then {
 				if(!isNil {vehicle player GVAR "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;
@@ -183,7 +223,7 @@ switch (_code) do {
 					};
 					_handled = true;
 				};
-			};
+	//		};
 		};
 
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
