@@ -19,10 +19,12 @@ _role2 = "Head Admins";
 _role2names = ["Bumsi,Kevin,Handy"];
 _role3 = "Admins";
 _role3names = ["SteffanK"];
-_role4 = "Map editiert von ";
-_role4names = ["Die Bastler"];
+_role4 = "Supporter";
+_role4names = ["Psycho?,Eddy,Hirschhause,Wulf,Nico,Lucius"];
+_role5 = "Map editiert von ";
+_role5names = ["Die Bastler"];
 _role8 = "TeamSpeak";
-_role8names = ["5.9.115.237:40005"];
+_role8names = ["37.59.76.214"];
 _role9 = "Forum";
 _role9names = ["Die-BasisRp.de"];
 _role10 = "Server Restartzeiten";
@@ -32,8 +34,8 @@ _role10names = ["00:00, 06:00, 12:00, 18:00 Uhr"];
 uiSleep 2;
 _memberFunction = _x select 0;
 _memberNames = _x select 1;
-_finalText = format ["<t size='0.50' color='#1866c7' align='right'>%1<br /></t>", _memberFunction];
-_finalText = _finalText + "<t size='0.70' color='#FFFFFF' align='right'>";
+_finalText = format ["<t size='0.80' color='#1866c7' align='right'>%1<br /></t>", _memberFunction];
+_finalText = _finalText + "<t size='1.0' color='#FFFFFF' align='right'>";
 {_finalText = _finalText + format ["%1<br />", _x]} forEach _memberNames;
 _finalText = _finalText + "</t>";
 _onScreenTime + (((count _memberNames) - 1) * 0.5);
@@ -51,6 +53,7 @@ uiSleep (_onScreenTime);
 [_role2, _role2names],
 [_role3, _role3names],
 [_role4, _role4names],
+[_role5, _role5names],
 [_role8, _role8names],
 [_role9, _role9names],
 [_role10, _role10names]
