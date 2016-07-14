@@ -100,19 +100,27 @@ switch (_code) do {
 		};
 	};
 
-//Q Key
-
-case 16:
-{    
-	if((!life_action_inUse) && (!life_action_gathering) && (vehicle player == player)) then {
-			if (((player distance (getMarkerPos "lehm_mine") < 30) || (player distance (getMarkerPos "vulkan_quarry") < 30) || (player distance (getMarkerPos "sand_mine") < 75)) && (life_inv_pickaxe >= 1)) then
+	//Q Key
+	case 16:
+	{    
+		if((!life_action_inUse) && (!life_action_gathering) && (vehicle player == player)) then {
+			if (((player distance (getMarkerPos "lehm_mine") < 30) || (player distance (getMarkerPos "vulkan_quarry") < 30) || (player distance (getMarkerPos "salt_1") < 120) || (player distance (getMarkerPos "sand_mine") < 75) 			|| (player distance (getMarkerPos "diamond_1") < 50) || (player distance (getMarkerPos "oil_1") < 40) || (player distance (getMarkerPos "oil_2") < 40) || (player distance (getMarkerPos "rock_1") < 50) 			|| (player distance (getMarkerPos "gold1") < 50) 			|| (player distance (getMarkerPos "silber1") < 50) 			|| (player distance (getMarkerPos "nickel1") < 50) 			|| (player distance (getMarkerPos "coal_1") < 50)) && (life_inv_pickaxe >= 1)) then
 			{
 				[] spawn {
 						private "_handle";
 						_handle = [] spawn life_fnc_pickAxeUse;
 						waitUntil {scriptDone _handle};
 						};
-			} else
+			}	else
+				{
+					if (player distance (getMarkerPos "wood_1") < 50 && (life_inv_chainsaw >= 1)) then
+					{
+						[] spawn {
+						private "_handle";
+						_handle = [] spawn life_fnc_chainsawUse;
+						waitUntil {scriptDone _handle};
+						};
+					} else
 					  {
 						[] spawn {
 						private "_handle";
@@ -121,8 +129,10 @@ case 16:
 						};
 					  };
 				};
-	 };
+
+	};
 };
+
 	// Liegestütze Num + 2
 	case 80:
     {

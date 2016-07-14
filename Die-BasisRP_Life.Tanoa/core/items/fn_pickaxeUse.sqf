@@ -11,7 +11,7 @@ private["_mine","_itemWeight","_diff","_itemName"];
 _mine = "";
 
 switch (true) do {
-	case (player distance (getMarkerPos "lehm_mine") < 30): {_mine = ["lehm_unrefined",2];};
+	case (player distance (getMarkerPos "lehm_mine") < 30): {_mine = ["lehmU",2];};
 	case (player distance (getMarkerPos "iron_mine") < 30): {_mine = ["iron_unrefined",2];};
 	case (player distance (getMarkerPos "salt_mine") < 120) : {_mine = ["salt_unrefined",4];};
 	case (player distance (getMarkerPos "sand_mine") < 75) : {_mine = ["sand",5];};
