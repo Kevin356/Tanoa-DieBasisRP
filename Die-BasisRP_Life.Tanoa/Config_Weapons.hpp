@@ -281,7 +281,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
     };
@@ -312,7 +312,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
     };
@@ -347,7 +347,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -385,7 +385,7 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 130 },
 			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -425,7 +425,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -469,7 +469,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -510,7 +510,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -550,7 +550,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -589,7 +589,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }		
         };
