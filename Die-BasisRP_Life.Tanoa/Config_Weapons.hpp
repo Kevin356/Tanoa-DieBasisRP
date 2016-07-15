@@ -185,7 +185,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 2, "Du musst Private First Class sein!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "Weapon_SMG_05_F", "", 7500, 1500 },
+			{ "SMG_05_F", "", 7500, 1500 },
 			{ "muzzle_snds_L", "", 95, -1 },
 			{ "optic_MRD", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
