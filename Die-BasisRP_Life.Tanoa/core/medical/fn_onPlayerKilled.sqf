@@ -48,6 +48,14 @@ _unit spawn {
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 
+	_medicsOnline = {_x != player && side _x == independent} count playableUnits;
+	if(_medicsOnline > 0)then{
+		life_respawn_timer = 5;        //4 Minuten, kann beliebig editiert werden!
+	}else{
+		life_respawn_timer = 0.1;      //0,1 Minuten, auch hier kann editiert werden
+	};
+	
+	
 	_maxTime = time + (life_respawn_timer * 60);
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString];
