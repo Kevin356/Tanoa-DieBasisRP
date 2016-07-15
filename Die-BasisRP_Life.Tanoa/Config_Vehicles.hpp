@@ -158,8 +158,15 @@ class CarShops {
         vehicles[] = {
             { "C_Rubberboat", 5000, { "boat" }, { "", "", -1 } },
             { "C_Boat_Civil_01_F", 22000, { "boat" }, { "", "", -1 } },
+			
+			{ "B_G_Boat_Transport_02_F", 22000, { "boat" }, { "", "", -1 } },
 			{ "O_G_Boat_Transport_02_F", 22000, { "boat" }, { "", "", -1 } },
-			{ "C_Scoooter_Transport_01_F", 2500, { "boat" }, { "", "", -1 } }
+			{ "I_G_Boat_Transport_02_F", 22000, { "boat" }, { "", "", -1 } },
+			{ "I_C_Boat_Transport_02_F", 22000, { "boat" }, { "", "", -1 } },
+			{ "C_Boat_Transport_02_F", 22000, { "boat" }, { "", "", -1 } },
+			
+			
+			{ "C_Scooter_Transport_01_F", 2500, { "boat" }, { "", "", -1 } }
 //            { "B_SDV_01_F", 150000, { "boat" }, { "", "", -1 } }
         };
     };
@@ -1049,7 +1056,7 @@ class LifeCfgVehicles {
 		textures[] = {};
 	};
 		
-		class I_C_Boat_Transport_02_F {
+		class B_G_Boat_Transport_02_F {
 		vItemSpace = 200;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
@@ -1058,7 +1065,7 @@ class LifeCfgVehicles {
 		textures[] = {};
 	};
 		
-		class C_Scoooter_Transport_01_F {
+		class C_Scooter_Transport_01_F {
 		vItemSpace = 35;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
@@ -1068,6 +1075,31 @@ class LifeCfgVehicles {
 	};
 	
 		class O_G_Boat_Transport_02_F {
+		vItemSpace = 200;
+        storageFee[] = { 1000, 500, 650, 1000 };
+        garageSell[] = { 6500, 2500, 0, 0 };
+        insurance = 2500;
+        chopShop = 6250;
+		textures[] = {};
+	};
+	
+			class I_G_Boat_Transport_02_F {
+		vItemSpace = 200;
+        storageFee[] = { 1000, 500, 650, 1000 };
+        garageSell[] = { 6500, 2500, 0, 0 };
+        insurance = 2500;
+        chopShop = 6250;
+		textures[] = {};
+	};
+				class I_C_Boat_Transport_02_F {
+		vItemSpace = 200;
+        storageFee[] = { 1000, 500, 650, 1000 };
+        garageSell[] = { 6500, 2500, 0, 0 };
+        insurance = 2500;
+        chopShop = 6250;
+		textures[] = {};
+	};
+				class C_Boat_Transport_02_F {
 		vItemSpace = 200;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
