@@ -184,11 +184,7 @@ class WeaponShops {
         license = "";
         level[] = { "", "", -1, "" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
 			{ "Rangefinder", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
@@ -200,7 +196,6 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 25 },
-            { "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
 			{ "30Rnd_9x21_Mag", "", 45 }
         };
     };
@@ -211,19 +206,15 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 2, "Du musst Private First Class sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "Weapon_SMG_05_F", "", 7500, 1500 },
+			{ "muzzle_snds_L", "", 95, -1 },
 			{ "optic_MRD", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
+			{ "optic_Holosight_smg_blk_F", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
 			{ "muzzle_snds_L", "", 650, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
-			{ "Rangefinder", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -232,7 +223,6 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
@@ -244,22 +234,15 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 3, "Du musst Lance Corporal sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
 			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
             { "muzzle_snds_L", "", 650, -1 },
 			{ "muzzle_snds_H", "", 650, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
-			{ "Rangefinder", "", 150, -1 },
+			{ "muzzle_snds_M", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -268,7 +251,6 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
@@ -280,26 +262,17 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "Du musst Corporal sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
-			{ "arifle_MXM_Black_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
 			{ "muzzle_snds_H", "", 650, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
-			{ "Rangefinder", "", 150, -1 },
+			{ "muzzle_snds_M", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "Medikit", "", 1000, 450 },
@@ -307,7 +280,6 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
@@ -319,28 +291,17 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 5, "Du musst Sergeant sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
 			{ "muzzle_snds_H", "", 650, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
-			{ "Rangefinder", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -349,7 +310,6 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
@@ -361,23 +321,14 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 6, "Du musst Staff Sergeant sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_Black_F", "", 7500, 1500 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
+			{ "arifle_SPAR_03_blk_F", "", 17500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -385,7 +336,6 @@ class WeaponShops {
 			{ "muzzle_snds_B", "", 650, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
-			{ "Rangefinder", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -394,10 +344,8 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
     };
@@ -408,34 +356,21 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 7, "Du musst Gunnery Sergeant sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
+			{ "arifle_SPAR_03_blk_F", "", 17500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
-			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
 			{ "optic_KHS_blk", "", 1500, 1500 },
-			{ "optic_SOS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
 			{ "muzzle_snds_H", "", 650, -1 },
 			{ "muzzle_snds_B", "", 650, -1 },
             { "HandGrenade_Stone", "Flashbang", 1700, -1 },
             { "Binocular", "", 150, -1 },
-			{ "Rangefinder", "", 150, -1 },
             { "ItemGPS", "", 100, 45 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
@@ -447,7 +382,6 @@ class WeaponShops {
 			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
     };
@@ -458,29 +392,18 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 8, "Du musst Master Sergeant sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
 			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
 			{ "optic_AMS_snd", "", 1500, 1500 },
 			{ "optic_KHS_blk", "", 1500, 1500 },
 			{ "optic_KHS_tan", "", 1500, 1500 },
-			{ "optic_SOS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
 			{ "bipod_01_F_snd", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -497,10 +420,8 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
     };
@@ -511,30 +432,20 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 9, "Du musst First Sergeant sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
 			{ "optic_Holosight_smg", "", 1500, 1500 },
 			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
 			{ "optic_AMS_snd", "", 1500, 1500 },
 			{ "optic_KHS_blk", "", 1500, 1500 },
 			{ "optic_KHS_tan", "", 1500, 1500 },
-			{ "optic_SOS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
 			{ "bipod_01_F_snd", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -551,10 +462,8 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
     };
@@ -565,30 +474,17 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 10, "Du musst Master Gunnery Sergeant sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
-			{ "arifle_MXC_Black_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
+			{ "optic_ERCO_blk_F", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
 			{ "optic_AMS_snd", "", 1500, 1500 },
 			{ "optic_KHS_blk", "", 1500, 1500 },
 			{ "optic_KHS_tan", "", 1500, 1500 },
-			{ "optic_SOS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
 			{ "bipod_01_F_snd", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -605,10 +501,8 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
     };
@@ -619,30 +513,17 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 11, "Du musst Master Sergeant Major sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
 			{ "arifle_MXC_Black_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
 			{ "optic_AMS_snd", "", 1500, 1500 },
 			{ "optic_KHS_blk", "", 1500, 1500 },
 			{ "optic_KHS_tan", "", 1500, 1500 },
-			{ "optic_SOS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
 			{ "bipod_01_F_snd", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -659,10 +540,8 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
     };
@@ -673,32 +552,16 @@ class WeaponShops {
         license = "";
         level[] = { "life_coplevel", "SCALAR", 12, "Du musst Master Sergeant Major of the Marine Corps sein!" };
         items[] = {
-            { "arifle_sdar_F", "Taser Gewehr", 20000, 7500 },
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
-			{ "SMG_02_ACO_F", "", 7500, 1500 },
 			{ "arifle_MXC_Black_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_F", "", 7500, 1500 },
-			{ "srifle_DMR_03_tan_F", "", 7500, 1500 },
-			{ "srifle_DMR_02_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Holosight_smg", "", 1500, 1500 },
-			{ "optic_ACO_smg", "", 1500, 1500 },
-			{ "optic_Arco", "", 1500, 1500 },
-			{ "optic_Hamr", "", 1500, 1500 },
 			{ "optic_MRCO", "", 1500, 1500 },
-			{ "optic_DMS", "", 1500, 1500 },
-			{ "optic_NVS", "", 1500, 1500 },
 			{ "optic_AMS", "", 1500, 1500 },
-			{ "optic_AMS_snd", "", 1500, 1500 },
 			{ "optic_KHS_blk", "", 1500, 1500 },
 			{ "optic_KHS_tan", "", 1500, 1500 },
-			{ "optic_SOS", "", 1500, 1500 },
-			{ "optic_LRPS", "", 1500, 1500 },
 			{ "bipod_01_F_blk", "", 250, 75 },
 			{ "bipod_01_F_snd", "", 250, 75 },
             { "muzzle_snds_L", "", 650, -1 },
@@ -715,12 +578,9 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
-			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
-			{ "100Rnd_65x39_caseless_mag", "", 250 },
-			{ "20Rnd_762x51_Mag", "", 250 },
-			{ "10Rnd_338_Mag", "", 250 }				
+			{ "20Rnd_762x51_Mag", "", 250 }		
         };
     };
 

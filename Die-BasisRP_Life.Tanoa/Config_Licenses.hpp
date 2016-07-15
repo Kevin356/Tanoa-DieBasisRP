@@ -92,7 +92,7 @@ class Licenses {
     class sand {
         variable = "sand";
         displayName = "STR_License_Sand";
-        price = 14500;
+        price = 17500;
         illegal = false;
         side = "civ";
     };
@@ -108,7 +108,7 @@ class Licenses {
     class lehm {
         variable = "lehm";
         displayName = "STR_License_lehm";
-        price = 3000;
+        price = 10000;
         illegal = false;
         side = "civ";
     };
@@ -116,7 +116,7 @@ class Licenses {
     class bims {
         variable = "bims";
         displayName = "STR_License_Bims";
-        price = 9000;
+        price = 20000;
         illegal = false;
         side = "civ";
     };
@@ -124,7 +124,7 @@ class Licenses {
 	class schwimm {
         variable = "schwimm";
         displayName = "STR_License_Schwimm";
-        price = 15000;
+        price = 38000;
         illegal = false;
         side = "civ";
     };
@@ -181,7 +181,7 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 75000;
+        price = 180000;
         illegal = true;
         side = "civ";
     };
