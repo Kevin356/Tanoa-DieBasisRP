@@ -140,7 +140,7 @@ class Licenses {
 	class rum {
         variable = "rum";
         displayName = "STR_License_Rum";
-        price = 15000;
+        price = 40000;
         illegal = false;
         side = "civ";
     };
@@ -149,7 +149,7 @@ class Licenses {
     class cocaine {
         variable = "cocaine";
         displayName = "STR_License_Cocaine";
-        price = 30000;
+        price = 55000;
         illegal = true;
         side = "civ";
     };
@@ -157,7 +157,7 @@ class Licenses {
     class ayahuasca {
         variable = "ayahuasca";
         displayName = "STR_License_Ayahuasca";
-        price = 20000;
+        price = 60000;
         illegal = true;
         side = "civ";
     };
@@ -173,7 +173,7 @@ class Licenses {
 	class rumil {
         variable = "rumil";
         displayName = "STR_License_Rumil";
-        price = 25000;
+        price = 50000;
         illegal = true;
         side = "civ";
     };
