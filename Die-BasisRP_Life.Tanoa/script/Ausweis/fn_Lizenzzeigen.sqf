@@ -45,10 +45,6 @@ switch(playerSide)do{
    _rang = "Zivilist";
    _marke = "marke_ziv";
    _org = "Republik Altis";
-  }else{
-   _rang = "Zivilist";
-   _marke = "marke_abi";
-   _org = "Republik Altis";
   };  
  };
 };
