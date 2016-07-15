@@ -252,7 +252,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
-			{ "30Rnd_65x39_caseless_mag", "", 250 }
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
         };
     };
 	
@@ -281,6 +281,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
     };
@@ -311,6 +312,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 }
         };
     };
@@ -345,6 +347,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -357,6 +360,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 7, "Du musst Gunnery Sergeant sein!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "arifle_SPAR_03_blk_F", "", 17500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
@@ -381,6 +385,7 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 130 },
 			{ "20Rnd_556x45_UW_mag", "Taser Gewehr Magazine", 45 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -394,8 +399,7 @@ class WeaponShops {
         items[] = {
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
-			{ "arifle_MXM_Black_F", "", 7500, 1500 },
-			{ "arifle_MX_SW_Black_F", "", 7500, 1500 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
 			{ "optic_MRD", "", 1500, 1500 },
 			{ "optic_ERCO_blk_F", "", 1500, 1500 },
@@ -421,6 +425,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -433,6 +438,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 9, "Du musst First Sergeant sein!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
@@ -463,6 +469,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -475,6 +482,7 @@ class WeaponShops {
         level[] = { "life_coplevel", "SCALAR", 10, "Du musst Master Gunnery Sergeant sein!" };
         items[] = {
             { "hgun_P07_snds_F", "Taser Pistole", 2000, 650 },
+			{ "arifle_SPAR_01_blk_F", "", 7500, 1500 },
 			{ "arifle_MX_Black_F", "", 7500, 1500 },
 			{ "arifle_MXM_Black_F", "", 7500, 1500 },
 			{ "srifle_EBR_F", "", 7500, 1500 },
@@ -502,6 +510,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -541,6 +550,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }			
         };
@@ -579,6 +589,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 130 },
             { "30Rnd_9x21_Mag", "", 250 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red", "", 250 }
 			{ "30Rnd_65x39_caseless_mag", "", 250 },
 			{ "20Rnd_762x51_Mag", "", 250 }		
         };
