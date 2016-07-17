@@ -1,11 +1,12 @@
-#include "..\..\script_macros.hpp"
 /*
+#include "..\..\script_macros.hpp"
+
 	File: fn_playerTags.sqf
 	Author: Bryan "Tonic" Boardwine
 
 	Description:
 	Adds the tags above other players heads when close and have visible range.
-*/
+
 private["_ui","_units","_masks"];
 #define iconID 78000
 #define scale 0.8
@@ -76,3 +77,4 @@ _masks = LIFE_SETTINGS(getArray,"clothing_masks");
 		_idc ctrlShow false;
 	};
 } foreach _units;
+/*
