@@ -892,8 +892,8 @@ class LifeCfgVehicles {
 */
     class B_Heli_Light_01_F {
         vItemSpace = 100;
-        storageFee[] = { 45000, 19500, 0, 0 };
-        garageSell[] = { 57000, 35000, 0, 0 };
+        storageFee[] = { 45000, 10000, 0, 0 };
+        garageSell[] = { 57000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 125000;
         textures[] = {
