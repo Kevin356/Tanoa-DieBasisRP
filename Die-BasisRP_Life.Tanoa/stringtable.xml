@@ -6722,6 +6722,18 @@
 			<Original>Marine Corps Sergeant Major of the Marine Corps Shop</Original>
 			<German>Marine Corps Sergeant Major of the Marine Corps Shop</German>
 		</Key>
+				<Key ID="STR_pInAct_Verbinden">
+			<Original>Augen Verbinden</Original>
+			<German>Augen Verbinden</German>
+		</Key>
+				<Key ID="STR_pInAct_ernähren">
+			<Original>Zwangsernähren</Original>
+			<German>Zwangsernähren</German>
+		</Key>
+				<Key ID="STR_pInAct_Ausrauben">
+			<Original>Ausrauben</Original>
+			<German>Ausrauben</German>
+		</Key>
 			 
 </Package>
 </Project>
