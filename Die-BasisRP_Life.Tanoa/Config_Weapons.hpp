@@ -132,6 +132,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, -1 },
             { "ToolKit", "", 250, 75 },
             { "FirstAidKit", "", 150, 65 },
+			{ "ItemRadio", "Telefon", 100, 65 },
             { "NVGoggles", "", 2000, 980 }
         };
         mags[] = {};

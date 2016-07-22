@@ -22,6 +22,13 @@ switch(playerSide) do {
 		ctrlShow[1209,false];	//Gang
 		ctrlShow[9800,true];	//Wantedadd Icon
 		ctrlShow[9801,true];	//Wantedadd
+		if("ItemRadio" in (items player)) then {
+			ctrlShow[1204,true];
+			ctrlShow[2001,true];
+		} else { 
+			ctrlShow[1204,false];
+			ctrlShow[2001,false];
+		};
 	};
 
 	case civilian: {
@@ -34,8 +41,12 @@ switch(playerSide) do {
 		ctrlShow[9800,false];	//Wantedadd Icon
 		ctrlShow[9801,false];	//Wantedadd
 		if("ItemRadio" in (items player)) then {
-		ctrlShow[1204,true];
-		} else { ctrlShow[1204,false]; };
+			ctrlShow[1204,true];
+			ctrlShow[2001,true];
+		} else { 
+			ctrlShow[1204,false];
+			ctrlShow[2001,false];
+		};
 	};
 	
 	case independent:
@@ -51,12 +62,21 @@ switch(playerSide) do {
 		ctrlShow[1209,false];	//Gang
 		ctrlShow[9800,false];	//Wantedadd Icon
 		ctrlShow[9801,false];	//Wantedadd
+		if("ItemRadio" in (items player)) then {
+			ctrlShow[1204,true];
+			ctrlShow[2001,true];
+		} else { 
+			ctrlShow[1204,false];
+			ctrlShow[2001,false];
+		};
 	};
 };
 
 if(FETCH_CONST(life_adminlevel) > 1) then {
 	ctrlShow[20210,true]; //Admin Menü Icon
 	ctrlShow[2021,true]; //Admin Menü	Knopf
+	ctrlShow[1204,true];
+	ctrlShow[2001,true];
 	
 };
 
