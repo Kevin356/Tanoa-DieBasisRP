@@ -33,6 +33,9 @@ switch(playerSide) do {
 		ctrlShow[2025,false];	//Support Menü
 		ctrlShow[9800,false];	//Wantedadd Icon
 		ctrlShow[9801,false];	//Wantedadd
+		if("ItemRadio" in (items player)) then {
+		ctrlShow[1204,true];
+		} else { ctrlShow[1204,false]; };
 	};
 	
 	case independent:
