@@ -243,7 +243,7 @@ class LifeCfgVehicles {
 
     class B_Heli_Transport_01_F {
         vItemSpace = 1000;
-        storageFee[] = { 0, 50000, 0, 0 };
+        storageFee[] = { 0, 20000, 0, 0 };
         garageSell[] = { 0, 85000, 0, 0 };
         insurance = 16000;
         chopShop = 45000;
@@ -297,7 +297,7 @@ class LifeCfgVehicles {
     class B_Boat_Armed_01_minigun_F {
         vItemSpace = 175;
         storageFee[] = { 0, 16500, 0, 0 };
-        garageSell[] = { 0, 21000, 0, 0 };
+        garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
@@ -424,8 +424,8 @@ class LifeCfgVehicles {
 
     class C_Boat_Civil_01_police_F {
         vItemSpace = 85;
-        storageFee[] = { 0, 3500, 0, 0 };
-        garageSell[] = { 0, 4950, 0, 0 };
+        storageFee[] = { 0, 500, 0, 0 };
+        garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
         textures[] = { };
@@ -613,7 +613,7 @@ class LifeCfgVehicles {
 
     class C_Hatchback_01_sport_F {
         vItemSpace = 60;
-        storageFee[] = { 2500, 1000, 0, 0 };
+        storageFee[] = { 2500, 500, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 5500;
         chopShop = 15000;
@@ -751,7 +751,7 @@ class LifeCfgVehicles {
 
     class C_Hatchback_01_F {
         vItemSpace = 60;
-        storageFee[] = { 1000, 0, 0, 0 };
+        storageFee[] = { 1000, 100, 0, 0 };
         garageSell[] = { 4500, 3500, 0, 0 };
         insurance = 2500;
         chopShop = 4750;
@@ -794,7 +794,7 @@ class LifeCfgVehicles {
 
     class C_SUV_01_F {
         vItemSpace = 75;
-        storageFee[] = { 1000, 0, 0, 0 };
+        storageFee[] = { 1000, 200, 0, 0 };
         garageSell[] = { 15000, 7500, 0, 0 };
         insurance = 2500;
         chopShop = 15000;
@@ -892,7 +892,7 @@ class LifeCfgVehicles {
 */
     class B_Heli_Light_01_F {
         vItemSpace = 100;
-        storageFee[] = { 45000, 10000, 0, 0 };
+        storageFee[] = { 45000, 600, 0, 0 };
         garageSell[] = { 57000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 125000;
@@ -959,7 +959,7 @@ class LifeCfgVehicles {
 
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 350;
-        storageFee[] = { 55000, 0, 22000, 0 };
+        storageFee[] = { 55000, 700, 22000, 0 };
         garageSell[] = { 72500, 0, 35000, 0 };
         insurance = 2500;
         chopShop = 375000;
@@ -1004,8 +1004,8 @@ class LifeCfgVehicles {
 
     class B_SDV_01_F {
         vItemSpace = 50;
-        storageFee[] = { 37500, 10000, 0, 0 };
-        garageSell[] = { 75000, 50000, 0, 0 };
+        storageFee[] = { 13500, 500, 0, 0 };
+        garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
         chopShop = 75000;
         textures[] = {};
@@ -1083,7 +1083,7 @@ class LifeCfgVehicles {
 		textures[] = {};
 	};
 	
-			class I_G_Boat_Transport_02_F {
+		class I_G_Boat_Transport_02_F {
 		vItemSpace = 200;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
@@ -1091,7 +1091,8 @@ class LifeCfgVehicles {
         chopShop = 6250;
 		textures[] = {};
 	};
-				class I_C_Boat_Transport_02_F {
+	
+		class I_C_Boat_Transport_02_F {
 		vItemSpace = 200;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
@@ -1099,10 +1100,29 @@ class LifeCfgVehicles {
         chopShop = 6250;
 		textures[] = {};
 	};
-				class C_Boat_Transport_02_F {
+	
+		class C_Boat_Transport_02_F {
 		vItemSpace = 200;
         storageFee[] = { 1000, 500, 650, 1000 };
         garageSell[] = { 6500, 2500, 0, 0 };
+        insurance = 2500;
+        chopShop = 6250;
+		textures[] = {};
+	};
+	
+		class I_Heli_light_03_unarmed_F {
+		vItemSpace = 200;
+        storageFee[] = { 0, 500, 0, 0 };
+        garageSell[] = { 0, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 6250;
+		textures[] = {};
+	};
+	
+		class B_Heli_Transport_03_unarmed_F {
+		vItemSpace = 500;
+        storageFee[] = { 0, 500, 0, 0 };
+        garageSell[] = { 0, 0, 0, 0 };
         insurance = 2500;
         chopShop = 6250;
 		textures[] = {};
