@@ -245,7 +245,7 @@ class Life_Client_Core
 		class freezePlayer {};
 		class civInteractionMenu {};
 		class ernaehern {};
-		class ernaehernaction {};
+		class ernaehrnaction {};
 	};
 
 	class Vehicle

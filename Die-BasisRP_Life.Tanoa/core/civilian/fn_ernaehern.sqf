@@ -6,5 +6,5 @@
 	Description:
 	This Function is for the Civillian Interaction to restraint People
 */
-set life_thirst 100;
-set life_hunger 100;
+life_thirst = 100;
+life_hunger = 100;
