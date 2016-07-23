@@ -117,7 +117,8 @@ class CarShops {
             { "C_SUV_01_F", 3666, { "" }, { "life_coplevel", "SCALAR", 3 } },
 			{ "B_T_LSV_01_unarmed_F", 3666, { "" }, { "life_coplevel", "SCALAR", 4} },
 			{ "O_T_LSV_02_unarmed_F", 3666, { "" }, { "life_coplevel", "SCALAR", 4} },
-            { "B_MRAP_01_F", 66666, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "B_MRAP_01_F", 10666, { "" }, { "life_coplevel", "SCALAR", 3 } },
+			{ "I_MRAP_03_F", 11666, { "" }, { "life_coplevel", "SCALAR", 3 } }
         };
     };
 
