@@ -181,18 +181,30 @@ switch (_code) do {
 		};
 	};
 
-	//Restraining (Shift + R)
-	case 19: {
+	//Restraining or robbing (Shift + R)
+	case 19:
+	{
 		if(_shift) then {_handled = true;};
-		if(_shift && {!isNull cursorTarget} && {cursorTarget isKindOf "Man"} && {(isPlayer cursorTarget)} && {alive cursorTarget} && {cursorTarget distance player < 3.5} && {!(cursorTarget GVAR "Escorting")} && {!(cursorTarget GVAR "restrained")} && {speed cursorTarget < 1}) then {
-			switch (playerside) do {
-			case west: if(!cursorTarget == west,independent) then { 
-						[] call life_fnc_restrainAction;
-						};
-			case civilian: if(!cursorTarget == independent) then {
-						[] call life_fnc_restrainAction;
-						}:
+		switch (playerSide) do
+		{
+			case west:
+			{
+				if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget == civilian) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget GVAR "Escorting") && !(cursorTarget GVAR "restrained") && speed cursorTarget < 1) then
+				{
+					playSound "handcuffs";
+					[] call life_fnc_restrainAction;
+				};
 			};
+		};
+	};
+	
+	//Hallo!
+	case 15: 
+	{
+		if(!(player GVAR ["restrained", false]) && !(player GVAR ["surrender", false]) && (alive player)) then
+		{
+			cutText [format["Servus!"], "PLAIN DOWN"];
+			player playActionNow "gestureHi";
 		};
 	};
 

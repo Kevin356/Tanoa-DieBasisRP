@@ -21,7 +21,7 @@ class VirtualShops {
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
-        items[] = { "waterBottle", "rabbit", "orange", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "banane", "boltcutter", "blastingcharge" };
+        items[] = { "waterBottle", "rabbit", "orange", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "banane", "boltcutter", "blastingcharge", "handcuffs", "handcuffkeys" };
     };
 
     class gang {
@@ -141,7 +141,7 @@ class VirtualShops {
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "orange", "redgull", "fuelFull", "defusekit" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "orange", "redgull", "fuelFull", "defusekit", "handcuffs", "handcuffkeys" };
     };
 };
 
@@ -824,5 +824,27 @@ class VirtualItems {
         illegal = false;
         edible = 100;
         icon = "icons\ico_cookedMeat.paa";
+    };
+	
+    class handcuffs {
+        variable = "handcuffs;
+        displayName = "STR_Item_handcuffs";
+        weight = 1;
+        buyPrice = 10;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_handcuffs.paa";
+    };
+
+	class handcuffkeys {
+        variable = "handcuffkeys;
+        displayName = "STR_Item_handcuffkeys";
+        weight = 1;
+        buyPrice = 10;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_handcuffkeys.paa";
     };
 };
