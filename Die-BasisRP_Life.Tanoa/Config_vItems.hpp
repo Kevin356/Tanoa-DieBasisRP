@@ -827,7 +827,7 @@ class VirtualItems {
     };
 	
     class handcuffs {
-        variable = "handcuffs;
+        variable = "handcuffs";
         displayName = "STR_Item_handcuffs";
         weight = 1;
         buyPrice = 10;
@@ -838,7 +838,7 @@ class VirtualItems {
     };
 
 	class handcuffkeys {
-        variable = "handcuffkeys;
+        variable = "handcuffkeys";
         displayName = "STR_Item_handcuffkeys";
         weight = 1;
         buyPrice = 10;
